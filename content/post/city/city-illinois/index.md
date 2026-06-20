@@ -4,7 +4,7 @@ slug: city-illinois
 date: 2025-11-27T08:12:35+08:00
 image: math20251127081325.png
 description: 北冥有湖，其名为密歇根
-math: true
+math: false
 categories:
     - travel
     - lifestyle
