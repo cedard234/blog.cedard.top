@@ -1,3 +1,157 @@
 /*
     You can add your own custom styles here.
 */
+
+:root {
+    /* English glyphs render in Newsreader; CJK glyphs fall through to LXGW WenKai */
+    --base-font-family: "Newsreader", "LXGW WenKai", var(--sys-font-family), serif;
+    --article-font-family: var(--base-font-family);
+}
+
+/* Links / friends page — responsive card grid (avatar on the left).
+   Stack's default renders one big card with stacked rows; here each link
+   becomes its own card laid out in a grid. */
+.article-list--compact.links {
+    /* dissolve the single container card */
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    overflow: visible;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--spacing-md);
+
+    article {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        overflow: hidden;
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+        /* drop the row separators used by the list style */
+        &:not(:last-of-type) {
+            border-bottom: none;
+        }
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-l2);
+        }
+
+        /* avatar to the left of the text (it's last in the DOM) */
+        .article-image {
+            order: -1;
+            flex-shrink: 0;
+
+            img {
+                border-radius: 50%;
+            }
+        }
+
+        .article-meta {
+            color: var(--card-text-color-tertiary);
+        }
+    }
+}
+
+/* Homepage article list — image on the left, text on the right */
+.article-list article.has-image .article-header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+
+    .article-image {
+        flex: 0 0 50%;
+        order: 1;
+
+        a {
+            display: block;
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .article-details {
+        flex: 1;
+        padding: var(--card-padding);
+    }
+}
+
+/* Collapse back to column on narrow viewports */
+@media (max-width: 480px) {
+    .article-list article.has-image .article-header {
+        flex-direction: column;
+
+        .article-image {
+            order: 0;
+
+            img {
+                width: 100%;
+                height: var(--article-image-height);
+            }
+        }
+    }
+}
+
+/* Categories / tags list page — links-style card grid (icon + name + count). */
+.taxonomy-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: var(--spacing-md);
+    margin-top: var(--section-separation);
+
+    .taxonomy-card {
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-md);
+        padding: var(--card-padding);
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        color: var(--card-text-color-main);
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+        &:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-l2);
+        }
+
+        .taxonomy-card-icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            background: var(--body-background);
+
+            svg {
+                width: 22px;
+                height: 22px;
+            }
+        }
+
+        .taxonomy-card-details {
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+        }
+
+        .taxonomy-card-title {
+            font-size: 1.6rem;
+            font-weight: bold;
+        }
+
+        .taxonomy-card-count {
+            font-size: 1.3rem;
+            color: var(--card-text-color-tertiary);
+        }
+    }
+}

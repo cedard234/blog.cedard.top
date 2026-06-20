@@ -1,0 +1,43 @@
+{{ define "main" }}
+    <header>
+        <h3 class="section-title">
+            {{ if eq .Parent (.GetPage "/") }}
+                {{ T "list.section" }}
+            {{ else }}
+                {{ .Parent.Title }}
+            {{ end }}
+        </h3>
+
+        <div class="section-card">
+            <div class="section-details">
+                <h3 class="section-count">{{ T "list.page" (len .Pages) }}</h3>
+                <h1 class="section-term">{{ .Title }}</h1>
+                {{ with .Params.description }}
+                    <h2 class="section-description">{{ . }}</h2>
+                {{ end }}
+            </div>
+        </div>
+    </header>
+
+    {{/* Links-style card grid: one card per term, icon + name + post count.
+         Per-term icon can be set via `icon` in the term's _index.md front matter. */}}
+    <div class="taxonomy-card-grid">
+        {{ range .Pages.ByTitle }}
+            <a class="taxonomy-card" href="{{ .RelPermalink }}">
+                <div class="taxonomy-card-icon">
+                    {{ partial "helper/icon" (.Params.icon | default "hash") }}
+                </div>
+                <div class="taxonomy-card-details">
+                    <span class="taxonomy-card-title">{{ .Title }}</span>
+                    <span class="taxonomy-card-count">{{ T "list.page" (len .Pages) }}</span>
+                </div>
+            </a>
+        {{ end }}
+    </div>
+
+    {{ partialCached "footer/footer" . }}
+{{ end }}
+
+{{ define "right-sidebar" }}
+    {{ partial "sidebar/right.html" (dict "Context" . "Scope" "homepage") }}
+{{ end }}
