@@ -109,23 +109,23 @@ Given $f, g$ as two different vector fields, the ** Lie Bracket** is defined as
 
 $$
 \begin{align}
-\[f, g\](x) &= \frac{\partial g}{\partial x}(x) f(x) - \frac{\partial f}{\partial x}(x) g(x)  \\
+[f, g](x) &= \frac{\partial g}{\partial x}(x) f(x) - \frac{\partial f}{\partial x}(x) g(x)  \\
 &= L_fg - L_gf \\
 \end{align}
 $$
 
 The Lie bracket can also be expressed in terms of "adjoint" operator, i.e.:
 $$
-ad_f g(x) = \[f, g\](x)
+ad_f g(x) = [f, g](x)
 $$
 We can use adjoint operator to express nested Lie brackets:
 $$ \begin{align}
-ad_f^2g(x) &= \[f, ad_f g(x)\] \\
-&= \[f, \[f, g\]\](x)
+ad_f^2g(x) &= [f, ad_f g(x)] \\
+&= [f, [f, g]](x)
 \end{align} $$
 In general, we have
 $$
-ad_f^kg(x) = \[f, ad_f^{k-1}g(x)\]
+ad_f^kg(x) = [f, ad_f^{k-1}g(x)]
 $$
 
 An example of Lie bracket calculation is as follows:
@@ -133,7 +133,7 @@ $$
 \begin{align}
 f &= \begin{pmatrix} x_2 \\ -\sin x_1 - x_2 \end{pmatrix} \\
 g &= \begin{pmatrix} 0 \\ x_1 \end{pmatrix} \\
-\[f, g\](x) &= L_fg - L_gf \\
+[f, g](x) &= L_fg - L_gf \\
 &= \begin{pmatrix} 0 \\ x_2 \end{pmatrix} - \begin{pmatrix} x_1 \\ -x_1 \end{pmatrix} \\
 &= \begin{pmatrix} -x_1 \\ x_2 + x_1 \end{pmatrix}
 \end{align}
@@ -141,9 +141,9 @@ $$
 
 Some useful properties of Lie bracket:
 
-1. $\[f, f \] = 0$
-2. $\[f, g\] = -\[g, f\]$
-3. If $f$ and $g$ are constant vectors, then $\[f, g\] = 0$.
+1. $[f, f ] = 0$
+2. $[f, g] = -[g, f]$
+3. If $f$ and $g$ are constant vectors, then $[f, g] = 0$.
 
 Now let's consider a linear system $\dot{x} = Ax + Bu$, if we express this in terms of control-affine system form, we have
 $$\begin{align}
@@ -177,14 +177,14 @@ whereas at each specific point $x$, $\Delta(x)$ represents the subspace of the t
 
 - $\Delta$ is ** non-signular** distribution if $\text{dim}(\Delta(x))$ is a constant $\forall x$.
 - $\Delta$ is ** involutive** if 
-$$ \forall f, g \in \Delta \Rightarrow \[f, g\] \in \Delta $$
+$$ \forall f, g \in \Delta \Rightarrow [f, g] \in \Delta $$
 
 Let's consider the following example:
 $$
 \begin{align}
 f_1 &= \begin{pmatrix} 2x_2 \\ 1 \\ 0 \end{pmatrix} \\
 f_2 &= \begin{pmatrix} 1 \\ 0 \\ x_2 \end{pmatrix} \\
-\Delta &= \[f_1, f_2\]
+\Delta &= [f_1, f_2]
 \end{align}
 $$
 
@@ -192,15 +192,15 @@ Because $\text{dim}\Delta(x) = 2$ for all $x$, the distribution $\Delta$ is non-
 
 $\Delta$ is involutive is equivalent to
 $$
-\[f_1, f_2\] = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} \in  \Delta
+[f_1, f_2] = \begin{pmatrix} 0 \\ 0 \\ 1 \end{pmatrix} \in  \Delta
 $$
-if and only if $\text{rank}(f_1, f_2, \[f_1, f_2\]) = 2 \quad \forall x$. Unfortunately the rank is 3, therefore $\Delta$ is not involutive.
+if and only if $\text{rank}(f_1, f_2, [f_1, f_2]) = 2 \quad \forall x$. Unfortunately the rank is 3, therefore $\Delta$ is not involutive.
 
 ### Feedback Linearizability
 With all these mathematical definitions, we are finally able to determine whether a nonlinear system can actually be feedback linearized, using the following theorem:
 
 > A nonlinear system $\Sigma$ is feedback linearizable, if an only if:
-> 1. $\[g(x), ad_fg(x), \ldots, ad_f^{n-1}g(x) \]$ has rank $n$, $\forall x$. This condition guarantees controllability.
+> 1. $[g(x), ad_fg(x), \ldots, ad_f^{n-1}g(x) ]$ has rank $n$, $\forall x$. This condition guarantees controllability.
 > 2. $\Delta = \text{span}\{g, ad_fg, \ldots, ad_f^{n-2}g\}$ is involutive.
 
 If we are able to determine whether the system is feedback linearizable, the next step will be to look for the specific output with relative degree $n$. From our earlier discussion, we are looking for a function $y = h(x)$ such that it meets the following conditions:

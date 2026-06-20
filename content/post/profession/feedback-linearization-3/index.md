@@ -15,7 +15,7 @@ tags:
 We talked about feedback linearization theorem last time. As a recap:
 
 **Feedback Linearization Theorem**: Nonlinear system $\Sigma: \dot{x} = f(x) + g(x)u$ is feedback linearizable if:
-1. $\[g(x), ad_fg(x), \ldots, ad_f^{n-1}g(x)\]$ has rank $n$ $\forall x$.
+1. $[g(x), ad_fg(x), \ldots, ad_f^{n-1}g(x)]$ has rank $n$ $\forall x$.
 2. $\Delta = \text{span}\{g(x), ad_fg(x), \ldots, ad_f^{n-2}g(x)\}$ is involutive.
 
 The first condition guarantees controllability, while the second condition guarantees that we can always find an output $y = h(x)$ that has relative degree equal to the system degree, according to Forbenius theorem. Actually, this is also just observability.
@@ -32,10 +32,10 @@ To answer the first question, we first validate if the first condition is met fr
 $$
 g(x) = \begin{pmatrix}0 \\ 1 \end{pmatrix}
 $$
-$$ad_fg = \[f, g\] = \begin{pmatrix} -a \cos x_2 \\ 0 \end{pmatrix}$$
+$$ad_fg = [f, g] = \begin{pmatrix} -a \cos x_2 \\ 0 \end{pmatrix}$$
 Therefore,
 $$
-\[g(x), ad_fg(x)\] = \begin{pmatrix}0 & -a \cos x_2 \\ 1 & 0 \end{pmatrix}
+[g(x), ad_fg(x)] = \begin{pmatrix}0 & -a \cos x_2 \\ 1 & 0 \end{pmatrix}
 $$
 This new matrix is always rank 2, for all $x$, except when $\cos x_2 = 0$. 
 The distribution $\Delta = \text{span}\{g(x) \}$ has only one element, so it's trivially involutive. Therefore we conclude the system is feedback linearizable.
@@ -84,7 +84,7 @@ where
 $$
 \begin{align}
 g(x) &= \begin{pmatrix} g_1(x) & \cdots & g_n(x) \end{pmatrix} \\
-u = \begin{pmatrix} u_1 \\ \vdots \\ u_n\end{pmatrix}
+u &= \begin{pmatrix} u_1 \\ \vdots \\ u_n\end{pmatrix}
 \end{align}
 $$
 The question is now, how shall we define the relative degree of the MIMO system?
