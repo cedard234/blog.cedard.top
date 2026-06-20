@@ -16,7 +16,7 @@ tags:
 
 Pop quiz: what's the transfer function $H(s) = V_{out} / V_{in}$ in the following circuit?
 
-Assuptions:
+Assumptions:
 - $C_c$ is a big coupling capacitor.
 - No channel-length modulation. 
 - You don't have to solve for DC, all small signal parameters are given. Don't assume unspecified parameters, for example $r_o$, $C_g$, etc.
@@ -30,20 +30,20 @@ Look at the circuit, what is the main reason that makes analysis difficult? Feed
 
 ## Mason's Gain Formula
 
-Samuel Jefferson Mason is born in 1921. As a distinguished electronics engineer, his most famous scientific contributions are Mason's invariant and Mason's rule, or Mason's gain formula, both named after him.
+Samuel Jefferson Mason was born in 1921. As a distinguished electronics engineer, his most famous scientific contributions are Mason's invariant and Mason's rule, or Mason's gain formula, both named after him.
 
 ![Samuel Jefferson Mason](math20260423004040.png)
 
 Mason's gain formula is used to find the transfer function of a closed-loop system. A closed loop system doesn't need to contain only one loop; it could contain multiple loops, and they can even interact with each other. Conventional algebraic way to find the transfer function usually requires solving complex simultaneous systems, but Mason's gain formula provides an easy way to find it.
 
-Mason's gain formula is particularly suitable for a system that can described using a Signal Flow Graph.
+Mason's gain formula is particularly suitable for a system that can be described using a Signal Flow Graph.
 
 ### Signal Flow Graph (SFG)
 
 A Signal Flow Graph (SFG) is a graphical representation of a system. As the name suggests, an SFG is a directed graph, meaning it has the following components:
 - **Node**: a node is a vertex that represents a variable in a system.
 - **Branch**: a branch is a directed edge that represents a transfer function between two nodes. It has a linear gain. If the gain is 1, we don't annotate it on the SFG.
-- **Input/Output**: Input / Output nodes are special nodes where we use to denote the transfer function's deprature and arrival points.
+- **Input/Output**: Input / Output nodes are special nodes where we use to denote the transfer function's departure and arrival points.
 - **Addition**: Two signals could be added together, given SFG is targeting linear systems.
 
 ![Examples from Wikipedia](math20260424174736.png)
@@ -92,7 +92,7 @@ $$\begin{align}
 \displaystyle \Sigma_{k=1}^{N}P_k \Delta_k &= K_{PFD}I_{CP}(R + 1/sC)K_{VCO}/s
 \end{align}$$
 
-Bear in mind that $\Delta_1 = 1$ because there is only one loop, and it does touches the forward path, therefore we are remove the only contributing loop gain from $\Delta$.
+Bear in mind that $\Delta_1 = 1$ because there is only one loop, and it does touch the forward path, therefore we remove the only contributing loop gain from $\Delta$.
 
 Thus, combining the terms together, we have the expression for the closed loop gain:
 
@@ -181,7 +181,7 @@ According to Rudolf Kalman, the controllability matrix of the controllability ca
 
 ### Observable Canonical Form
 ![](math20260425012014.png)
-Observability, the dual of controllability, also has it's canonical form. It's state space model representation is given by:
+Observability, the dual of controllability, also has its canonical form. Its state space model representation is given by:
 
 $$
 \begin{align}
@@ -324,7 +324,7 @@ $$
 \frac{V_{out}}{V_{in}}(s) = \frac{F_1F_2}{1 + L_1 + L_2}
 $$
 
-This looks a lot faster compared to manually break down all expressions. 
+This looks a lot faster compared to manually breaking down all expressions. 
 
 ---
 

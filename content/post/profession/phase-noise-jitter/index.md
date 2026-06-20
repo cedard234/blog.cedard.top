@@ -4,7 +4,7 @@ description: "Relationship between Phase Noise and Jitter: Theoretical Analysis 
 slug: phase-noise-jitter
 date: 2025-07-07 20:42:16+0800
 categories:
-    - tech
+    - profession
 tags:
     - PLL
     - Phase Noise
@@ -86,7 +86,7 @@ $$\Delta \phi = \omega \Delta t$$
 
 ### 2.1 绝对抖动的定义
 
-对于矩形波信号，**绝对抖动（Absolute Jitter）**定义为信号边沿相对于理想时刻的偏移。
+对于矩形波信号，**绝对抖动（Absolute Jitter）** 定义为信号边沿相对于理想时刻的偏移。
 
 考虑第$k$个周期，如果相位噪声的时域表示为$\phi_n(t_k)$，则实际的相位满足：
 

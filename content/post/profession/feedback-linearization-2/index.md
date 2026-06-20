@@ -62,16 +62,16 @@ Now let's connect IO linearization back to feedback linearization. It's not hard
 **Isidori, chapter 4**: If a nonlinear system $\Sigma$ has a relative degree $r$ at $x_0$, then on the neighborhood of $x_0$, the functions 
 $$ \{ h(x), L_fh(x), \ldots, L_f^{r-1}h(x) \} $$
 are independent.
-Then, we can conclude that, $\Sigma$ is feedback linearizible, if and only if $\exists y = h(x)$ such that the output has relative degree $r = n$.
+Then, we can conclude that, $\Sigma$ is feedback linearizable, if and only if $\exists y = h(x)$ such that the output has relative degree $r = n$.
 
-In short, if the output of the system satisfies that the relative degree equals to the system degree, then the system is always linearizible. However, if the output has a relative degree smaller than the system degree, it's possible that we didn't pick a good output -- how do we know if a system can in fact be feedback linearizable? We'll have to introduce some more new concepts to answer the question.
+In short, if the output of the system satisfies that the relative degree equals to the system degree, then the system is always linearizable. However, if the output has a relative degree smaller than the system degree, it's possible that we didn't pick a good output -- how do we know if a system can in fact be feedback linearizable? We'll have to introduce some more new concepts to answer the question.
 
 ### Introduction to Differential Geometry
 
 Our audience may find themselves familiar with these concepts, if they have taken classes in general relativity.
 
 #### Manifold
-Let $M$ be a non-empty set of $\mathbb{R}^n$ and let $1 \le m < n$, then $M$ is a n-dimensional smooth **Manifold** of $\mathbb{R}^n$ if, $\forall p \in M$, $\exists r > 0$, $F:B_r(p) \to \mathbb{R}^{n-m}$ such that:
+Let $M$ be a non-empty set of $\mathbb{R}^n$ and let $1 \le m < n$, then $M$ is an n-dimensional smooth **Manifold** of $\mathbb{R}^n$ if, $\forall p \in M$, $\exists r > 0$, $F:B_r(p) \to \mathbb{R}^{n-m}$ such that:
 
 1. $M \cap B_r(p) = \{ x \in \mathbb{R}^n | F(x) = 0 \}$
 2. $ F \in C^0 $
@@ -87,12 +87,12 @@ Some well-known manifolds are:
 
 #### Tangent Space
 Let $M$ be a smooth manifold in $\mathbb{R}^n$ and let $p \in M$, suppose $F: B_r{p} \to \mathbb{R}^{n-1}$ satisfies conditions from definitions of $M$.
-Then the ** Tangent Space** of $p$, denoted as $T_pM$ is such that
+Then the **Tangent Space** of $p$, denoted as $T_pM$ is such that
 $$ T_pM = \{ v \in \mathbb{R}^n | \frac{\partial F}{\partial x}(p) v = 0 \} = \mathbb{N}(\frac{\partial F}{\partial x}(p)) $$
 Note that, $\text{dim}(T_pM) = m$.
 
 #### Tangent Vector
-The ** Tangent Vector** is a vector in tangent space.
+The **Tangent Vector** is a vector in tangent space.
 
 We denote the relationship of manifold, tangent space and tangent vector like below:
 
@@ -100,12 +100,12 @@ We denote the relationship of manifold, tangent space and tangent vector like be
 
 #### Vector Field
 
-** Vector Field** $f$ on manifold $M$ is an assignment to each $p \in M$ a vector $f(p) \in T_pM$. 
+**Vector Field** $f$ on manifold $M$ is an assignment to each $p \in M$ a vector $f(p) \in T_pM$. 
 Note that, the vector field is $C^k$ if $f \in C^k$.
 
 #### Lie Bracket
 
-Given $f, g$ as two different vector fields, the ** Lie Bracket** is defined as
+Given $f, g$ as two different vector fields, the **Lie Bracket** is defined as
 
 $$
 \begin{align}
@@ -164,19 +164,19 @@ ad_f^kg &= (-1)^k A^k B
 $$
 
 #### Tangent Bundle
-The ** Tangent Bundle** of a manifold $M$ is defined as
+The **Tangent Bundle** of a manifold $M$ is defined as
 $$ TM = \bigcup_{p \in M} T_pM $$
 That is, it's the "bundle" of all tangent spaces at each point in the manifold.
 
 #### Distribution
-Suppose $f_1, f_2, \ldots, f_n$ are vector fields, the ** Distribution** is defined as 
+Suppose $f_1, f_2, \ldots, f_n$ are vector fields, the **Distribution** is defined as 
 $$ \Delta (x) = \text{span}\{f_1(x), f_2(x), \ldots, f_n(x)\} $$
 whereas at each specific point $x$, $\Delta(x)$ represents the subspace of the tangent space $T_xM$.
 
 ![](math20260613172713.png)
 
-- $\Delta$ is ** non-signular** distribution if $\text{dim}(\Delta(x))$ is a constant $\forall x$.
-- $\Delta$ is ** involutive** if 
+- $\Delta$ is **non-singular** distribution if $\text{dim}(\Delta(x))$ is a constant $\forall x$.
+- $\Delta$ is **involutive** if 
 $$ \forall f, g \in \Delta \Rightarrow [f, g] \in \Delta $$
 
 Let's consider the following example:
@@ -223,10 +223,10 @@ The advantage of the latter formulation is that we can write the first condition
 $$
 \frac{\partial h}{\partial x} \begin{pmatrix} g(x) & ad_fg(x) & \cdots & ad_f^{n-2}g(x) \end{pmatrix} = 0
 $$
-The important fact here is that, the solution for this partial differential equation only exists, if $\Delta = \{g, ad_fg, \ldots, ad_f^{n-2}g\}$ is involutive, according to the (Forbenius theorem)[https://en.wikipedia.org/wiki/Frobenius_theorem_(differential_topology)].
+The important fact here is that, the solution for this partial differential equation only exists, if $\Delta = \{g, ad_fg, \ldots, ad_f^{n-2}g\}$ is involutive, according to the (Frobenius theorem)[https://en.wikipedia.org/wiki/Frobenius_theorem_(differential_topology)].
 
 To prove that the two conditions are indeed equivalent, we use the following lemma:
-> ** Lemma**: Given $L_gh = L_gL_f h = \ldots = L_gL_f^{n-2}h = 0$ for all $x \in B_\delta (x_0)$, then we have
+> **Lemma**: Given $L_gh = L_gL_f h = \ldots = L_gL_f^{n-2}h = 0$ for all $x \in B_\delta (x_0)$, then we have
 > $$L_gL_f^kh = (-1)^k L_{ad_f^kg}h, \forall k = 0,1,\ldots, r-1$$.
 
 This lemma can be proven using induction, and we skip the full proof here.

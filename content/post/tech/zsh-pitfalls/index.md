@@ -6,8 +6,6 @@ description: 代码可以写的烂，终端不能不好看
 draft: true
 categories:
     - tech
-tags:
-    - tech
 ---
 
 ## 草，原来除了bash还有其他的壳程序啊

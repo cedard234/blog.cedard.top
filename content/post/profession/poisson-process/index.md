@@ -45,7 +45,7 @@ We give the formal definition of a 1D Poisson distribution here.
 > 
 > where $k!$ denotes the factorial of $k$.
 
-** Key Properties:**
+**Key Properties:**
 
 The mean and variance of a Poisson distribution are both equal to the parameter $\lambda$:
 
@@ -56,11 +56,11 @@ E[X] &= \lambda \\
 \end{align}
 $$
 
-** Intuitive Interpretation:**
+**Intuitive Interpretation:**
 
 The Poisson distribution models the number of events occurring in a fixed interval of time or space, given that events occur independently at a constant average rate. The parameter $\lambda$ represents the expected number of events in that interval.
 
-** Common Applications:**
+**Common Applications:**
 
 - Number of arrivals in a queue during a time period
 - Number of photons detected by a sensor in a fixed duration
@@ -69,24 +69,24 @@ The Poisson distribution models the number of events occurring in a fixed interv
 
 ## Poisson Point Process
 
-> ** Definition (Poisson Point Process):**
+> **Definition (Poisson Point Process):**
 > 
 > A Poisson point process (PPP) with rate (or intensity) $\lambda > 0$ is a stochastic process $\{N(t) : t \geq 0\}$ that counts the number of events occurring in the time interval $[0, t]$. It satisfies the following properties:
 > 
-> 1. ** Independent Increments:** For any non-overlapping intervals $[t_1, t_2)$ and $[t_3, t_4)$ with $t_2 \leq t_3$, the number of events in these intervals are independent random variables.
+> 1. **Independent Increments:** For any non-overlapping intervals $[t_1, t_2)$ and $[t_3, t_4)$ with $t_2 \leq t_3$, the number of events in these intervals are independent random variables.
 > 
-> 2. ** Stationary Increments:** The distribution of the number of events in any interval depends only on the length of that interval, not on its starting time. Specifically, for any $t > 0$ and $s \geq 0$:
+> 2. **Stationary Increments:** The distribution of the number of events in any interval depends only on the length of that interval, not on its starting time. Specifically, for any $t > 0$ and $s \geq 0$:
 > $$
 > \begin{align}
 > N(s + t) - N(s) \sim \text{Poisson}(\lambda t)
 > \end{align}
 > $$
 > 
-> 3. ** No Multiple Events:** The probability of more than one event occurring in an infinitesimal time interval $dt$ is negligible, i.e., $o(dt)$.
+> 3. **No Multiple Events:** The probability of more than one event occurring in an infinitesimal time interval $dt$ is negligible, i.e., $o(dt)$.
 > 
-> 4. ** Initial Condition:** $N(0) = 0$.
+> 4. **Initial Condition:** $N(0) = 0$.
 
-** Counting Process Characterization:**
+**Counting Process Characterization:**
 
 For a Poisson point process with rate $\lambda$, the number of events $N(t)$ in a time interval $[0, t]$ follows a Poisson distribution:
 
@@ -104,7 +104,7 @@ E[N(t)] = \lambda t
 \end{align}
 $$
 
-** Inter-arrival Times:**
+**Inter-arrival Times:**
 
 An important consequence of the Poisson point process is that the time intervals between consecutive events (inter-arrival times) are independent and exponentially distributed with rate $\lambda$. If $T_i$ denotes the time until the $i$-th event, then:
 
@@ -114,7 +114,7 @@ T_i \sim \text{Exponential}(\lambda), \quad f(t) = \lambda e^{-\lambda t}, \quad
 \end{align}
 $$
 
-** Condition on Event Count:**
+**Condition on Event Count:**
 
 If we know $N(t) = k$, the positions of the $k$ events in the interval $[0, t]$ are distributed as independent and uniformly on $[0, t]$.
 
@@ -140,7 +140,7 @@ This whole story now sounds like we are flipping an uneven coin every single tim
 
 ## Law of Rare Events
 
-> ** Theorem (Law of Rare Events, Poisson Limit Theorem):**
+> **Theorem (Law of Rare Events, Poisson Limit Theorem):**
 > 
 > Let $X_n \sim \text{Bin}(n, p_n)$ be a sequence of binomial random variables where $n \to \infty$ and $p_n \to 0$ such that $n \cdot p_n \to \lambda$ for some constant $\lambda > 0$. Then:
 > 
@@ -152,18 +152,18 @@ This whole story now sounds like we are flipping an uneven coin every single tim
 > 
 > In other words, $X_n \xrightarrow{d} X$ where $X \sim \text{Poisson}(\lambda)$.
 
-** Intuitive Explanation:**
+**Intuitive Explanation:**
 
 The Law of Rare Events states that when we have a large number of independent trials, each with a very small probability of success, the number of successes approximately follows a Poisson distribution. The key condition is that the product $n \cdot p$ (the expected number of events) remains constant as $n$ increases and $p$ decreases.
 
-** Practical Implications for Bit Error Rate:**
+**Practical Implications for Bit Error Rate:**
 
 In our BER context:
 - $N$ is very large (number of bits transmitted)
 - $p$ is very small (bit error probability, e.g., $10^{-15}$)
 - The product $\lambda = N \cdot p$ is the expected number of bit errors
 
-** Why This Matters:**
+**Why This Matters:**
 
 Computing probabilities with a binomial distribution requires calculating factorials and large powers, which is computationally expensive. The Poisson approximation provides:
 
@@ -179,7 +179,7 @@ This is much simpler to work with, especially for answering our original questio
 
 Now, let's answer the two questions we had from the beginning.
 
-** Question 1: If a link has BER = $10^{-15}$, what does this mean?**
+**Question 1: If a link has BER = $10^{-15}$, what does this mean?**
 
 This means that, on average, we expect 1 error for every $10^{15}$ bits transmitted. In other words, the probability of any single bit being in error is $10^{-15}$. However, it's totally possible that we receive 0 errors, 2 errors, 3 errors, and if you get super unlucky, all your received bits are erroneous, but this is super, super, super, super unlikely, although the probability is not zero.
 
@@ -195,17 +195,17 @@ We use the following table to illustrate the probabilities of different error co
 | 5 | $\frac{1}{120}e^{-1} \approx 0.0031$ | 99.94% | Exactly 5 errors |
 | $\geq 6$ | $\approx 0.0006$ | $\geq 99.94\%$ | 6 or more errors |
 
-** Interpretation:**
+**Interpretation:**
 
 With $\lambda = 10^{15} \times 10^{-15} = 1$, the error count follows a Poisson distribution with parameter $\lambda = 1$. The table reveals several surprising facts:
 
-1. ** Zero errors are most likely:** There's a 36.79% chance of observing no errors at all!
-2. ** One error is equally likely:** One error is also expected with 36.79% probability.
-3. ** Multiple errors are possible:** There's a 27.4% chance of observing 2 or more errors.
+1. **Zero errors are most likely:** There's a 36.79% chance of observing no errors at all!
+2. **One error is equally likely:** One error is also expected with 36.79% probability.
+3. **Multiple errors are possible:** There's a 27.4% chance of observing 2 or more errors.
 
-This directly answers your first question: sending $10^{15}$ bits with BER $10^{-15}$ ** does NOT guarantee** you'll see exactly 1 error. You're actually more likely to see either 0 or 1 error, with roughly equal probability.
+This directly answers your first question: sending $10^{15}$ bits with BER $10^{-15}$ **does NOT guarantee** you'll see exactly 1 error. You're actually more likely to see either 0 or 1 error, with roughly equal probability.
 
-** Question 2: How many bits should I send to confidently establish BER < $10^{-15}$?**
+**Question 2: How many bits should I send to confidently establish BER < $10^{-15}$?**
 
 This is more complex and requires statistical hypothesis testing. However, we can provide some intuition using the Poisson model.
 
@@ -217,7 +217,7 @@ P(\text{0 errors observed} \mid \text{true BER} = p) = e^{-Np}
 \end{align}
 $$
 
-Now, here comes a concept called "confidence level." Confidence level means the probability of getting ourselve right. For example, if we want to confirm our bit error rate is <1e-15, but we only send 10 bits and see 0 errors, the confidence that I can safely say my bit error rate is <1e-15 is very low. However if I send 1e27 bits and I see 0 error so far, I can very confidently say that the link has BER <1e-15.
+Now, here comes a concept called "confidence level." Confidence level means the probability of getting ourselves right. For example, if we want to confirm our bit error rate is <1e-15, but we only send 10 bits and see 0 errors, the confidence that I can safely say my bit error rate is <1e-15 is very low. However if I send 1e27 bits and I see 0 error so far, I can very confidently say that the link has BER <1e-15.
 
 Then, how do we set our confidence level? What does this mean intuitively? Let's take it the contrapositive way:
 - If I know my bit error rate = 1e-15, that means if I send 3e15 bits, it's 95% probable that I'll see at least 1 error.
@@ -242,7 +242,7 @@ N &= 3 \times 10^{15}
 \end{align}
 $$
 
-** So the answer to Question 2 is: No, sending $10^{15}$ bits and observing no error does NOT suffice.** You would need to send approximately $3 \times 10^{15}$ bits to claim with 95% confidence that the BER is less than $10^{-15}$.
+**So the answer to Question 2 is: No, sending $10^{15}$ bits and observing no error does NOT suffice.** You would need to send approximately $3 \times 10^{15}$ bits to claim with 95% confidence that the BER is less than $10^{-15}$.
 
 ## Beyond Raw BER testing
 

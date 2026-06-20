@@ -7,6 +7,8 @@ categories:
     - lifestyle
 tags:
     - 城市驿站
+    - travel
+    - lifestyle
 ---
 
 # Seattle, WA
@@ -26,7 +28,7 @@ tags:
 
 SEA开到市区大概半个小时。早上主要就是逛了一下Museum of Pop Culture。这个Museum感觉还不错，包括了一些很有趣的流行文化的artifacts，以及一些video clips。
 
-然后下午去旅馆check-in。睡了个午觉回了血就去了Space Needle，说实话上塔之后非常惊艳，尤其是可以俯瞰整个城区+Pyget Sound+Bellevue，并且看天色逐渐暗下来，观察整个城市入夜也是别有一番体验。晚上和学长吃了个拉面，就回旅馆休息了。
+然后下午去旅馆check-in。睡了个午觉回了血就去了Space Needle，说实话上塔之后非常惊艳，尤其是可以俯瞰整个城区+Puget Sound+Bellevue，并且看天色逐渐暗下来，观察整个城市入夜也是别有一番体验。晚上和学长吃了个拉面，就回旅馆休息了。
 
 对于Seattle的第一印象就是很干净的城市（流浪汉大概比湾区少20dB），阴郁的天气（但是今天竟然出太阳了），以及比湾区慢五迈的高速限速。城市的Floorplan也是比较像湾区一样的城市群，而不是LA那样的摊大饼。
 
@@ -52,7 +54,7 @@ SEA开到市区大概半个小时。早上主要就是逛了一下Museum of Pop 
 
 ![Revolving Bar](3119631F-2C36-4A8A-80C2-6E1A0FF2F147_1_105_c.jpeg)
 
-## Dec 25th, 2024 - Chistmas Day
+## Dec 25th, 2024 - Christmas Day
 
 Merry Christmas!
 
@@ -64,7 +66,7 @@ Merry Christmas!
 
 下午去了Volunteer Park。Conservatory开门，但是花了$4进去之后发现很失望，就是一个很小的植物园，也没有太多的讲解和值得看的东西。Volunteer Park的后院是Lake View Cemetery，这个墓地是西雅图的一个历史遗产，里面埋葬了很多西雅图的名人，包括了Bruce Lee和Brandon Lee。雨中的墓地很安静。
 
-![Red Sqaure, also known as Center Plaza](965DDE13-F564-4CEE-9663-7A27DBFFF10D_4_5005_c.jpeg)
+![Red Square, also known as Center Plaza](965DDE13-F564-4CEE-9663-7A27DBFFF10D_4_5005_c.jpeg)
 
 ![George Washington](157F5B5F-3DF5-4710-96D7-03487050349E_4_5005_c.jpeg)
 
@@ -116,7 +118,7 @@ Merry Christmas!
 
 ![City: Skylines](F17D9C3B-426B-4BE7-B725-9591570F2C4C_1_102_o.jpeg)
 
-![Pudget Sound的海浪](97A2395B-1350-4D15-BC42-2535E2440868_1_102_o.jpeg)
+![Puget Sound的海浪](97A2395B-1350-4D15-BC42-2535E2440868_1_102_o.jpeg)
 
 ## Dec 27th, 2024
 

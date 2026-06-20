@@ -13,7 +13,7 @@ tags:
 
 Feedback linearization is a seemingly obvious but powerful technique in control theory that transforms a nonlinear system into a linear one through state and input feedback.
 
-I learned this technique when I was taking MEC237 from Berkeley, and I later realize it's actually pretty useful and one of the most universal techniques in nonlinear control.
+I learned this technique when I was taking MEC237 from Berkeley, and I later realized it's actually pretty useful and one of the most universal techniques in nonlinear control.
 
 ## Motivation
 
@@ -25,7 +25,7 @@ $$
 
 Where $x$ is our internal state, and $u$ is our control input. If the system has no control, state $x$ is unstable. Intuitively, if $x$ is greater than 0, $\dot{x}$ is also greater, pushing it away from the equilibrium point, and vice versa if $x < 0$. 
 
-One caveat here is that, we can't use Lyapunov indirect method to conclude instability, because the Jacobian matrix is 0, and nothing can be concluded from a both non-positive and non-negaitve Jacobian matrix eigenvalue.
+One caveat here is that, we can't use Lyapunov indirect method to conclude instability, because the Jacobian matrix is 0, and nothing can be concluded from a both non-positive and non-negative Jacobian matrix eigenvalue.
 
 How shall we use the control input to stabilize the system? Let's consider the input $u = -x^3 - x$, where if we sub-into the original system:
 
@@ -63,7 +63,7 @@ We now give some useful definitions to help understand the feedback linearizatio
 
 ### Control-Affine System
 
-A system that has the following form is called a ** Control-Affine System**:
+A system that has the following form is called a **Control-Affine System**:
 
 $$
 \dot{x} = f(x) + g(x)u
@@ -78,15 +78,15 @@ $$
 
 ### Diffeomorphism
 
-In differential geometry, a ** diffeomorphism** is a smooth invertible map between differentiable manifolds, whose inverse is also smooth. To express in mathematical language, such mapping $T$ satisfies $T \in C^1$ and $T^{-1} \in C^1$.
+In differential geometry, a **diffeomorphism** is a smooth invertible map between differentiable manifolds, whose inverse is also smooth. To express in mathematical language, such mapping $T$ satisfies $T \in C^1$ and $T^{-1} \in C^1$.
 
 ### Feedback Linearizable
 
-A nonlinear control-affine system $\Sigma: \dot{x} = f(x) + g(x)u$ is said to be ** feedback linearizable** if there exists a control law $u = \alpha (x) + \beta (x)v$ and state transform $z = T(x)$, where $T$ is a diffeomorphism, such that the transformed system $\dot{z} = Az + Bv$ satisfies $(A, B)$ is controllable.
+A nonlinear control-affine system $\Sigma: \dot{x} = f(x) + g(x)u$ is said to be **feedback linearizable** if there exists a control law $u = \alpha (x) + \beta (x)v$ and state transform $z = T(x)$, where $T$ is a diffeomorphism, such that the transformed system $\dot{z} = Az + Bv$ satisfies $(A, B)$ is controllable.
 
 ### Lie Derivative
 
-The ** Lie Derivative** is an operator such that:
+The **Lie Derivative** is an operator such that:
 
 $$ 
 L_f u = \frac{\partial u}{\partial x} f(x)
@@ -108,7 +108,7 @@ y = x_2
 \end{cases}
 $$
 
-Note that now we assign the output $y$ to be only a function of $x_2$. Now, we can perform ** Input-Output Linearization** $ u = x_1^2 + v$ such that:
+Note that now we assign the output $y$ to be only a function of $x_2$. Now, we can perform **Input-Output Linearization** $ u = x_1^2 + v$ such that:
 
 $$ y = x_2 = -x_1^2 + x_1^2 +v = v$$
 
@@ -192,7 +192,7 @@ In this case, the IO linearized system is a $r^{th}$ order linear system.
 
 We now give the definition of $r$:
 
-A SISO system $\dot{x} = f(x) + g(x)u, y = h(x)$ has ** relative degree** $r$ with respect to the output $y = h(x)$ around $x_0$ if:
+A SISO system $\dot{x} = f(x) + g(x)u, y = h(x)$ has **relative degree** $r$ with respect to the output $y = h(x)$ around $x_0$ if:
 1. $\forall 0 \le k < r-1$, $L_gL_f^kh(x) = 0$, $\forall x \in $ neighborhood of $x_0$.
 2. $L_gL_f^{r-1}h(x) \neq 0$, $\forall x \in $ neighborhood of $x_0$.
 Let's look at some examples.
@@ -249,7 +249,7 @@ Isn't the quantity $CA^{r-1}B$ familiar? It's a composite of the controllability
 ## Zero Dynamics
 
 A fact regarding the relative degree $r$:
-> $r$ is always less than or equal to the order of the system $n$, and cannot be greater than $n$. If keep differentiating without getting $u$ show up in $y$, the relative degree is usually undefined.
+> $r$ is always less than or equal to the order of the system $n$, and cannot be greater than $n$. If we keep differentiating without getting $u$ show up in $y$, the relative degree is usually undefined.
 
 Now, for the IO linearized system $y^{(r)} = v$, we can choose the state vector:
 
@@ -277,22 +277,22 @@ $$
  1 
 \end{pmatrix} v
 $$
-If you have read another article of mine: [Mason's Gain Formula and Control Canonical Forms](https://blog.cedard.top/profession/2026.04.23.00/), you'll realize system follows the controllability canonical form, thus $z$ is always controllable, given matrix $A$ is a complete Jordan block. Therefore, we can always define a feedback control mechanism 
+If you have read another article of mine: [Mason's Gain Formula and Control Canonical Forms]({{< relref "/post/profession/masons-gain-formula" >}}), you'll realize system follows the controllability canonical form, thus $z$ is always controllable, given matrix $A$ is a complete Jordan block. Therefore, we can always define a feedback control mechanism 
 $$ v = -Kz$$
 such that
 $$ \dot{z} = (A - BK)z $$
 is always stable, or $$\Re(\lambda(A - BK)) < 0$$
 If we convert $v$ back in terms of $x$, we will get
 $$ v = -k_1 h(x) - k_2 L_f h(x) - \ldots - k_r L_f^{r-1} h(x) $$
-Now that if we have $z(t) \to 0$ as $ t \to \infty$, $y \to 0$, $\dot{y} \to 0$, etc. We can guarantee the output $y$ is stable. But, how about $x$? Is the original system stable? This leads to the discussion of ** zero dynamics**.
+Now that if we have $z(t) \to 0$ as $ t \to \infty$, $y \to 0$, $\dot{y} \to 0$, etc. We can guarantee the output $y$ is stable. But, how about $x$? Is the original system stable? This leads to the discussion of **zero dynamics**.
 
-If we define the set $Z = \{x \in \mathbb{R}^n : h(x) = \dot{h}(x) = \ldots = h^{(r-1)}(x) = 0\}$, then $Z$ is called the ** zero dynamics** of the system. It stands for the part of the system where it's not shown explicitly on the output $y$, or it's unobservable. 
+If we define the set $Z = \{x \in \mathbb{R}^n : h(x) = \dot{h}(x) = \ldots = h^{(r-1)}(x) = 0\}$, then $Z$ is called the **zero dynamics** of the system. It stands for the part of the system where it's not shown explicitly on the output $y$, or it's unobservable. 
 
 Note that the dimension of the zero dynamics set is $n - r$. 
 
 What we did for IO linearization are the following:
 1. We construct the surface $Z$ with dimension $n - r$.
-2. We make $Z$ attractive, i.e. we let $x$ approaches the surface asymptotically.
+2. We make $Z$ attractive, i.e. we let $x$ approach the surface asymptotically.
 3. We also make $Z$ invariant, i.e. $x$ never leaves the surface once it's on the surface.
 
 However, whether the dynamics *on* the surface is stable dictates whether the original system $x$ is stable. The dynamic on the surface is also known as the **zero dynamics**.

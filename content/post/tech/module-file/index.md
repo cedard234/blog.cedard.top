@@ -6,8 +6,6 @@ description: 小心运维人
 draft: true
 categories:
     - tech
-tags:
-    - tech
 ---
 
 本文介绍的是lua based lmod环境变量模组。如果你用的是一台小型私人服务器，那么你根本不需要这种玩意。

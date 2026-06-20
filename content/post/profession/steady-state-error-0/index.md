@@ -14,7 +14,7 @@ tags:
 ## Introduction
 
 I started to have the very first question regarding "steady-state error" when I was a sophomore. I still recall the first class in EE2002: Analog Electronics when the professor introduced the very first Operational Amplifier, and here is what he said:
-> "An Operational Amplifier, or an OpAmp, is a circuit that have infinite gain, infinite input impedance, and 0 output impedance."
+> "An Operational Amplifier, or an OpAmp, is a circuit that has infinite gain, infinite input impedance, and 0 output impedance."
 
 I was very confused back then. Out from all the 3 properties, the most counterintuitive one was the "infinite gain" property. I can still understand the engineering approximation of infinite input impedance due to CMOS nature, and 0 output impedance if you treat the output as a current source, but infinite gain doesn't make any sense. For the next few classes, I learned that infinite gain of the OpAmp allows feedback structure to kick in, so that it can provide a gain per the feedback impedance structure.
 
@@ -22,7 +22,7 @@ I was very confused back then. Out from all the 3 properties, the most counterin
 
 However, I feel that something is off here but I can't quite put my finger on it. I didn't quite get the correct terminology until I turned into a junior when I was taking EE3019: Integrated Electronics when we were introduced feedback in a more well-defined way, and I become aware that there is a term called "steady-state error" that defines the difference between the desired settling value versus the actual settled value. I feel like, yes, this is the correct word I've been looking for.
 
-I came across this once again when I started my PhD and started to design what's called "Phase-Locked Loops (PLLs)", a specific feedback structure that's used to amplify a clean clock. I came across two different terms now: *Type-1 and Type-2 PLLs*. (I doubt whether a lot of PLL designers can actually tell the difference between the two). Interstingly enough, the textbook, nor the slides talk anything about why it's named type-1 or type-2, as if it's just a naming convention. 
+I came across this once again when I started my PhD and started to design what's called "Phase-Locked Loops (PLLs)", a specific feedback structure that's used to amplify a clean clock. I came across two different terms now: *Type-1 and Type-2 PLLs*. (I doubt whether a lot of PLL designers can actually tell the difference between the two). Interestingly enough, the textbook, nor the slides talk anything about why it's named type-1 or type-2, as if it's just a naming convention. 
 
 I wasn't 100% clear on this matter until I took MEC237: linear control where I was introduced the book: *Control System Engineering* by Norman Nise, and looking into the book actually helped me understand the entire steady-state error theory. 
 
@@ -81,14 +81,14 @@ $$ \begin{align}
 \end{align}
 $$
 We can conclude two things from this expression:
-1. The error is inversely proporfional to $(1+A)$. The larger the gain is, the smaller the error is. However, if the gain is finite, no matter what non-zero input we see, the output can never achieve the desired value.
+1. The error is inversely proportional to $(1+A)$. The larger the gain is, the smaller the error is. However, if the gain is finite, no matter what non-zero input we see, the output can never achieve the desired value.
 2. The larger the input voltage is, the larger the error is.
 
 We call the error value between the desired and actual output the **steady-state error**. This phenomenon happens in closed-loop systems where we would like to control a control plant to approach a value that we want, in this example, the OpAmp is both a controller, a control plant and a detector. 
 
 Now, the question becomes if we are able to reduce this error at all. 
 
-## The Temporary Elixir: An Capacitor
+## The Temporary Elixir: A Capacitor
 
 The fix is surprisingly simple. We replace the resistor with a pure capacitor:
 
@@ -110,7 +110,7 @@ V_{out} = V_{in} (1 - e^{-\frac{g_m t}{C}})
 $$
 ![step response](math20260416232959.png)
 
-The assumption that we had initial condition 0 is equivalent to say that, if we provide a step response at the input, the output looks like a exponential decay curve that gradually goes to the input voltage. If we let $t \to \infty$, then we can easily see that
+The assumption that we had initial condition 0 is equivalent to say that, if we provide a step response at the input, the output looks like an exponential decay curve that gradually goes to the input voltage. If we let $t \to \infty$, then we can easily see that
 $$
 \lim_{t \to \infty} V_{out} = V_{in}
 $$
@@ -136,7 +136,7 @@ $$
 
 where $\tau = \frac{C}{g_m}$.
 
-Interstingly, if we now consider the steady-state error as a function of time, we have
+Interestingly, if we now consider the steady-state error as a function of time, we have
 
 $$
 \begin{align}

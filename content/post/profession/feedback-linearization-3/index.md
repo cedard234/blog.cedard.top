@@ -18,7 +18,7 @@ We talked about feedback linearization theorem last time. As a recap:
 1. $[g(x), ad_fg(x), \ldots, ad_f^{n-1}g(x)]$ has rank $n$ $\forall x$.
 2. $\Delta = \text{span}\{g(x), ad_fg(x), \ldots, ad_f^{n-2}g(x)\}$ is involutive.
 
-The first condition guarantees controllability, while the second condition guarantees that we can always find an output $y = h(x)$ that has relative degree equal to the system degree, according to Forbenius theorem. Actually, this is also just observability.
+The first condition guarantees controllability, while the second condition guarantees that we can always find an output $y = h(x)$ that has relative degree equal to the system degree, according to Frobenius theorem. Actually, this is also just observability.
 
 We now look at some examples.
 
@@ -155,7 +155,7 @@ $$ r_1 + \ldots + r_n = \displaystyle \Sigma_{i=1}^n r_i < n$$
 , then the system can only be IO linearizable, where we have to rely on the internal zero dynamic to be also stable in order for the full system to be stable.
 
 ### Examples
-Conside a motion of a wheeled vehicle moving in a horizontal plane. The kinematics of the vehicle are given by the differential equations:
+Consider a motion of a wheeled vehicle moving in a horizontal plane. The kinematics of the vehicle are given by the differential equations:
 $$
 \begin{align}
 \dot{x} &= V \cos \theta \\
@@ -188,7 +188,7 @@ A(x) = \begin{pmatrix}
 \sin \theta & 0
 \end{pmatrix}
 $$
-is actually singular. Therefore the relative degree in this case in not well defined.
+is actually singular. Therefore the relative degree in this case is not well defined.
 
 #### Well-defined Vector Relative Degree
 If we now consider the vehicle acceleration and the vehicle turning rate as the two control inputs, and we still use the vehicle position as the two outputs, this time the vehicle relative degree is actually well-defined, so long as $V > 0$ for this 4-th order nonlinear system. We have the original system expressed as:
@@ -215,10 +215,10 @@ And the determinant is given by
 $$
 \text{det}(A(x)) = V
 $$
-We now realize that the decoupling matrix is non-sigular, as long as the speed is non-zero. Therefore the vector relative degreee is well-defined.
+We now realize that the decoupling matrix is non-singular, as long as the speed is non-zero. Therefore the vector relative degree is well-defined.
 
 #### Control Law
-Given that $r_1 = r_2 = 2$ in this case, and we satisfy $r_1 + r_2 = 4 = n$, we can find a state transformation and a control transformation so that the original system can be feedback linerized. We consider the control transformation as
+Given that $r_1 = r_2 = 2$ in this case, and we satisfy $r_1 + r_2 = 4 = n$, we can find a state transformation and a control transformation so that the original system can be feedback linearized. We consider the control transformation as
 $$
 \begin{pmatrix}
 \xi_1 = y_1 = x\\

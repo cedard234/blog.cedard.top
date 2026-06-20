@@ -101,7 +101,7 @@ $$
 \lim_{t \to \infty} e(t) = \infty & \text{if } k < N
 \end{cases}
 $$
-This is a pretty elegant result, in otherwords, the convergence of steady state error follows such conditions:
+This is a pretty elegant result, in other words, the convergence of steady state error follows such conditions:
 1. If the system type (k) is greater than the input type (N), the steady-state error is zero.
 2. If the system type (k) is smaller than the input type (N), the steady-state error will diverge to infinity.
 3. If the system type and input type are the same, the steady state error will converge to a non-zero number, which will be a finite fraction of the input, depending on the DC gain of the system.
@@ -132,9 +132,9 @@ Now if we perform inverse laplace transform of the s-domain representation, we w
 $$ V_{out}(t) = \sin t$$
 That is to say, we increased the system type and we wished for the steady state error to converge faster, however the system is not even able to track a type-1 input, but start oscillating. What's the problem here?
 
-The reason is that by introducing another pole, we introduced 90 degrees more input phase, and thus the effective ** phase margin** of the system is 0. From another angle, we can apply Barkhausen stability criterion and realize that the system automatically satisfies that criterion, and immediately realize that the system is oscillatory. 
+The reason is that by introducing another pole, we introduced 90 degrees more input phase, and thus the effective **phase margin** of the system is 0. From another angle, we can apply Barkhausen stability criterion and realize that the system automatically satisfies that criterion, and immediately realize that the system is oscillatory. 
 
-The fix is to introduce ** damping** to either of the integrator to produce a zero in the forward gain, thus making the phase margin positive. 
+The fix is to introduce **damping** to either of the integrator to produce a zero in the forward gain, thus making the phase margin positive. 
 
 ![type2_system_with_damping](mathtype2_system_with_damping.png)
 

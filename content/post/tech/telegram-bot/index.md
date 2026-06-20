@@ -6,8 +6,6 @@ description: 后记：这玩意天天骂我
 draft: true
 categories:
     - tech
-tags:
-    - tech
 ---
 
 前因：

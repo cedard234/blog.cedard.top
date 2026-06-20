@@ -214,7 +214,7 @@ tags:
 ![飞机在拉烟](8799CD3D-4959-41DC-BC99-E1FA24196C73.JPG)
 
 > -"We didn't expect of the plane -- We came here by chance"
-> ** so fucking amazing, aren't they!**
+> **so fucking amazing, aren't they!**
 
 
 #### 阿迪斯角国家公园 Point Addis Marine National Park

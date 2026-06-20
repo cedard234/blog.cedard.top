@@ -7,7 +7,6 @@ description: yet another NAS maintenance log after one full year of idling
 categories:
     - tech
 tags:
-    - tech
     - renko
     - NAS
 ---
