@@ -13,10 +13,12 @@ tags:
     - lifestyle
 ---
 
-> CT: Congrats on getting the internship offer! 
-> Di: Thanks.
-> CT: So, I'm asking if you are interested in working in Portland, Oregon instead of Cupertino?
-> Di: ... what?
+{{< verse >}}
+CT: Congrats on getting the internship offer!
+Di: Thanks.
+CT: So, I'm asking if you are interested in working in Portland, Oregon instead of Cupertino?
+Di: ... what?
+{{< /verse >}}
 
 2025年的暑假因为上述的工作原因，我来到俄勒冈州的波特兰做暑期实习。除了想要换一下环境之外，H作为我的学长也愿意给我提供住宿。
 

@@ -3,7 +3,7 @@ title: "Rock and Roll Ain't Noise Pollution"
 slug: rock-and-roll
 date: 2025-07-22T22:50:43+08:00
 image: math20250722225320.png
-description: "It's never gonna die, never gonna die / Rock 'n' roll ain't noise pollution"
+description: "It's never gonna die, never gonna die"
 categories:
     - essay
 tags:
@@ -47,47 +47,55 @@ tags:
 
 让我谈谈对歌词的理解。
 
-> Hey there, all you middle men
-> Throw away your fancy clothes
-> And while you're out there sittin' on a fence
-> So get off your ass and come down here
-> 'Cause rock 'n' roll ain't no riddle, man
-> To me, it makes good, good sense
-> Good sense, let's go
+{{< verse >}}
+Hey there, all you middle men
+Throw away your fancy clothes
+And while you're out there sittin' on a fence
+So get off your ass and come down here
+'Cause rock 'n' roll ain't no riddle, man
+To me, it makes good, good sense
+Good sense, let's go
+{{< /verse >}}
 
 把观众称为"middle man"，似乎带着对立的意味，仿佛在说你们这些人只会坐在一旁观望。但另一方面，这也可能是在呼唤觉醒，让人们意识到摇滚的真正意义。说实话，我有种从"middle man"觉醒的感觉。
 
 当Brian大喊"good good sense"时，我真的被他的情绪完全感染了。摇滚，it just makes good good sense！不需要任何多余的理由，摇滚就是make sense。就像George Mallory被问"为什么要攀登珠峰"时回答的："因为山就在那里。"为什么摇滚？因为it just makes sense！
 
-> Heavy decibels are playing on my guitar
-> We got vibrations coming up from the floor
-> We're just listening to the rock that's giving too much noise
-> Are you deaf, you want to hear some more?
+{{< verse >}}
+Heavy decibels are playing on my guitar
+We got vibrations coming up from the floor
+We're just listening to the rock that's giving too much noise
+Are you deaf, you want to hear some more?
+{{< /verse >}}
 
 "Are you deaf, you want to hear some more？"
 
 如果你去过AC/DC的演唱会，一定会对现场的音量心生敬畏。这是直击灵魂的音量，以至于主唱现在已经处于失聪的边缘。然而，do you want to hear some more？耳朵只是载体，灵魂才是真正的听觉器官。摇滚的音量是灵魂的音量。贝多芬虽然耳聋，却不影响他创作出伟大的交响乐——因为他依然能够"听"。You wanna hear some more？Absolutely！
 
-> We're just talkin' about the future
-> Forget about the past
-> It'll always be with us
-> It's never gonna die, never gonna die
+{{< verse >}}
+We're just talkin' about the future
+Forget about the past
+It'll always be with us
+It's never gonna die, never gonna die
+{{< /verse >}}
 
 逝者已矣，我们要将目光投向未来。某种精神——纵使肉体化为尘土——将永远延续，始终存在。
 
-> Rock 'n' roll ain't noise pollution
-> Rock 'n' roll ain't gonna die
-> Rock 'n' roll ain't no pollution
-> Rock 'n' roll is just rock 'n' roll
-> Rock 'n' roll ain't noise pollution
-> Rock 'n' roll ain't gonna die
-> Rock 'n' roll ain't no pollution
-> Rock 'n' roll, it will survive
-> Rock 'n' roll ain't noise pollution
-> Rock 'n' roll will never die
-> Rock 'n' roll ain't no pollution
-> Rock 'n' roll
-> Ah, rock 'n' roll is just rock 'n' roll
+{{< verse >}}
+Rock 'n' roll ain't noise pollution
+Rock 'n' roll ain't gonna die
+Rock 'n' roll ain't no pollution
+Rock 'n' roll is just rock 'n' roll
+Rock 'n' roll ain't noise pollution
+Rock 'n' roll ain't gonna die
+Rock 'n' roll ain't no pollution
+Rock 'n' roll, it will survive
+Rock 'n' roll ain't noise pollution
+Rock 'n' roll will never die
+Rock 'n' roll ain't no pollution
+Rock 'n' roll
+Ah, rock 'n' roll is just rock 'n' roll
+{{< /verse >}}
 
 这是最后的副歌。我很难描述这种感觉，它就像一个宣言，一个信仰的告白。摇滚不是噪音污染，摇滚不会死去，摇滚就是摇滚。它将永远存在，永不消逝。
 

@@ -206,15 +206,19 @@ tags:
 在观景台的顶端有俩戴着牛仔帽的澳洲老夫妇，问了一下他们能不能帮我们拍照。老人很爽快地答应了。
 拍完照片，老人问，
 
-> are you here for the plane?
-> -**"Plane?"**
+{{< verse >}}
+are you here for the plane?
+-**"Plane?"**
+{{< /verse >}}
 
 话音未落，西边的天空就传来了巨响。
 
 ![飞机在拉烟](8799CD3D-4959-41DC-BC99-E1FA24196C73.JPG)
 
-> -"We didn't expect of the plane -- We came here by chance"
-> **so fucking amazing, aren't they!**
+{{< verse >}}
+-"We didn't expect of the plane -- We came here by chance"
+**so fucking amazing, aren't they!**
+{{< /verse >}}
 
 
 #### 阿迪斯角国家公园 Point Addis Marine National Park

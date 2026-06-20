@@ -1,0 +1,16 @@
+{{- /* verse: render each inner line as its own line inside a blockquote.
+        Usage:
+          {{< verse >}}
+          line one
+          line two
+          {{< /verse >}}
+        Markdown (e.g. **bold**, *italic*, links) is rendered per line.
+        A blank line produces a stanza gap. */ -}}
+{{- $lines := split (strings.TrimSpace .Inner) "\n" -}}
+<blockquote class="verse">
+{{- range $i, $line := $lines -}}
+{{- if $i }}<br>
+{{ end -}}
+{{- $.Page.RenderString (strings.TrimSpace $line) -}}
+{{- end -}}
+</blockquote>
