@@ -19,7 +19,6 @@ menu:
         params:
             icon: link
 
-comments: false
 ---
 
 Some of my friend's websites can be found below.

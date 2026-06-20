@@ -23,5 +23,7 @@ menu:
 
 请通过[telegram](https://t.me/cedar_234)或者[email](mailto:wangdi1310@gmail.com)与我联系。
 我会尽量使用我的GPG key来签名我的邮件，以确保邮件的真实性和完整性。
-我的GPG key fingerprint: `33D4 CF2D EC14 245D 34D7 5AD1 46D8 0BA7 894F 9EFB`. 你也可以在[这里](https://pgp.mit.edu/pks/lookup?op=get&fingerprint=on&search=0x46D80BA7894F9EFB)找到我的公钥。
+
+我的GPG key fingerprint是: `33D4 CF2D EC14 245D 34D7 5AD1 46D8 0BA7 894F 9EFB`. 你也可以在[这里](https://pgp.mit.edu/pks/lookup?op=get&fingerprint=on&search=0x46D80BA7894F9EFB)找到我的公钥。
+
 **Have a good time!**
