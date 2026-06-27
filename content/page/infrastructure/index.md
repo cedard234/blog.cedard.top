@@ -50,6 +50,9 @@ It hosts the following services:
 - **Navidrome**: [navidrome.renko.cedard.top](https://navidrome.renko.cedard.top)
 - **Spliit**: [spliit.renko.cedard.top](https://spliit.renko.cedard.top)
 - **Telegram bot**: "cedar_the_misleading" (@cedar_234_bot)
+- I host the following two internet radio stations. 
+  - **Cedar's Classical**: [My own taste of classical music](https://radio.renko.cedard.top/classical)
+  - **[凋叶棕](https://en.touhouwiki.net/wiki/%E5%87%8B%E5%8F%B6%E6%A3%95)**: from my fav musician RD-Sound and vocalist [めらみぽっぷ](https://remywiki.com/Meramipop), [all album touhou music](https://radio.renko.cedard.top/touhou)
 
 All services are monitored via [UptimeRobot](https://status.cedard.top/).
 
