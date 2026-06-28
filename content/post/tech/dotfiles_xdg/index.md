@@ -41,7 +41,7 @@ alias dot='git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 dot config status.showUntrackedFiles no
 ```
 
-最后一行是让`config status`不显示家目录下所有未被追踪的文件，否则输出会非常嘈杂。之后把这个alias加到你的`.zshrc`或者`.bashrc`里，就可以像普通git一样管理dotfiles了：
+最后一行是让`dot status`不显示家目录下所有未被追踪的文件，否则输出会非常嘈杂。之后把这个alias加到你的`.zshrc`或者`.bashrc`里，就可以像普通git一样管理dotfiles了：
 
 ```bash
 dot add ~/.vimrc
