@@ -1,5 +1,5 @@
 ---
-title: "Boston"
+title: "波士顿"
 date: 2026-07-04T01:49:46-04:00
 image: boston_silhouette.png
 description: Boston, the city of liberty
