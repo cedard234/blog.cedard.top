@@ -8,7 +8,7 @@ categories:
 tags:
     - travel
     - lifestyle
-draft: true
+draft: false
 ---
 
 我对波士顿这座城市有一个很刻板的第一印象，作为美国革命的发源地以及诸多著名学府的大本营，以及Gilbert Strang在他的著名线性代数课里的评论：
@@ -44,3 +44,11 @@ draft: true
 ![welcome to MA!](IMG_9325.jpeg)
 
 出机场之后一股我难以想象的热浪扑面而来，简直要昏过去。打上车的时候已经是刚好过十二点了，一路狂奔到C老师家里，发现是一套老式Apartment，也没有空调，所幸客厅的风扇还能用。和C老师稍微聊了一小会之后我就洗洗睡了。
+
+当晚我彻夜难眠。大概翻来覆去整整三个小时，汗水浸透整个床单，并且吃了5毫克褪黑素的我依然无法进入睡眠，躺在床上徒劳尝试的时候我想起白天拿破仑与士兵们从阿克城通过西奈半岛撤军的残酷情景：
+
+> The march through the desert back to Cairo, featuring terrible thirst in the scorching heat – Napoleon reported 47ºC temperatures – was a desperately low point, with incidents of amputee officers being thrown off their stretchers though they had paid men to carry them. An eyewitness noted how such utter demoralization was ‘destroying all generous sentiments’. Although they didn’t know it, the water table is fairly close to the surface along the coastal route they marched, and if they had only dug a few yards down they would have found water along almost its entirety. ‘Bonaparte rode his dromedary, which forced our horses to adopt a tiring pace,’ recalled Doguereau. This was because, as Napoleon reported to the Directory, ‘eleven leagues [29 miles] had to be covered per day to get to the wells where there was a little hot, sulphurous salty water, which was drunk with more eagerness than a good bottle of champagne in a restaurant’. According to a letter intercepted and published by the British, another soldier recounted: ‘Discontent is general … Soldiers have been seen to kill themselves in presence of the general-in-chief, exclaiming “This is your work!” ’
+
+五点半的时候天亮了，我决定结束掉这个痛苦的睡眠尝试，爬起来通过bookin定了一个新的酒店。不幸的是，难耐的高温成为了这座城市留给我的第一印象。
+
+![](image-1.png)
