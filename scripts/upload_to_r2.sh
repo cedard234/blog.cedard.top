@@ -14,6 +14,8 @@ rclone copy "$REPO_ROOT/content/post" "r2:$BUCKET/post" \
   --include "*.gif" --include "*.GIF" \
   --include "*.webp" --include "*.WEBP" \
   --include "*.bmp" --include "*.BMP" \
+  --include "*.mov" --include "*.MOV" \
+  --include "*.mp4" --include "*.MP4" \
   --transfers 16 \
   --checkers 16 \
   --progress
