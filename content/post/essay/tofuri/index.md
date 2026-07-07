@@ -2,7 +2,7 @@
 title: 屠（ほふり）
 slug: tofuri
 date: 2021-11-17 23:39:48+0800
-image: cover.jpg
+image: https://images.blog.cedard.top/post/essay/tofuri/cover.jpg
 categories:
     - essay
 tags:

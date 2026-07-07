@@ -3,7 +3,7 @@ title: "Hello World"
 description: 'error: “hello world” is not defined'
 slug: hello-world
 date: 2021-01-30 00:00:00+0000
-image: helloworld.png
+image: https://images.blog.cedard.top/post/hello-world/helloworld.png
 categories:
     - helloworld
 ---

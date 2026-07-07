@@ -29,7 +29,7 @@ tags:
 
 $$s \rightarrow \frac{s}{\omega_0} \quad \therefore \quad H(s) \rightarrow H\left(\frac{s}{\omega_0}\right)$$
 
-![](math20250723214628.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-6/math20250723214628.png)
 
 使用缩放操作，我们有以下关系：
 
@@ -78,7 +78,7 @@ $$f(\omega) \propto \frac{(\omega + 1)(\omega - 1)}{\omega} = \frac{\omega^2 - 1
 
 注意到这只是一个成正比的关系，因为我们并不知道转换函数是否有其他的因子。
 
-![](math20250723220606.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-6/math20250723220606.png)
 
 ### 高通滤波器的变换
 
@@ -94,7 +94,7 @@ $$f(\omega) \propto \frac{1}{\omega}$$
 
 再次注意到这只是一个成正比的关系，因为我们并不知道转换函数是否有其他的因子。
 
-![](math20250723221048.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-6/math20250723221048.png)
 
 ### 带阻滤波器的变换
 
@@ -109,7 +109,7 @@ $$f(\omega) \propto \frac{\omega}{(\omega + 1)(\omega - 1)} = \frac{\omega}{\ome
 
 我们需要做最后一次提示，注意到这只是一个成正比的关系，因为我们并不知道转换函数是否有其他的因子。
 
-![](math20250723221208.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-6/math20250723221208.png)
 
 ## 可实现性条件
 

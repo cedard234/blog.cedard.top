@@ -45,7 +45,7 @@ There are a few basic types of inputs that we use to kickstart the system. Here 
 ### Unity Feedback System
 We call the following system a **Unity-Feedback System**, if the feedback path has a gain of 1.
 
-![](math20260430222208.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-1/math20260430222208.png)
 
 ## System Types
 
@@ -115,7 +115,7 @@ Now if we take the original system we discussed last time when we added a capaci
 
 Here is the further question: what if the input is of type 2? Based off our discussion just now, we might just want to add another integrator so as to further increase the system type, like below:
 
-![type2_system](mathtype2_system.png)
+![type2_system](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-1/mathtype2_system.png)
 
 This makes plausible sense; however this system will unfortunately fail. Why? Let's try to simplify the system by assuming $g_m = 1$ and $C=1$. If we perturb our system by a step input, according to our discussion above, the system should be able to track it without problem. First, the open loop gain is given by:
 $$
@@ -137,7 +137,7 @@ The reason is that by introducing another pole, we introduced 90 degrees more in
 
 The fix is to introduce **damping** to either of the integrator to produce a zero in the forward gain, thus making the phase margin positive. 
 
-![type2_system_with_damping](mathtype2_system_with_damping.png)
+![type2_system_with_damping](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-1/mathtype2_system_with_damping.png)
 
 The derivation is left to our audience if you would like to give it a try.
 

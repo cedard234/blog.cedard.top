@@ -124,7 +124,7 @@ If we operate a link, whether it will yield an error depends on whether the rand
 
 A quick note is that an open loop oscillator's jitter sequence is not a stationary process; it's a random walk. Meaning if we observe long enough, the oscillator's phase deviation will grow unbounded. In the time domain, the jitter is just the instantaneous standard deviation, which grows over time.
 
-![Jitter Accumulation](math20260413221200.png)
+![Jitter Accumulation](https://images.blog.cedard.top/post/profession/integrated_circuits/poisson-process/math20260413221200.png)
 
 Now, if we observe 10 such samples, each of them has independent success probability of $99.6\%$, it shouldn't be hard to see that the probability of all 10 samples being successful is $(0.996)^{10}$. The probability of having 1 error will be if one of them is having an error, and all others are successful. To extend this result, the error profile should follow a binomial distribution:
 

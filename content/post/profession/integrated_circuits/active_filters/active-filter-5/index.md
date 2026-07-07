@@ -56,7 +56,7 @@ $$Z_{in}(s) = sL_1 + \cfrac{1}{sC_1 + \cfrac{1}{sL_3 + \cfrac{1}{\ddots}}}$$
 
 并联谐振回路的结构如下：
 
-![](math20250723205716.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-5/math20250723205716.png)
 
 对于并联谐振回路，其输入阻抗为：
 
@@ -80,7 +80,7 @@ $$Z_{in}(j\omega) = j\omega L + \frac{1}{j\omega C} = -j\frac{1 - \omega^2 LC}{\
 
 让我们尝试实现一个三阶第二类切比雪夫滤波器，使用如下电路结构：
 
-![](math20250723210641.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-5/math20250723210641.png)
 
 #### 输入阻抗函数
 

@@ -29,7 +29,7 @@ tags:
 
 切比雪夫滤波器的典型幅度响应如下图所示：
 
-![](math20250712230644.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-2/math20250712230644.png)
 
 我们引入参数$\epsilon$来控制通带内的纹波幅度。定义滤波器的幅度平方响应为：
 
@@ -37,7 +37,7 @@ $$|H(j\omega)|^2 = \frac{1}{D(\omega^2)} = \frac{1}{1 + \epsilon^2 F_1(\omega^2)
 
 其中$F_1(\omega^2)$的理想特性函数应具有如下形式：
 
-![](math20250712233123.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-2/math20250712233123.png)
 
 ### 切比雪夫多项式的数学推导
 
@@ -152,7 +152,7 @@ $$T_4(0) = \cos(4\cos^{-1}(0)) = \cos(4 \times \frac{\pi}{2}) = \cos(2\pi) = 1$$
 
 这导致偶数阶切比雪夫滤波器在直流处的幅度响应不为1，而是$\frac{1}{\sqrt{1 + \epsilon^2}}$，如下图所示：
 
-![](math20250713100146.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-2/math20250713100146.png)
 
 ### 通带极值点的分布
 
@@ -180,7 +180,7 @@ $$\omega = \cos\left(\frac{2m\pi}{n}\right), \quad m = 0, 1, \ldots, n - 1$$
 
 通过允许一定的纹波，切比雪夫滤波器能够在通带内实现更陡峭的滚降特性。纹波越大，阻带衰减也越大：
 
-![](math20250713100845.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-2/math20250713100845.png)
 
 **特殊情况**：当$\epsilon = 0$时，切比雪夫滤波器退化为巴特沃斯滤波器。
 
@@ -246,6 +246,6 @@ $$\frac{\sigma_0^2}{\sinh^2\left(\frac{1}{n}\sinh^{-1}\frac{1}{\epsilon}\right)}
 
 以下是5阶切比雪夫滤波器的极点分布示意图（$\epsilon = 0.1$）：
 
-![](math20250713110142.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-2/math20250713110142.png)
 
 在下一篇中，我们将讨论切比雪夫滤波器的变种，即**第二类切比雪夫滤波器**，也被称为**反切比雪夫滤波器**。

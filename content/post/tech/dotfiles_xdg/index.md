@@ -1,7 +1,7 @@
 ---
 title: "Macbook Air M5, and Dotfiles"
 date: 2026-06-27T16:46:14-07:00
-image: macbook_upgrade.jpeg
+image: https://images.blog.cedard.top/post/tech/dotfiles_xdg/macbook_upgrade.jpeg
 description: Farewell, my friend
 categories:
     - tech
@@ -12,7 +12,7 @@ tags:
 
 我的第一台笔记本电脑是2018年买的Surface Book 2，年少的我并没有想到这台笔记本是纯粹的电子垃圾，无法满足我的任何办公需求。一言以蔽之，SB2发热严重，不轻便，算力也很一般。他的唯一所谓亮点就是可以拆卸成一台平板加一个键盘，但是这个所谓功能其实也相当鸡肋。我学了这么久ASIC，我逐渐意识到各类东西各司其职其实就是最好的，人也是差不多的，让一个人同时干好多件事情的结果就是没一件事情能够干得好。这台SB2甚至无法完全盖上，简直是纯粹的电子垃圾。给没有见过SB2的读者感受一下什么叫做真正的SB：
 
-![Surface Book 2 Model](SB2.png)
+![Surface Book 2 Model](https://images.blog.cedard.top/post/tech/dotfiles_xdg/SB2.png)
 
 因为那个铰链很大， 所以屏幕和键盘无法完全咬合。
 

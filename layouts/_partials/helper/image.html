@@ -1,0 +1,32 @@
+{{ $result := dict }}
+
+{{ if .Image }}
+    {{ $url := urls.Parse .Image }}
+    {{ $permalink := .Image }}
+
+    {{ $result = dict
+        "Resource" nil
+        "Permalink" $permalink
+        "Height" nil
+        "Width" nil
+    }}
+
+    {{ if not (in (slice "https" "http") $url.Scheme) }}
+        {{/* Local image — resolve as page resource */}}
+        {{ $resource := .Resources.Get (printf "%s" (.Image | safeURL)) }}
+        {{ if $resource }}
+            {{ if and .Context.Site.Params.imageProcessing.autoOrient (reflect.IsImageResourceProcessable $resource) }}
+                {{ $resource = $resource | images.Filter images.AutoOrient }}
+            {{ end }}
+            {{ $result = dict
+                "Resource" $resource
+                "Permalink" $resource.RelPermalink
+                "Height" (cond (reflect.IsImageResourceWithMeta $resource) $resource.Height nil)
+                "Width"  (cond (reflect.IsImageResourceWithMeta $resource) $resource.Width nil)
+            }}
+        {{ end }}
+    {{ end }}
+    {{/* Remote images: skip fetch, serve URL as-is */}}
+{{ end }}
+
+{{ return $result }}

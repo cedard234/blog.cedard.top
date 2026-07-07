@@ -2,7 +2,7 @@
 title: "漫谈'历史'与'历史学'"
 slug: history-and-historiography
 date: 2021-12-10 00:36:27+0800
-image: cover.png
+image: https://images.blog.cedard.top/post/essay/history-and-historiography/cover.png
 categories:
     - essay
 tags:
@@ -66,7 +66,7 @@ tags:
 
 在我上高一的时候，我的班主任便是历史老师。她在第一节课上讲，"history"这个词，就是"his story"。他人的故事，引发我们的深思。她在讲完这个之后，给我们推荐了另外一本书：
 
-![](book-collapse.jpg)
+![](https://images.blog.cedard.top/post/essay/history-and-historiography/book-collapse.jpg)
 
 茅海建老师的《天朝的崩溃》。惭愧，高中时候我一直没有看这本书，直到上了大学那一年抽空看了这本，犹如醍醐灌顶。
 

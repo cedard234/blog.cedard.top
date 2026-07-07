@@ -97,7 +97,7 @@ The **Tangent Vector** is a vector in tangent space.
 
 We denote the relationship of manifold, tangent space and tangent vector like below:
 
-![](math20260613170104.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/feedback_linearization/feedback-linearization-2/math20260613170104.png)
 
 #### Vector Field
 
@@ -174,7 +174,7 @@ Suppose $f_1, f_2, \ldots, f_n$ are vector fields, the **Distribution** is defin
 $$ \Delta (x) = \text{span}\{f_1(x), f_2(x), \ldots, f_n(x)\} $$
 whereas at each specific point $x$, $\Delta(x)$ represents the subspace of the tangent space $T_xM$.
 
-![](math20260613172713.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/feedback_linearization/feedback-linearization-2/math20260613172713.png)
 
 - $\Delta$ is **non-singular** distribution if $\text{dim}(\Delta(x))$ is a constant $\forall x$.
 - $\Delta$ is **involutive** if 

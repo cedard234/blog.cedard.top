@@ -20,7 +20,7 @@ tags:
 ## 理查变换 (The Richard's Transformation) 
 
 假如说我们想要把一个低通滤波器变成一个带通滤波器，但是这个带通滤波器要有周期性响应，如下图：
-![](math20250825223308.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-9/math20250825223308.png)
 
 在图中，我们将原本带宽为1 rad/s的低通滤波器变换为中心频率为π，2π...以及π的整数倍的带通滤波器。我们该如何实现这种滤波器？
 
@@ -40,7 +40,7 @@ f(\omega) &= \frac{l \omega (\omega^2 - \pi^2)(\omega^2 - (2\pi)^2)\ldots}{(\ome
 \end{aligned} $$
 
 实际上，如果我们绘制分子这个无限乘积，它看起来就像：
-![](math20250825232402.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-9/math20250825232402.png)
 
 事实上，[欧拉告诉我们](https://en.wikipedia.org/wiki/Sinc_function#:~:text=The%20normalized%20sinc%20function%20has%20a%20simple%20representation%20as%20the%20infinite%20product%3A)这两个无限乘积都是三角函数：
 
@@ -71,7 +71,7 @@ $$ s \rightarrow \frac{\tanh \frac{s\pi}{\omega_{0}}}{\tan \omega_{\text{bw}}} $
 这个电路就是我们熟知的传输线，如果读者对射频电路有所了解的话。
 一个传输线由两个平行导体和一个介质组成，信号在传输线中传播时，会在导体之间形成电场和磁场，从而实现信号的传输。传输线的特性阻抗与其几何结构和介质材料有关。波方程告诉我们，传输线需要满足电报员方程，而要满足电报员方程，我们只需要令正向传播的电压与电流和反向传播的电压与电流满足如下关系：
 
-![](math20250826083432.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-9/math20250826083432.png)
 
 $$ 
 \begin{cases}
@@ -84,7 +84,7 @@ $$
 要描述一段传输线，除了传输线的特性阻抗之外，我们还需要这段传输线的时间差（time delay），这段时间差告诉我们电磁波从传输线的一端发射到另一端所需的时间，通常记为$\tau$。
 现在，假如我们在某个点满足传输线方程，我们把考虑的点左移动时间$\tau$，那么正向传播的时间将会被提前$\tau$，反向传播的时间将会被延后$\tau$，但是传输线方程依然需要成立：
 
-![](math20250826083929.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-9/math20250826083929.png)
 
 $$ \begin{aligned}
 V^+ &\rightarrow V^+e^{s\tau_1} \\

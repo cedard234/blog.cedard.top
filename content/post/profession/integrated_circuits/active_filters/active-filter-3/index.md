@@ -23,7 +23,7 @@ tags:
 
 第二类切比雪夫滤波器，也被称为**反切比雪夫滤波器(Inverse Chebyshev Filter)** ，是切比雪夫滤波器的一个变种。它的幅度响应如下：
 
-![](math20250713125226.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-3/math20250713125226.png)
 
 可以看到，第二类切比雪夫滤波器在阻带内引入了纹波。第二类切比雪夫滤波器相比切比雪夫滤波器而言，有了一个本质上的区别：由于阻带内的纹波，我们需要在阻带内引入零点。也就是说，第二类切比雪夫滤波器的传递函数不再是一个全极点滤波器。我们将在后面的章节中看到，这个区别将导致第二类切比雪夫滤波器在电路实现上有显著区别。
 
@@ -44,7 +44,7 @@ $$|H(j\omega)|^2 = \frac{1}{1 + \frac{1}{\epsilon^2} F(\omega^2)}$$
 
 $F$函数应该长得像这样：
 
-![](math20250713130459.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-3/math20250713130459.png)
 
 可以发现，如果经过x轴和y轴的反函数变换，$F$函数可以直接用切比雪夫多项式来表示：
 
@@ -195,7 +195,7 @@ $$\begin{aligned}
 - **椭圆函数滤波器**：适用于对滚降速度要求极高，可以容忍通带和阻带纹波的应用
 
 下图展示了四种滤波器的典型幅度响应：
-![](math20250713134719.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-3/math20250713134719.png)
 
 ## 8. 常用的切比雪夫多项式表
 

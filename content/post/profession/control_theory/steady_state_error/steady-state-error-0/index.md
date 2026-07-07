@@ -19,7 +19,7 @@ I started to have the very first question regarding "steady-state error" when I 
 
 I was very confused back then. Out from all the 3 properties, the most counterintuitive one was the "infinite gain" property. I can still understand the engineering approximation of infinite input impedance due to CMOS nature, and 0 output impedance if you treat the output as a current source, but infinite gain doesn't make any sense. For the next few classes, I learned that infinite gain of the OpAmp allows feedback structure to kick in, so that it can provide a gain per the feedback impedance structure.
 
-![unit buffer made from an ideal OpAmp](mathideal_opamp.png)
+![unit buffer made from an ideal OpAmp](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/mathideal_opamp.png)
 
 However, I feel that something is off here but I can't quite put my finger on it. I didn't quite get the correct terminology until I turned into a junior when I was taking EE3019: Integrated Electronics when we were introduced feedback in a more well-defined way, and I become aware that there is a term called "steady-state error" that defines the difference between the desired settling value versus the actual settled value. I feel like, yes, this is the correct word I've been looking for.
 
@@ -32,7 +32,7 @@ I wasn't 100% clear on this matter until I took MEC237: linear control where I w
 Let's go back and give the problem intuition. Suppose we have an OpAmp, and we would like to use it as a voltage follower, so we configure it like it's a unit buffer:
 
 
-![ideal_opamp](mathideal_opamp.png)
+![ideal_opamp](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/mathideal_opamp.png)
 
 Elementary analog circuit professor will tell you that because an ideal OpAmp has infinite gain, and it will always make sure both inputs are equal to each other. 
 **WRONG**. 
@@ -43,7 +43,7 @@ There are at least two very hand-wavy explanation here:
 In reality, the OpAmp's gain depends on the transconductance gain $g_m$ and the loading impedance $R$, and we define our open loop gain to be
 $$ A = g_m R$$
 
-![real_OTA](mathreal_OTA.png)
+![real_OTA](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/mathreal_OTA.png)
 
 For the OpAmp connected in the abovementioned way, the small signal relationship between the input and output is given by:
 
@@ -93,7 +93,7 @@ Now, the question becomes if we are able to reduce this error at all.
 
 The fix is surprisingly simple. We replace the resistor with a pure capacitor:
 
-![gmC_integrator](mathgmC_integrator.png)
+![gmC_integrator](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/mathgmC_integrator.png)
 
 Let's do a time-domain calculation here first. Let's assume the output current of the $g_m$ cell is defined as $i$, then we have the relationship between $V_{out}$ and $i$:
 
@@ -109,7 +109,7 @@ This ODE is not too hard to solve by hand. Assume a 0 initial condition on $V_{o
 $$
 V_{out} = V_{in} (1 - e^{-\frac{g_m t}{C}})
 $$
-![step response](math20260416232959.png)
+![step response](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/math20260416232959.png)
 
 The assumption that we had initial condition 0 is equivalent to say that, if we provide a step response at the input, the output looks like an exponential decay curve that gradually goes to the input voltage. If we let $t \to \infty$, then we can easily see that
 $$
@@ -150,7 +150,7 @@ $$
 
 As $t \to \infty$, unfortunately the error doesn't die out, which would be what we have seen for a step response case. We show the plotting here as well:
 
-![ramp response](math20260416234125.png)
+![ramp response](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-0/math20260416234125.png)
 
 In fact, we will see in later parts of this series, step input is called a "type-0" input, and ramp input is called a "type-1" input. The original R-loaded OpAmp is called a "type-0" system, and the C-loaded improved OpAmp is called a "type-1" system.
 

@@ -2,7 +2,7 @@
 title: "Rock and Roll Ain't Noise Pollution"
 slug: rock-and-roll
 date: 2025-07-22T22:50:43+08:00
-image: math20250722225320.png
+image: https://images.blog.cedard.top/post/essay/rock-and-roll/math20250722225320.png
 description: "It's never gonna die, never gonna die"
 categories:
     - essay

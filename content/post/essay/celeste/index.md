@@ -3,7 +3,7 @@ title: "“蔚蓝”的山"
 description: celeste
 slug: celeste
 date: 2021-02-01 20:05:35+0800
-image: cover.jpg
+image: https://images.blog.cedard.top/post/essay/celeste/cover.jpg
 categories:
     - essay
 tags:

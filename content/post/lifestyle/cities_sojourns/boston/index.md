@@ -1,7 +1,7 @@
 ---
 title: "波士顿"
 date: 2026-07-04T01:49:46-04:00
-image: boston_silhouette.png
+image: https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/boston_silhouette.png
 description: Boston, the city of liberty
 categories:
     - 城市驿站
@@ -23,13 +23,13 @@ draft: false
 
 因为C老板并没有多余的床给我睡，所以我把我的气垫床带上了，使用了比较大一点的行李箱。Southwest作为著名廉航，我显然需要购买多余行李，单程45刀，比起波士顿的住宿还是很划算的。登记前后我一直在看读了很久的，Andrew Roberts写的 *Napoleon: A life*， 就是这本：
 
-![Napoleon](napoleon.jpeg)
+![Napoleon](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/napoleon.jpeg)
 
 没有其他干扰的情况下我读的很快，大概从阿克城战役读到雾月政变，然后读到马伦哥战役，以及拿破仑法典。
 
 中午的时候我到了圣地亚哥，一个阳光明媚的城市：
 
-![](santiego.jpeg)
+![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/santiego.jpeg)
 
 第二程航班从两点开始起飞，我几乎没有时间吃午饭，后来证明这是一个巨大的错误，因为SW飞机上并没有餐食，所以我大概一直从早上八点之后就没有好好吃过东西。
 
@@ -37,11 +37,11 @@ draft: false
 
 大概晚上十一点的时候（波士顿离旧金山有3小时时差），我着陆了：
 
-![Welcome to Boston!](IMG_9323.jpeg)
+![Welcome to Boston!](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9323.jpeg)
 
 我的行李大概等了半个小时才出来，我都以为行李直挂出了问题，还特地去找了员工，所幸没有大碍。
 
-![welcome to MA!](IMG_9325.jpeg)
+![welcome to MA!](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9325.jpeg)
 
 出机场之后一股我难以想象的热浪扑面而来，简直要昏过去。打上车的时候已经是刚好过十二点了，一路狂奔到C老师家里，发现是一套老式Apartment，也没有空调，所幸客厅的风扇还能用。和C老师稍微聊了一小会之后我就洗洗睡了。
 
@@ -51,4 +51,7 @@ draft: false
 
 五点半的时候天亮了，我决定结束掉这个痛苦的睡眠尝试，爬起来通过bookin定了一个新的酒店。不幸的是，难耐的高温成为了这座城市留给我的第一印象。
 
-![](image-1.png)
+![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/image-1.png)
+
+## July 4th, Independence Day
+

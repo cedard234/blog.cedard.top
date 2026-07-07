@@ -195,7 +195,7 @@ $$D(s) = (s - s_1)(s - s_2) = s^2 + \sqrt{2}s + 1$$
 
 从极点分布可以看出，巴特沃斯滤波器的极点均匀分布在单位圆上，且仅选择左半平面的极点以确保系统稳定性。这种均匀分布是巴特沃斯滤波器具有最大平坦特性的根本原因。
 
-![极点分布](math20250712225817.png)
+![极点分布](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-1/math20250712225817.png)
 
 ### 常用的巴特沃斯滤波器多项式表
 
@@ -211,6 +211,6 @@ $$D(s) = (s - s_1)(s - s_2) = s^2 + \sqrt{2}s + 1$$
 
 ### 巴特沃斯滤波器的Bode Plot
 
-![Bode Plot](math20250712224937.png)
+![Bode Plot](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-1/math20250712224937.png)
 
 ---

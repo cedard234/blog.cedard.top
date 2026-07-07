@@ -3,7 +3,7 @@ title: "庚子备忘录"
 description: Nostalgic...
 slug: gengzi-memorandum
 date: 2021-02-12 10:17:57+0800
-image: cover.jpg
+image: https://images.blog.cedard.top/post/essay/gengzi-memorandum/cover.jpg
 categories:
     - essay
 tags:

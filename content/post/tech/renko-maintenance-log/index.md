@@ -2,7 +2,7 @@
 title: Renko Maintenance Log - Apr 18-19th 2026
 slug: renko-maintenance-log
 date: 2026-04-20T22:30:41+08:00
-image: math20260420233237.png
+image: https://images.blog.cedard.top/post/tech/renko-maintenance-log/math20260420233237.png
 description: yet another NAS maintenance log after one full year of idling
 categories:
     - tech
@@ -38,7 +38,7 @@ I still remember that it was back in late 2024 that I purchased all the parts fo
 
 It was funny when thinking about the motherboard supermicro X11SSH-F. All of its video outputs are essentially broken -- HDMI, VGA, etc. I don't know how to use serial ports. It was quite a bargain that I bought from 咸鱼 (basically the Chinese fb marketplace) for ¥200, whereas the listed price on Amazon was like:
 
-![Wow, thank you Amazon](math20260420224403.png)
+![Wow, thank you Amazon](https://images.blog.cedard.top/post/tech/renko-maintenance-log/math20260420224403.png)
 
 It was funny because the previous owner had no idea what the IPMI IP address was -- it was hard coded in BIOS; however, without video output, I wasn't able to reset the IP address, nor could I install a new OS. I spent a night writing a script on my openwrt router to try changing the subnet and pinging potential addresses, assuming it began with 192.168. I didn't manage to find one until the next day, when the owner messaged me saying that he recalled it was under 192.168.254.xxx, and I realized the IPMI was actually at 192.168.254.1. When I opened up IPMI, I saw the BIOS startup screen as "比特币挖矿系统" (BTC mining system) and I finally understood why it was so damn cheap. That was back when BTC mining was still pretty popular.
 
@@ -50,7 +50,7 @@ Fedora 40 was EOL like a year ago; therefore, upgrading the system was the first
 
 Given I had to reboot the system anyway, I realized that all 4 DDR RAMs were running at 2133 instead of their rated speed of 2400. So I went into the BIOS settings to try to manually set the RAM speed to 2400.
 
-![](math20260420225356.png)
+![](https://images.blog.cedard.top/post/tech/renko-maintenance-log/math20260420225356.png)
 
 However, I think it's pretty much a limitation of the motherboard not being able to support XMP; the E3-1280 V5 skylake CPU also blindly ties the memory bandwidth to 2133 (lame!), so setting the maximum frequency was the best thing I could do.
 

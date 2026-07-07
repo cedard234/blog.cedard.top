@@ -35,7 +35,7 @@ $$P = \frac{V^2}{4R}$$
 
 滤波器的建立和匹配网络十分相似。我们把下面的电路称为**双端LC滤波器(Doubly-Terminated LC Filter)** ，也被称为**双端LC标准型(Doubly-Terminated LC Canonical Form)** ，或者**双端LC梯形网络(Doubly-Terminated LC Ladder)** 。它的基本结构如下：
 
-![](math20250713181555.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-4/math20250713181555.png)
 
 使用双端LC滤波器的标准形式，我们可以实现任何全极点滤波器。需要注意的是，感抗元件的数量对应于滤波器的极点数量——对于全极点滤波器而言，这就是系统的阶数。
 
@@ -127,7 +127,7 @@ $$Z_{in}(s) = \frac{2s^3 + 2s^2 + 2s + 1}{2s^2 + 2s + 1}$$
 
 现在让我们来思考一个问题。以下的两个网络都是三阶标准型，我们应该选择哪一个来实现我们的滤波器？
 
-![](math20250713191605.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-4/math20250713191605.png)
 
 答案应该是左边的网络，因为当频率趋近于无穷大时，我们希望阻抗趋近于无穷大，而只有左边的网络才能满足这个条件。右边的网络在高频时的阻抗趋近于0，这会导致信号被短路。
 

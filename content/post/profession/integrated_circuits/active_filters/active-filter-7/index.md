@@ -31,7 +31,7 @@ tags:
 1. 电流方向：流入节点为正，流出为负。
 2. 电压极性：高电位端为正，低电位端为负。
 
-![](math20250820215143.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820215143.png)
 
 首先，我们可在节点1、2、3建立KCL方程，或用矩阵形式表示：
 
@@ -97,7 +97,7 @@ $$
 
 考虑如下两个网络，A与B实现方式完全不同，A可能由电容、电感组成，B则可能包含主动源或其他元件。
 
-![](math20250820222659.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820222659.png)
 
 同样有：
 
@@ -120,7 +120,7 @@ $$\textbf{V}^T_B \textbf{I}^* = \sum_k v_{bk} i_k^* = 0 $$
 
 考虑一个仅由LC元件组成的无损耗网络：
 
-![](math20250820223215.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820223215.png)
 
 由能量守恒，有：
 
@@ -161,15 +161,15 @@ $$
 
 若引入带有相位的**留数（Residue）**，则分界线会随留数相位旋转。例如，绘制 $\frac{\angle 45^{\circ}}{s}$ 的实部分布：
 
-![](math20250820231112.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820231112.png)
 
 若极点为重复极点，如 $\frac{1}{s^2}$，其实部分布如下：
 
-![](math20250820231317.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820231317.png)
 
 而我们期望的函数实部行为应如下图所示：
 
-![](math20250820231459.png)
+![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-7/math20250820231459.png)
 
 因此，为使函数实部符合预期，需满足以下条件：
 

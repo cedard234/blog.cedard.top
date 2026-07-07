@@ -23,7 +23,7 @@ Assumptions:
 - You don't have to solve for DC, all small signal parameters are given. Don't assume unspecified parameters, for example $r_o$, $C_g$, etc.
 - The circuit is linear.
 
-![Weird Circuit](mathweird_circuit_re.png)
+![Weird Circuit](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/mathweird_circuit_re.png)
 
 OK this circuit does look a bit intimidating. For entry-level analog circuit class takers, they might take out pencil to work through the analysis, but it's super tedious, time consuming and error-prone. 
 
@@ -33,7 +33,7 @@ Look at the circuit, what is the main reason that makes analysis difficult? Feed
 
 Samuel Jefferson Mason was born in 1921. As a distinguished electronics engineer, his most famous scientific contributions are Mason's invariant and Mason's rule, or Mason's gain formula, both named after him.
 
-![Samuel Jefferson Mason](math20260423004040.png)
+![Samuel Jefferson Mason](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260423004040.png)
 
 Mason's gain formula is used to find the transfer function of a closed-loop system. A closed loop system doesn't need to contain only one loop; it could contain multiple loops, and they can even interact with each other. Conventional algebraic way to find the transfer function usually requires solving complex simultaneous systems, but Mason's gain formula provides an easy way to find it.
 
@@ -47,7 +47,7 @@ A Signal Flow Graph (SFG) is a graphical representation of a system. As the name
 - **Input/Output**: Input / Output nodes are special nodes where we use to denote the transfer function's departure and arrival points.
 - **Addition**: Two signals could be added together, given SFG is targeting linear systems.
 
-![Examples from Wikipedia](math20260424174736.png)
+![Examples from Wikipedia](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260424174736.png)
 
 Now, with these simple definitions, we are able to construct more complex notations + structures:
 - **Path**: a path is a sequence of branches that connect nodes in the graph, such that no node is visited more than once.
@@ -58,7 +58,7 @@ Now, with these simple definitions, we are able to construct more complex notati
 
 #### Example: Type 2 PLL
 Shown below is a type-2 PLL: 
-![SFG_type2PLL](mathSFG_type2PLL.png)
+![SFG_type2PLL](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/mathSFG_type2PLL.png)
 
 We are able to see 5 paths here and a simple loop. We defined 4 nodes, with 1 input node and 1 output node.
 
@@ -84,7 +84,7 @@ Mason's Gain Formula states the following:
 
 ### A Type 2 Charge Pump PLL
 Let's take the type-2 PLL system shown above for example.
-![SFG_type2PLL](mathSFG_type2PLL.png)
+![SFG_type2PLL](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/mathSFG_type2PLL.png)
 In this example, there is 1 single loop, and only 1 forward path from input to output. Therefore, $N=1$, and:
 
 $$\begin{align}
@@ -106,7 +106,7 @@ We realize that the loop gain is large when frequency is low, the loop gain domi
 ### A Triple Integrator System
 Now, let's compute the transfer function of the SISO system below:
 
-![](math20260425005413.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260425005413.png)
 
 We notice that there are 3 loops and 3 forwarded paths. Luckily, they all touch each other, which makes our calculation very simple.
 
@@ -151,7 +151,7 @@ There are some state space models that are different from generic ones, if we ge
 
 ### Controllable Canonical Form
 
-![](math20260425010604.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260425010604.png)
 
 We already encounter the controllable canonical form in the previous example. 
 
@@ -181,7 +181,7 @@ $$
 According to Rudolf Kalman, the controllability matrix of the controllability canonical form is always going to be full rank. That's why we call it controllable canonical form.
 
 ### Observable Canonical Form
-![](math20260425012014.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260425012014.png)
 Observability, the dual of controllability, also has its canonical form. Its state space model representation is given by:
 
 $$
@@ -216,7 +216,7 @@ and the transfer function is a scalar for SISO systems, so the transpose is itse
 By the dual of Kalman's argument, the observability matrix of the observable canonical form is always full rank, which is why we call it the observable canonical form. Notice as well that, unlike the controllable form where the input coefficients $b_i$ are placed in the output matrix $C$, here they show up directly in the input matrix $B$. Each state $x_i$ accumulates a weighted contribution from $u(t)$ and feeds back through $-a_i$ to drive only the last state, which is then read out at the output. Reading the SFG above from right to left makes the structure obvious: it is the controllable canonical form with all arrows reversed.
 
 ### Diagonal Form and Jordan Form
-![](math20260425012250.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260425012250.png)
 
 The controllable and observable canonical forms are built around the coefficients of the polynomials $a_i$ and $b_i$. The Jordan form takes a different approach: instead of starting from the polynomial coefficients, we start from the *poles* of the transfer function. Performing partial fraction decomposition,
 
@@ -251,7 +251,7 @@ $$
 
 Because $A$ is diagonal, the states are completely decoupled — each $x_i$ evolves independently as $\dot{x}_i = p_i x_i + u$, and the output is just a weighted sum of these modes. This makes the Jordan form particularly useful for analysis: the eigenvalues of $A$ are read off the diagonal, so stability is immediate (all $\text{Re}(p_i) < 0$), and each mode's contribution to the output is exactly $r_i$.
 
-![](math20260425012425.png)
+![](https://images.blog.cedard.top/post/profession/control_theory/masons-gain-formula/math20260425012425.png)
 
 When poles are repeated, $A$ is no longer fully diagonalizable. For a pole $\lambda$ with multiplicity $k$, the corresponding diagonal block becomes a Jordan block:
 
