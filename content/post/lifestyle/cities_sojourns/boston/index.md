@@ -88,7 +88,7 @@ draft: false
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9346.JPEG)
 
-<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9351.mov" title="parade"></video>
+<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9351.mp4" title="parade"></video>
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9349.JPEG)
 
@@ -184,7 +184,7 @@ draft: false
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9416.JPEG)
 
-<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9417.mov" title="独立日烟花"></video>
+<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9417.mp4" title="独立日烟花"></video>
 
 ## July 5th
 
@@ -348,7 +348,7 @@ Triumpth of the Queen是我最喜欢的一幅画，这讲的是伊丽莎白，�
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9514.JPEG)
 
-<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9515.mov" title="tea"></video>
+<video controls src="https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9515.mp4" title="tea"></video>
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/boston/IMG_9517.JPEG)
 
