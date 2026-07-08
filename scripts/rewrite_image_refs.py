@@ -14,6 +14,7 @@ CONTENT_DIR = os.path.join(REPO_ROOT, "content", "post")
 BASE_URL = "https://images.blog.cedard.top/post"
 
 IMAGE_RE = re.compile(r'!\[([^\]]*)\]\((?!https?://)([^)]+)\)')
+VIDEO_RE = re.compile(r'(<video\b[^>]*\bsrc=")(?!https?://)([^"]+)(")')
 FRONTMATTER_RE = re.compile(r'^(image:\s*)(?!https?://)(.+)$', re.MULTILINE)
 
 changed_files = []
@@ -45,6 +46,12 @@ for root, dirs, files in os.walk(CONTENT_DIR):
             return f'{m.group(1)}{r2_prefix}/{val}'
 
         updated = IMAGE_RE.sub(rewrite_md, original)
+        def rewrite_video(m):
+            src = m.group(2)
+            if src.lower().endswith('.mov'):
+                src = src[:-4] + '.mp4'
+            return f'{m.group(1)}{r2_prefix}/{src}{m.group(3)}'
+        updated = VIDEO_RE.sub(rewrite_video, updated)
         updated = FRONTMATTER_RE.sub(rewrite_fm, updated)
 
         if updated != original:
