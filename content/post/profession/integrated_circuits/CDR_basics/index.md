@@ -88,7 +88,9 @@ It's worth to note that if the PLL's output clock is **SUFFICIENTLY SLOW**, this
 
 With all these requirements, one can see that we just need a special phase detector to tell if we are "fast" or "slow". Indeed, the type of phase detector used will define how our CDR system behaves. 
 
-### Linear CDR with Hogge PD
+### Linear CDR
+
+#### Hogge PD Basics
 
 ![Hogge PD](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/image-5.png)
 
@@ -104,3 +106,36 @@ It's easy to post-process the output of the Hogge PD by simpling using a charge-
 
 As can be seen, the resulting voltage at $V_C$ will get high if the data leads the clock edge, and low if the data lags the clock edge. This voltage can then be used to control a VCO, which will generate a clock that is aligned with the incoming data stream.
 
+#### Compare Hogge PD to a PFD
+
+Now, if we plot the transfer function of the Hogge PD, it actually behaves differently from a PFD:
+
+![Hogge PD TF](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/Hogge_PD_TF.png)
+
+![PFD TF](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/PFD_TF.png)
+
+They look pretty similar within $\pm \pi$ range, however the Hogge PD falls back to below zero when the phase difference is larger than $\pi$. However for a PFD, the output will always be positive (or 0), if the phase difference is greater than 0. 
+
+Now think about the case if we have instead of a phase difference, we have a frequency difference. The former corresponds to a step response in phase(type 0), and the latter corresponds to a ramp (type 1). As we move to the right in the phase plot for the PFD, we are always seeing something positive, therefore the average value is going to be all positive. However if we do so for a Hogge PD, because of the nature of both positive and negative values, the average value will be precisely 0, which means the Hogge PD is not able to serve as a frequency detector. This will be something to keep in mind if the VCO frequency tuning range is so large that we might have a large frequency difference between the incoming data and the generated clock, causes the acquisition to fail.
+
+### CDR Loop Dynamics
+
+Use the Hogge PD to replace the PFD in a PLL, and remove the frequency divider, we can get a CDR loop that looks like:
+
+![CDR Loop](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/cdr_loop.png)
+
+Notice that the VCO is itself an integrator because the output is phase instead of frequency. One can identify the loop as a type 2 system, which can track type 1 input well, and cancel any steady-state phase offset. This is crucial because we always want to generate a clock that's, in the long run, sitted at the middle of the eye. This is however not necessarily the requirement if we were to implement a PLL, where we only care about the phase cleaness instead of whether it's 100% aligned to the input clock.
+
+With a loop that looks like above, we are now ready to perform loop analysis.
+
+![loop analysis](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/cdr_loop_analysis.png)
+
+One must be careful about the gain of the PD in this case. For the Hogge PD, although we did derive the gain as $K_{PD} = \frac{1}{2 \pi}$, this is only true if the input data is always doing transitions, or sending 01010101... pattern. In real practice, the transition density of the input will render the gain of the PD to be lower than this value.
+
+By introducing a damping resistor $R$ in the CDR loop, we ensure a positive phase margin, otherwise the double integrator system will be marginally stable. The zero created by the resistor locates at $\omega_z = \frac{1}{RC}$, and the phase margin is a function of both the loop unity gain frequency and the zero frequency:
+
+$$ \Phi_M = \tan^{-1} \left( \frac{\omega_{ugf}}{\omega_{z}} \right) $$
+
+We are also able to derive the jitter transfer bandwidth:
+
+![jitter transfer bandwidth](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/JTRAN_BW.png)
