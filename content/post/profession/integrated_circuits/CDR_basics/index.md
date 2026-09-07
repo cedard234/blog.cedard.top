@@ -139,3 +139,115 @@ $$ \Phi_M = \tan^{-1} \left( \frac{\omega_{ugf}}{\omega_{z}} \right) $$
 We are also able to derive the jitter transfer bandwidth:
 
 ![jitter transfer bandwidth](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/JTRAN_BW.png)
+
+We will discuss more about how we managed to derive $\omega_{-3dB} = K_{VCO}K_{PD}R$ in the next section.
+
+### Linear CDR Drawbacks
+
+There are a couple of drawbacks when using a linear CDR, especially when a Hogge PD is used.
+
+#### Jitter Peaking
+
+From Mason's Gain Formula, we already derived the input-output jitter transfer function of the linear CDR loop:
+
+$$ \frac{\phi_{out}}{\phi_{in}} = \frac{1 + sRC}{1 + sRC + s^2 \frac{C}{K_{VCO}K_{PD}}} $$
+
+We can easily identify the zero being:
+
+$$ \omega_z = \frac{1}{RC} $$
+
+The pole locations are unfortunately not so straightforward. Prof. Behzad Razavi has a nice derivation in his book "Design of CMOS Phase Locked Loops", chapter 8.1. It's worth noting that the derivation is based on a type 2 PLL, but it applies exactly to the CDR loop as well here.
+
+We try to use a generalized version of the type 2 loop and recognize the input-output transfer function as:
+
+$$
+H(s) = \frac{2\zeta \omega_n s + \omega_n^2}{s^2 + 2\zeta \omega_n s + \omega_n^2}
+$$
+We are therefore able to find the two poles:
+
+$$
+\omega_p = (-\zeta \pm \sqrt{\zeta^2 - 1})\omega_n$$
+
+- If $\zeta = 1$, we have critically damped system, and the two poles are at $\omega_n$.
+    - note that in this case both poles have their magnitude larger than $\omega_z = \frac{\omega_n}{2\zeta}$. 
+- If $\zeta \gg 1$, we recall the following approximation: $ \sqrt{\zeta^2 - 1} \approx \zeta - \frac{1}{2\zeta} $, using which:
+    -   $\omega_{p1} \approx (-\zeta + \zeta - \frac{1}{2\zeta})\omega_n = -\frac{\omega_n}{2\zeta} = -\omega_z$, i.e. the first pole is at the same location as the zero. 
+    - **IMPORTANT FACT: It's still slightly larger than the zero!**
+    -  $\omega_{p2} \approx (-\zeta - \zeta + \frac{1}{2\zeta})\omega_n = -2\zeta \omega_n$, i.e. the second pole is at a much higher frequency than the zero.
+
+If we were to plot the zero-pole locations on the Bode plot, we will be able to see a peaking produced by the first zero-pole pair:
+
+![Jitter Peaking](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/jitter_peaking.png)
+
+which is attributed to the inherent coupling between the two-integrator-induced stability and the feedforward zero. This doesn't seem like a big problem if we were to use CDR to receive data, but it will become a bigger problem if CDR is used as active repeaters.
+
+In order to reduce peaking, we will like to make the system much much more overdamped. This requires enlarging the damping factor $\zeta$, which can be achieved by increasing the damping capacitor $C$. This scaling quickly consumes all of our chip area:
+
+![Big C](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/big_C.png)
+
+#### JTOL and JTRAN Coupling
+
+The second problem of the linear CDR is the coupling between JTOL and JTRAN.
+
+In a word, the JTOL and JTRAN are coupled because they share the same loop. It can be derived that the jitter tracking bandwidth is :
+
+$$ \omega_{JTRAN,-3dB} = K_{VCO}K_{PD}R $$
+
+Therefore, if we want to increase jitter tolerance, we will have to increase the jitter transfer bandwidth, which allows more jitter to pass through to the output.
+
+![JTOL_JTRAN coupling](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/JTOL_JTRAN_coupling.png)
+
+#### Hogge PD non-idealities
+
+There are also some non-idealities of the Hogge PD that we need to be aware of.
+
+1. Although $D_R$ always generates a half width pulse, $D_E$ does not always generate a pulse whose width is proportional to the phase difference, but will sometimes carry an offset given the CK-Q delay exists. One is able to insert a delay buffer in the $D_{IN}$ to the first XOR gate path, but such delay is hard to guarantee under PVT variations.
+
+![Clock-Q delay](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/CKQ_delay.png)
+
+2. Data-Dependent Jitter (DDJ) is another non-ideality. Unlike the PFD case in a type-2 PLL, $D_E$ and $D_R$ are not always in sync, and the control voltage at the VCO's input will have a triangular spike when a data toggle happens.
+
+![DDJ_hogge](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/DDJ_hogge.png)
+
+### Bang-Bang CDR
+
+Therefore now we would like to ask a question if we can design a CDR that doesn't have this offset problem? The answer is yes and the solution is known as the "Bang-Bang CDR". Think about if we perform three consecutive samples of the data stream:
+
+![BBPD](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/bbpd.png)
+
+In this case S1 and S3 are the two consecutive data samples, and S2 is the edge sample in between. Think about the case if we have a data transition rendering S1 != S3, the we can use S2 to determine if the generated clock edge is more towards S1 or S3. 
+
+![BBCDR_principle](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/BBCDR_principle.png)
+
+Like what is discussed in Nicola Da Dalt's [TCAS1 paper](https://ieeexplore.ieee.org/abstract/document/1377539), the effective linearization can be achieved if the input is jittery. 
+
+### Half Rate CDR
+
+We discussed the concept of full-rate CDR so far where we use half of the transition to sample the edge crossing of the data stream, and the other half to sample the data. This is sometimes very expensive when we don't have access to advanced PDKs and we'll have to reduce the clock frequency to baud-rate instead. This is when the idea of half-rate CDR comes into play.
+
+Instead of generating a clock that's at the same frequency as the incoming data stream, we generate a clock that's DDR at the same rate as the data. With the I (in-phase) and Q (quadrature) clock, we are able to sample the data stream at both edges of the clock, and therefore we can still recover the data stream.
+
+![half-rate CDR](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/half_rate_CDR.png)
+
+It's easy to modify the full-rate CDR to a half-rate CDR using the following architecture:
+
+![half-rate CDR architecture](https://images.blog.cedard.top/post/profession/integrated_circuits/CDR_basics/half_rate_CDR_arch.png)
+
+The thing to watch out for will be that 1. the oscillator has to generate both I and Q clocks, and 2. the loop latency is now higher and we'll have to be careful about the loop stability.
+
+Other problems associated with BBPD are:
+
+1. Limit cycles, if the input is pretty clean and most jitter is from the loop nonlinearity-induced limit cycling.
+2. Loop latency induced jitter peaking and JGEN.
+
+### Digital CDR and Hybrid CDR
+
+Like that of a PLL, we are able to design CDR loops using digital controller and hybrid manner. We'll skip the details here. 
+
+If using a digital CDR, we'll mainly have to match the digital gain factors to the analog gain factors. This saves capacitor area, but we'll have to design a digitally-controlled oscillator (DCO), watch out for digital latency, and the loop quantization noise from the DCO.
+
+Sometimes the proportional path latency and DCO quantizaiton noise are not always desirable; this is when we would like to utilize a hybrid loop. Like other hybrid loops, we'll have to carefully design the dual loop coupling in order to avoid offset-induced limit cycling and PVT variations from the analog path.
+
+---
+
+Prof. Pavan Hanumolu talks about more detials about multi-path CDR and active repeaters, I omit the details here for simplicity and focus on CDR system only. If you are interested, please check out the slides I have at the top of this blog article.
