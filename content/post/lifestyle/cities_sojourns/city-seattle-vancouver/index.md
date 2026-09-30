@@ -2,6 +2,7 @@
 title: '西雅图-温哥华'
 date: 2024-12-25T15:14:33+08:00
 description: A Tale of Two Cities by Charles Di
+image: https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/image.png
 categories:
     - 城市驿站
 tags:
