@@ -15,7 +15,7 @@ BASE_URL = "https://images.blog.cedard.top/post"
 
 IMAGE_RE = re.compile(r'!\[([^\]]*)\]\((?!https?://)([^)]+)\)')
 VIDEO_RE = re.compile(r'(<video\b[^>]*\bsrc=")(?!https?://)([^"]+)(")')
-FRONTMATTER_RE = re.compile(r'^(image:\s*)(?!https?://)(.+)$', re.MULTILINE)
+FRONTMATTER_RE = re.compile(r'^(image:[ \t]*)(?!https?://)(\S.*)$', re.MULTILINE)  # [ \t]: don't cross into the next line when image: is empty
 
 changed_files = []
 

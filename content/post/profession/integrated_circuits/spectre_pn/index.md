@@ -2,7 +2,7 @@
 title: "Modeling Phase Noise in Time Domain"
 date: 2026-09-29T21:01:29-07:00
 image: 
-https://images.blog.cedard.top/post/profession/integrated_circuits/spectre_pn/description: "A detailed guide on modeling phase noise in the time domain using Spectre."
+description: "A detailed guide on modeling phase noise in the time domain using Spectre."
 categories:
     - Integrated Circuits
 tags:

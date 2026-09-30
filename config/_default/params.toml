@@ -23,7 +23,7 @@ SortBy              = "default"
     avatar   = "img/avatar.jpg"
 
 [article]
-    headingAnchor = false
+    headingAnchor = true
     math          = false
     readingTime   = true
 
