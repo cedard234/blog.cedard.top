@@ -2,7 +2,7 @@
 title: "The Baud Rate Mueller-Muller CDR"
 date: 2026-09-08T21:22:43-07:00
 image:
-description:
+https://images.blog.cedard.top/post/profession/integrated_circuits/MMPD/description:
 categories:
     - Integrated Circuits
 tags:
