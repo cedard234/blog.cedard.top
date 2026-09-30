@@ -26,7 +26,20 @@
             }}
         {{ end }}
     {{ end }}
-    {{/* Remote images: skip fetch, serve URL as-is */}}
+    {{/* Remote images: fetch (cached in cacheDir) only to read dimensions, so the
+         theme adds gallery-image, captions and the lightbox. Resource stays nil so no
+         resized copies are published — the <img> still points at R2. */}}
+    {{ if in (slice "https" "http") $url.Scheme }}
+        {{ with try (resources.GetRemote .Image) }}
+            {{ with .Err }}
+                {{ warnf "Failed to fetch remote image %q: %s" $url . }}
+            {{ else with .Value }}
+                {{ if reflect.IsImageResourceWithMeta . }}
+                    {{ $result = merge $result (dict "Height" .Height "Width" .Width) }}
+                {{ end }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
 {{ end }}
 
 {{ return $result }}
