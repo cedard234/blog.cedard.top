@@ -14,7 +14,7 @@ tags:
 
 Feedback linearization is a seemingly obvious but powerful technique in control theory that transforms a nonlinear system into a linear one through state and input feedback.
 
-I learned this technique when I was taking MEC237 from Berkeley, and I later realized it's actually pretty useful and one of the most universal techniques in nonlinear control.
+I learned this technique when I was taking MEC237 at Berkeley, and I later realized it's actually pretty useful and one of the most universal techniques in nonlinear control.
 
 ## Motivation
 
@@ -24,36 +24,36 @@ $$
 \dot{x} = x^3 + u
 $$
 
-Where $x$ is our internal state, and $u$ is our control input. If the system has no control, state $x$ is unstable. Intuitively, if $x$ is greater than 0, $\dot{x}$ is also greater, pushing it away from the equilibrium point, and vice versa if $x < 0$. 
+where $x$ is our internal state, and $u$ is our control input. If the system has no control, the state $x$ is unstable. Intuitively, if $x$ is greater than 0, $\dot{x}$ is also positive, pushing it away from the equilibrium point, and vice versa if $x < 0$. 
 
-One caveat here is that, we can't use Lyapunov indirect method to conclude instability, because the Jacobian matrix is 0, and nothing can be concluded from a both non-positive and non-negative Jacobian matrix eigenvalue.
+One caveat here is that we can't use Lyapunov's indirect method to conclude instability, because the Jacobian matrix is 0, and nothing can be concluded from an eigenvalue that is both non-positive and non-negative (i.e. zero).
 
-How shall we use the control input to stabilize the system? Let's consider the input $u = -x^3 - x$, where if we sub-into the original system:
+How shall we use the control input to stabilize the system? Let's consider the input $u = -x^3 - x$. Substituting it into the original system gives:
 
 $$ \dot{x} = x^3 + (-x^3 - x) = -x $$
 
-This is now a negative feedback system with eigenvalue strictly negative, and we can therefore conclude stability. 
+This is now a negative feedback system with a strictly negative eigenvalue, and we can therefore conclude stability. 
 
-What did we make the control input do? We use a nonlinear term $-x^3$ in the control input to cancel the original system's unstable term, and introduce another stabilizing linear term $-x$ to ensure stability. The mechanism where we use feedback to achieve a stable linear system is called **Feedback Linearization**.
+What did we make the control input do? We used a nonlinear term $-x^3$ in the control input to cancel the original system's unstable term, and introduced another stabilizing linear term $-x$ to ensure stability. The mechanism where we use feedback to achieve a stable linear system is called **Feedback Linearization**.
 
 However, is this technique universal? The answer is no. Look at the following system:
 
 $$
-\begin{align}
+\begin{align*}
 \begin{cases}
 \dot{x}_1 = a \sin x_2 \\
 \dot{x}_2 = -x_1^2 + u
 \end{cases}
-\end{align}
+\end{align*}
 $$
 
-In fact, any input $u$ can't linearize both states $x_1$ and $x_2$. However, if we do a **state transformation** like below:
+In fact, no input $u$ can linearize both states $x_1$ and $x_2$. However, if we do a **state transformation** like below:
 
 $$
-\begin{align}
+\begin{align*}
 z_1 &= x_1 \\
 z_2 &= a \sin x_2 
-\end{align}
+\end{align*}
 $$
 
 Then it's not too hard to verify that the transformed system can actually be linearized. Thus by combining state transform and control transform, we are able to achieve feedback linearization.
@@ -79,11 +79,11 @@ $$
 
 ### Diffeomorphism
 
-In differential geometry, a **diffeomorphism** is a smooth invertible map between differentiable manifolds, whose inverse is also smooth. To express in mathematical language, such mapping $T$ satisfies $T \in C^1$ and $T^{-1} \in C^1$.
+In differential geometry, a **diffeomorphism** is a smooth invertible map between differentiable manifolds, whose inverse is also smooth. To express in mathematical language, such a mapping $T$ satisfies $T \in C^1$ and $T^{-1} \in C^1$.
 
 ### Feedback Linearizable
 
-A nonlinear control-affine system $\Sigma: \dot{x} = f(x) + g(x)u$ is said to be **feedback linearizable** if there exists a control law $u = \alpha (x) + \beta (x)v$ and state transform $z = T(x)$, where $T$ is a diffeomorphism, such that the transformed system $\dot{z} = Az + Bv$ satisfies $(A, B)$ is controllable.
+A nonlinear control-affine system $\Sigma: \dot{x} = f(x) + g(x)u$ is said to be **feedback linearizable** if there exists a control law $u = \alpha (x) + \beta (x)v$ and a state transform $z = T(x)$, where $T$ is a diffeomorphism, such that the transformed system $\dot{z} = Az + Bv$ is such that $(A, B)$ is controllable.
 
 ### Lie Derivative
 
@@ -97,7 +97,7 @@ We will see how Lie derivative helps us simplify some notations later.
 
 ### Input-Output Linearization
 
-There are cases that we can't perform full feedback linearization, but we can still achieve input-output linearization. 
+There are cases where we can't perform full feedback linearization, but we can still achieve input-output linearization. 
 
 Consider the same system that we defined earlier:
 
@@ -111,47 +111,47 @@ $$
 
 Note that now we assign the output $y$ to be only a function of $x_2$. Now, we can perform **Input-Output Linearization** $ u = x_1^2 + v$ such that:
 
-$$ y = x_2 = -x_1^2 + x_1^2 +v = v$$
+$$ \dot{y} = \dot{x}_2 = -x_1^2 + x_1^2 + v = v$$
 
-from there, we manage to achieve a linear relationship between the new control law $v$ and output $y$. However, since $x_1$ is an unobservable state from $y$, we can't tell just from $y$ whether the inner system is stable -- therefore it's possible for the inner state to explode while the output shows nothing, causing system failure.
+From there, we manage to achieve a linear relationship between the new control law $v$ and output $y$. However, since $x_1$ is an unobservable state from $y$, we can't tell just from $y$ whether the inner system is stable -- therefore it's possible for the inner state to explode while the output shows nothing, causing system failure.
 
 ---
 
 Now with all these definitions, we would like to answer the following questions:
 1. When is a system feedback linearizable?
 2. If not feedback linearizable, when is the system IO linearizable?
-3. Is there connection between IO linearization and system linearization?
+3. Is there a connection between IO linearization and system linearization?
 
 ## Relative Degree of Output $y$
 
 Let's consider the following system that is a generalization of a SISO control-affine system:
 
 $$
-\begin{align}
+\begin{align*}
 \dot{x} &= f(x) + g(x)u \\
 y &= h(x)
-\end{align}
+\end{align*}
 $$
-Where $f, g, h$ are sufficiently smooth.
+where $f, g, h$ are sufficiently smooth.
 
-We notice that $y$ is not a function of $u$, to the first order because there is no direct control term in $y$. Let's try to take the derivative of $y$:
+We notice that $y$ is not directly a function of $u$, because there is no direct control term in $y$. Let's try to take the derivative of $y$:
 
 $$
-\begin{align}
+\begin{align*}
 \dot{y} &= \frac{\partial h(x)}{\partial x} \dot{x} \\
 &= \frac{\partial h(x)}{\partial x} (f(x) + g(x)u) \\
 &= L_f h(x) + L_g h(x) u
-\end{align}
+\end{align*}
 $$
-Note that we used the Lie derivation notation. 
+Note that we used the Lie derivative notation. 
 
-Now assume that $L_g h(x) \neq 0$, then we have a direct term $u$ in $\dot{y}$. We can therefore make $u$ such that:
+Now assume that $L_g h(x) \neq 0$; then we have a direct term $u$ in $\dot{y}$. We can therefore make $u$ such that:
 
 $$
 u = L_g h(x) ^ {-1} (-L_f h(x) + v)
 $$
 
-and so that:
+so that:
 
 $$
 \dot{y} = v
@@ -167,7 +167,7 @@ But no worries, we can take another derivative operation:
 $$
 \ddot{y} = L_f^2 h(x) + L_gL_fh(x)u
 $$
-Note that, $L_aL_bc(x) = L_a(L_b c(x))$.
+Note that $L_aL_bc(x) = L_a(L_b c(x))$.
 Suppose we have $L_gL_fh(x) \neq 0$, then we can again IO linearize the system as:
 
 $$
@@ -187,51 +187,52 @@ u = L_gL_f^{r-1}h(x)^{-1}[-L_f^r h(x) + v]
 $$ 
 and therefore
 $$
-y^{r} = v
+y^{(r)} = v
 $$
-In this case, the IO linearized system is a $r^{th}$ order linear system. 
+In this case, the IO linearized system is an $r^{\text{th}}$-order linear system. 
 
 We now give the definition of $r$:
 
 A SISO system $\dot{x} = f(x) + g(x)u, y = h(x)$ has **relative degree** $r$ with respect to the output $y = h(x)$ around $x_0$ if:
 1. $\forall 0 \le k < r-1$, $L_gL_f^kh(x) = 0$, $\forall x \in $ neighborhood of $x_0$.
 2. $L_gL_f^{r-1}h(x) \neq 0$, $\forall x \in $ neighborhood of $x_0$.
+
 Let's look at some examples.
 
 $$
-\begin{align}
+\begin{align*}
 \dot{x}_1 &= x_2 \\
 \dot{x}_2 &= -x_1^3 + u \\
 y &= x_1
-\end{align}
+\end{align*}
 $$
 It's obvious that the relative degree is not 0 because $u$ doesn't show up directly in $y$. We take the first derivative of $y$:
 $$ \dot{y} = x_2$$
 Still no $u$. Differentiate again:
 $$ \ddot{y}= -x_1^3 + u$$
 Now $u$ shows up, therefore the relative degree of $y$ is 2. 
-Note that the coefficient of $u$ is always a well-defined 1, therefore output $y$ always has relative degree of 2 anywhere in $\mathbb{R}$.
+Note that the coefficient of $u$ is always a well-defined 1, therefore output $y$ has relative degree 2 everywhere in $\mathbb{R}^2$.
 
 $$
-\begin{align}
+\begin{align*}
 \dot{x}_1 &= x_2 + x_3^3 \\
 \dot{x}_2 &=  x_3 \\
 \dot{x}_3 &= u \\
 y &= x_1
-\end{align}
+\end{align*}
 $$
 We differentiate $y$ twice:
 $$
-\ddot{y} = x_3 + 3x_3 u
+\ddot{y} = x_3 + 3x_3^2 u
 $$
-Now we realize that $y$ doesn't have a well-defined degree around $x_3 = 0$, and has a relative degree of 2 anywhere else.
+Now we realize that $y$ doesn't have a well-defined relative degree around $x_3 = 0$, and has a relative degree of 2 anywhere else.
 
 Let's try to apply the concept to our familiar linear system:
 $$
-\begin{align}
+\begin{align*}
 \dot{x} &= Ax + Bu \\
 y &= Cx
-\end{align}
+\end{align*}
 $$
 If we differentiate $y$:
 $$
@@ -241,7 +242,7 @@ Now, if $CB = 0$, we'll have to differentiate again:
 $$
 \ddot{y} = CA^2x + CAB u
 $$
-continue doing this, we have relative degree $r$ if 
+Continuing this way, we have relative degree $r$ if 
 1. $ CB = CAB = \ldots = CA^{r-2}B = 0$
 2. $ CA^{r-1}B \neq 0$
 
@@ -250,7 +251,7 @@ Isn't the quantity $CA^{r-1}B$ familiar? It's a composite of the controllability
 ## Zero Dynamics
 
 A fact regarding the relative degree $r$:
-> $r$ is always less than or equal to the order of the system $n$, and cannot be greater than $n$. If we keep differentiating without getting $u$ show up in $y$, the relative degree is usually undefined.
+> $r$ is always less than or equal to the order of the system $n$, and cannot be greater than $n$. If we keep differentiating without $u$ showing up in $y$, the relative degree is usually undefined.
 
 Now, for the IO linearized system $y^{(r)} = v$, we can choose the state vector:
 
@@ -278,44 +279,44 @@ $$
  1 
 \end{pmatrix} v
 $$
-If you have read another article of mine: [Mason's Gain Formula and Control Canonical Forms]({{< relref "/post/profession/control_theory/masons-gain-formula" >}}), you'll realize system follows the controllability canonical form, thus $z$ is always controllable, given matrix $A$ is a complete Jordan block. Therefore, we can always define a feedback control mechanism 
+If you have read another article of mine: [Mason's Gain Formula and Control Canonical Forms]({{< relref "/post/profession/control_theory/masons-gain-formula" >}}), you'll realize the system follows the controllable canonical form, thus $z$ is always controllable, given matrix $A$ is a complete Jordan block. Therefore, we can always define a feedback control mechanism 
 $$ v = -Kz$$
 such that
 $$ \dot{z} = (A - BK)z $$
-is always stable, or $$\Re(\lambda(A - BK)) < 0$$
+is always stable, or \( \Re(\lambda(A - BK)) < 0 \).
 If we convert $v$ back in terms of $x$, we will get
 $$ v = -k_1 h(x) - k_2 L_f h(x) - \ldots - k_r L_f^{r-1} h(x) $$
-Now that if we have $z(t) \to 0$ as $ t \to \infty$, $y \to 0$, $\dot{y} \to 0$, etc. We can guarantee the output $y$ is stable. But, how about $x$? Is the original system stable? This leads to the discussion of **zero dynamics**.
+Now, if $z(t) \to 0$ as $t \to \infty$, then $y \to 0$, $\dot{y} \to 0$, etc., and we can guarantee the output $y$ is stable. But, how about $x$? Is the original system stable? This leads to the discussion of **zero dynamics**.
 
-If we define the set $Z = \{x \in \mathbb{R}^n : h(x) = \dot{h}(x) = \ldots = h^{(r-1)}(x) = 0\}$, then $Z$ is called the **zero dynamics** of the system. It stands for the part of the system where it's not shown explicitly on the output $y$, or it's unobservable. 
+If we define the set \( Z = \{x \in \mathbb{R}^n : h(x) = \dot{h}(x) = \ldots = h^{(r-1)}(x) = 0\} \), then $Z$ is called the **zero dynamics** of the system. It represents the part of the system that doesn't show up explicitly in the output $y$, i.e. the unobservable part. 
 
 Note that the dimension of the zero dynamics set is $n - r$. 
 
-What we did for IO linearization are the following:
+What we did for IO linearization is the following:
 1. We construct the surface $Z$ with dimension $n - r$.
 2. We make $Z$ attractive, i.e. we let $x$ approach the surface asymptotically.
 3. We also make $Z$ invariant, i.e. $x$ never leaves the surface once it's on the surface.
 
-However, whether the dynamics *on* the surface is stable dictates whether the original system $x$ is stable. The dynamic on the surface is also known as the **zero dynamics**.
+However, whether the dynamics *on* the surface are stable dictates whether the original system $x$ is stable. The dynamics on the surface is also known as the **zero dynamics**.
 Let's take an example to illustrate the zero dynamics. Consider the following system:
 $$
-\begin{align}
+\begin{align*}
 \dot{x}_1 &= x_2 \\
 \dot{x}_2 &= \alpha x_3 + u \\
 \dot{x}_3 &= \beta x_3 - u \\
 y &= x_1
-\end{align}
+\end{align*}
 $$
-It's easy to get relative degree of 2 for output $y$ because 
+It's easy to see that output $y$ has relative degree 2, because 
 $$
 \ddot{y} = \alpha x_3 + u
 $$
 Now, suppose when $t \to \infty$, both $y$ and $\dot{y}$ approach zero. What happens to the state $x$? 
 If $y = 0, \dot{y} = 0$, then $x_1 = x_2 = 0$, and we have
 $$ \dot{x}_3 = (\beta + \alpha) x_3 $$
-Therefore, the zero dynamic on $x_3$ is stable if and only if $\beta + \alpha < 0$. 
+Therefore, the zero dynamics on $x_3$ are stable if and only if $\beta + \alpha < 0$. 
 
-In fact, in this case $x_3$ is the uncontrollable state of the nonlinear system. Just like linear system theory, if the uncontrollable state is stable, the entire system can be stabilized.
+In fact, in this case $x_3$ is the uncontrollable state of the nonlinear system. Just like in linear system theory, if the uncontrollable state is stable, the entire system can be stabilized.
 
 ---
 
