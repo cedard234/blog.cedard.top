@@ -14,7 +14,7 @@ tags:
     - Integrated Circuits
 ---
 
-In another post [相位噪声与抖动的关系]({{< relref "post/profession/integrated_circuits/phase-noise-jitter" >}}) we talked about the way to convert a time-domain signal to its frequency domain representation, which is called Power Spectral Density (PSD). This can be as simple as a Fourier Transform.
+In another post [相位噪声与抖动的关系]({{< relref "post/profession/integrated_circuits/phase-noise-jitter" >}}) we talked about the way to convert a time-domain signal to its frequency-domain representation, which is called Power Spectral Density (PSD). This can be as simple as a Fourier Transform.
 
 However, if we have a PSD, how can we convert it back to a time-domain signal? 
 
@@ -106,7 +106,7 @@ you started from. Take a realistic composite of flicker noise over a white floor
 
 $$S_x(f) = \frac{10^{-12}}{f} + 10^{-16}\ \ \mathrm{V^2/Hz}$$
 
-The recipe is short. Set each bin's *magnitude* from the target PSD, $|X_k| = \sqrt{S(f_k)\,\Delta f}\cdot N/\sqrt2$;
+The recipe is short. Set each bin's *magnitude* from the target PSD, \(|X_k| = \sqrt{S(f_k)\,\Delta f}\cdot N/\sqrt2\);
 give each bin an *independent uniform random phase*; force the spectrum Hermitian so the inverse transform is real
 (zero the DC bin for zero mean, keep the Nyquist bin real); then inverse-FFT.
 

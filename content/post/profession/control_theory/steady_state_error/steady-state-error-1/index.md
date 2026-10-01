@@ -12,7 +12,7 @@ tags:
     - Profession
 ---
 
-Before we resume talking about why adding a capacitor solves the step input problem without solving the ramp input problem, let's review some basic knowledge from linear system.
+Before we resume talking about why adding a capacitor solves the step input problem without solving the ramp input problem, let's review some basic knowledge from linear systems.
 
 ## Linear System Basics
 
@@ -60,39 +60,39 @@ That is, the controller has $m$ zeros, $n+k$ poles where $k$ poles are at the or
 Now, if we sub $H(s)$ into the unity feedback system, using Mason's Gain Formula, we have the closed-loop transfer function of the overall system:
 
 $$
-\begin{align}
+\begin{align*}
 \displaystyle H_{cl}(s) &= \frac{H(s)}{1 + H(s)} \\
 &= \frac{K(s-z_1)(s-z_2)\cdots(s-z_m)}{s^k(s-p_1)(s-p_2)\cdots(s-p_n) + K(s-z_1)(s-z_2)\cdots(s-z_m)}
-\end{align}
+\end{align*}
 $$
 
 Therefore the transfer function of the steady-state error is given by:
 $$
-\begin{align}
+\begin{align*}
 E(s) &= 1 - H_{cl}(s) \\
 &= \frac{1}{1 + H(s)} \\
 &= \frac{s^k(s-p_1)(s-p_2)\cdots(s-p_n)}{s^k(s-p_1)(s-p_2)\cdots(s-p_n) + K(s-z_1)(s-z_2)\cdots(s-z_m)}
-\end{align}
+\end{align*}
 $$
 Now, let's say if our input is type-N:
 $$
-\begin{align}
+\begin{align*}
 F(s) &= \frac{1}{s^{N+1}}
-\end{align}
+\end{align*}
 $$
 Then the resulting steady-state error is going to be:
 $$
-\begin{align}
+\begin{align*}
 e(s) &= E(s) \cdot F(s) \\
 &= \frac{s^{k-N-1}(s-p_1)(s-p_2)\cdots(s-p_n)}{s^k(s-p_1)(s-p_2)\cdots(s-p_n) + K(s-z_1)(s-z_2)\cdots(s-z_m)}
-\end{align}
+\end{align*}
 $$
 If we apply final value theorem, we get
 $$
-\begin{align}
-\lim_{t \to \infty} e(t) &= \lim_{s \to 0} s \cdot e(s)
-&=\frac{s^{k-N}(s-p_1)(s-p_2)\cdots(s-p_n)}{s^k(s-p_1)(s-p_2)\cdots(s-p_n) + K(s-z_1)(s-z_2)\cdots(s-z_m)} 
-\end{align}
+\begin{align*}
+\lim_{t \to \infty} e(t) &= \lim_{s \to 0} s \cdot e(s) \\
+&= \lim_{s \to 0} \frac{s^{k-N}(s-p_1)(s-p_2)\cdots(s-p_n)}{s^k(s-p_1)(s-p_2)\cdots(s-p_n) + K(s-z_1)(s-z_2)\cdots(s-z_m)} 
+\end{align*}
 $$
 It's not too hard to see that the term of interest is $s^{k-N}$. We conclude therefore:
 $$
@@ -107,13 +107,13 @@ This is a pretty elegant result, in other words, the convergence of steady state
 2. If the system type (k) is smaller than the input type (N), the steady-state error will diverge to infinity.
 3. If the system type and input type are the same, the steady state error will converge to a non-zero number, which will be a finite fraction of the input, depending on the DC gain of the system.
 
-Another intuitive way to look into this is that, if our input is of a higher system and the system itself can't generate fast enough response, the system will always fall behind the input, and vice versa.
+Another intuitive way to look into this is that, if our input is of a higher type than the system and the system itself can't generate a fast enough response, the system will always fall behind the input, and vice versa.
 
-## The problems with higher order system
+## The problems with higher-order systems
 
 Now if we take the original system we discussed last time when we added a capacitor, we realize that adding that capacitor helped us to increase the system type, and thus we are able to track the input better.
 
-Here is the further question: what if the input is of type 2? Based off our discussion just now, we might just want to add another integrator so as to further increase the system type, like below:
+Here is the further question: what if the input is of type 2? Based on our discussion just now, we might just want to add another integrator so as to further increase the system type, like below:
 
 ![type2_system](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-1/mathtype2_system.png)
 
@@ -121,7 +121,7 @@ This makes plausible sense; however this system will unfortunately fail. Why? Le
 $$
 H_{ol} = \frac{1}{s^2}
 $$
-Now, if we closed the loop and calculate the closed loop gain:
+Now, if we close the loop and calculate the closed loop gain:
 $$
 H_{cl} = \frac{1}{1 + H_{ol}(s)} = \frac{s^2}{1+s^2}
 $$
@@ -129,13 +129,13 @@ With a step input, the output has a frequency domain representation of:
 $$
 V_{out}(s) = H_{cl} \cdot \frac{1}{s} = \frac{s}{1+s^2}
 $$
-Now if we perform inverse laplace transform of the s-domain representation, we will get:
+Now if we perform inverse Laplace transform of the s-domain representation, we will get:
 $$ V_{out}(t) = \sin t$$
-That is to say, we increased the system type and we wished for the steady state error to converge faster, however the system is not even able to track a type-1 input, but start oscillating. What's the problem here?
+That is to say, we increased the system type and we wished for the steady state error to converge faster, however the system is not even able to track a type-1 input, but starts oscillating. What's the problem here?
 
 The reason is that by introducing another pole, we introduced 90 degrees more input phase, and thus the effective **phase margin** of the system is 0. From another angle, we can apply Barkhausen stability criterion and realize that the system automatically satisfies that criterion, and immediately realize that the system is oscillatory. 
 
-The fix is to introduce **damping** to either of the integrator to produce a zero in the forward gain, thus making the phase margin positive. 
+The fix is to introduce **damping** to either of the integrators to produce a zero in the forward gain, thus making the phase margin positive. 
 
 ![type2_system_with_damping](https://images.blog.cedard.top/post/profession/control_theory/steady_state_error/steady-state-error-1/mathtype2_system_with_damping.png)
 

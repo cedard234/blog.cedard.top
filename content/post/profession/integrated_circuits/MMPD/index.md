@@ -2,7 +2,7 @@
 title: "The Baud Rate Mueller-Muller CDR"
 date: 2026-09-08T21:22:43-07:00
 image:
-https://images.blog.cedard.top/post/profession/integrated_circuits/MMPD/description:
+description:
 categories:
     - Integrated Circuits
 tags:
@@ -19,7 +19,7 @@ In a recent [post]({{< ref "post/profession/integrated_circuits/CDR_basics" >}})
 
 ## Baud Rate CDR
 
-The idea of baud rate CDR is to sample the incoming data at the baud rate, which is the symbol rate of the data. The counterpart of baud rate CDR is oversampling CDR, or edge-sampling CDR which requires samples happening at the edge crossing. For example, the Alexander oversampling BBPD discussed in the previous post is an edge-sampling CDR. It's worth noting that baud rate CDR means differently than half-rate CDR; the BBPD can acts as a half-rate CDR if the VCO can generate quadrature clocks, but it still samples on the edge.
+The idea of baud rate CDR is to sample the incoming data at the baud rate, which is the symbol rate of the data. The counterpart of baud rate CDR is oversampling CDR, or edge-sampling CDR which requires samples happening at the edge crossing. For example, the Alexander oversampling BBPD discussed in the previous post is an edge-sampling CDR. It's worth noting that baud rate CDR is different from half-rate CDR; the BBPD can act as a half-rate CDR if the VCO can generate quadrature clocks, but it still samples on the edge.
 
 ## Mueller-Muller Phase Detector
 
@@ -27,11 +27,11 @@ Kurt H. Mueller and Markus Müller, in their 1976 paper ["Timing Recovery in Dig
 
 We analyze a simplified derivation of the algorithm, tailored specifically from a circuit perspective here.
 
-Suppose we have a lossy channel, and we pass an impulse over the channel to the RX. We would like to make sure we sample at the highest point of the impulse response. Assuming the pre-cursor and post-cursor responses are symmetric, then by assuming our pre-cursor sample equals to the post-cursor sample, we are sampling at the optimal point:
+Suppose we have a lossy channel, and we pass an impulse over the channel to the RX. We would like to make sure we sample at the highest point of the impulse response. Assuming the pre-cursor and post-cursor responses are symmetric, then by assuming our pre-cursor sample equals the post-cursor sample, we are sampling at the optimal point:
 
 ![alt text](https://images.blog.cedard.top/post/profession/integrated_circuits/MMPD/image.png)
 
-If the channel is lossy, the sampled signal $y_k$ at time index $k$ is the convolution of the channel impulse response $h(t)$ and the transmitted signal $d(t) \in \{-1, +1\}$, plus some noise $n(t)$:
+If the channel is lossy, the sampled signal $y_k$ at time index $k$ is the convolution of the channel impulse response $h(t)$ and the transmitted signal \(d(t) \in \{-1, +1\}\), plus some noise $n(t)$:
 
 $$ y_k = \displaystyle \sum_{i=-\infty}^{\infty} h_i d_{k-i} + n_k  = \ldots + d_{k+1}h_{-1} + d_k h_0 + d_{k-1}h_1 + \ldots + n_k $$
 
@@ -40,9 +40,9 @@ Where:
 - $h_{-1}$ is the pre-cursor ISI
 - $h_1$ is the post-cursor ISI
 
-Now, all CDR protocol will perform data encoding to ensure the DC level of the data stream is half VDD, otherwise the AC coupling will cause the signal to drift. This is also to make sure that there is sufficient data transitions to allow the CDR to recover the clock. For example, 8b/10b encoding is widely used in high-speed serial links. The data stream is encoded such that the number of 1s and 0s are balanced, and the maximum run length of consecutive 1s or 0s is limited. This ensures that there are enough transitions in the data stream for the CDR to lock onto. This leads to the assumption that the transmitted data symbols $d_k$ are independent and identically distributed (i.i.d.) random variables with equal probability of being +1 or -1:
+Now, all CDR protocols will perform data encoding to ensure the DC level of the data stream is half VDD, otherwise the AC coupling will cause the signal to drift. This is also to make sure that there are sufficient data transitions to allow the CDR to recover the clock. For example, 8b/10b encoding is widely used in high-speed serial links. The data stream is encoded such that the number of 1s and 0s is balanced, and the maximum run length of consecutive 1s or 0s is limited. This ensures that there are enough transitions in the data stream for the CDR to lock onto. This leads to the assumption that the transmitted data symbols $d_k$ are independent and identically distributed (i.i.d.) random variables with equal probability of being +1 or -1:
 
-$$ \mathbb{E}[d_i, d_j] = \begin{cases} 1, & i = j \\ 0, & i \neq j \end{cases} $$
+$$ \mathbb{E}[d_i d_j] = \begin{cases} 1, & i = j \\ 0, & i \neq j \end{cases} $$
 
 Additionally, data symbols are uncorrelated with the noise: $\mathbb{E}[d_i n_j] = 0$ for all $i, j$.
 
@@ -62,8 +62,8 @@ This function will now provide some physical intuition:
 
 $$ f(\tau) = \begin{cases}
     0, & \text{if } \tau = 0 \\
-    > 0, & \text{if post cursor ISI dominates, or} \ \tau > 0 \\
-    < 0, & \text{if pre cursor ISI dominates, or} \ \tau < 0
+    > 0, & \text{if post-cursor ISI dominates, or} \ \tau > 0 \\
+    < 0, & \text{if pre-cursor ISI dominates, or} \ \tau < 0
     \end{cases} $$
 
 ## Circuit Implementation
@@ -76,9 +76,9 @@ Shown below is a simple implementation of the binary MMPD:
 
 The way to connect the MMPD to our equation is to realize $y_k = h_0 d_k + e_k$, where $e_k$ is the sum of the pre-cursor and post-cursor ISI plus noise. Then we can rewrite the phase error signal as:
 
-$$\mathbb{y_k d_{k-1}} = \mathbb{E}[(h_0 d_k + e_k) d_{k-1}] = \mathbb{E}(e_k d_{k-1})$$
+$$\mathbb{E}[y_k d_{k-1}] = \mathbb{E}[(h_0 d_k + e_k) d_{k-1}] = \mathbb{E}(e_k d_{k-1})$$
 
-Likewise for another term, but we will have to perform one-step delay on the $d_{k+1}$ term to align the timing. The resulting phase error signal is:
+Likewise for another term, but we will have to perform a one-step delay on the $d_{k+1}$ term to align the timing. The resulting phase error signal is:
 
 $$ \Delta T_n \propto \text{sgn}(e_k d_{k-1}) - \text{sgn}(e_{k-1} d_k) $$
 

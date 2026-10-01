@@ -64,7 +64,7 @@ V_1 - V_3 \\
 -V_3
 \end{bmatrix} = -\begin{bmatrix}
 -1 & 1 & 0 \\
-0 & -1 & 1 \\
+0 & 1 & -1 \\
 0 & 1 & 0 \\
 1 & 0 & 0 \\
 -1 & 0 & 1 \\
@@ -86,9 +86,9 @@ $$ \sum_k v_{bk}i_k = 0 $$
 
 $$
 \begin{aligned}
-\textbf{V}_B^T \cdot \textbf{I} &= (-A^T \textbf{V}_B)^T \cdot \textbf{I} \\
-&= -\textbf{V}_B^T A \cdot \textbf{I} \\
-&= -\textbf{V}_B^T \cdot \textbf{0} \\
+\textbf{V}_B^T \cdot \textbf{I} &= (-A^T \textbf{V})^T \cdot \textbf{I} \\
+&= -\textbf{V}^T A \cdot \textbf{I} \\
+&= -\textbf{V}^T \cdot \textbf{0} \\
 &= 0
 \end{aligned}
 $$
@@ -112,7 +112,7 @@ $$
 
 这一结论极具普适性，表明只要网络结构相同，无论元件如何分布，广义能量守恒都成立。该定理适用于任意线性或非线性电路。
 
-对于感性元件，功率定义为 $P = VI^*$，因此可得：
+对于电抗元件，功率定义为 $P = VI^*$，因此可得：
 
 $$\textbf{V}^T_B \textbf{I}^* = \sum_k v_{bk} i_k^* = 0 $$
 
@@ -138,7 +138,7 @@ $$
 $$
 \begin{aligned}
 Z(s) &= \sum_{\text{All L}} s L_k |I_k(s)|^2 + \sum_{\text{All C}} \frac{1}{sC_k} |I_k(s)|^2 \\
-&= \sum_{\text{All L}} s P_1 + \sum_{\text{All C}} \frac{1}{s} P_2
+&= s P_1 + \frac{1}{s} P_2
 \end{aligned}
 $$
 

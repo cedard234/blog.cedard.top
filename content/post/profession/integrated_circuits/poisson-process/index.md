@@ -2,7 +2,7 @@
 title: Poisson Point Process (PPP) and Bit Error Rate (BER)
 slug: poisson-process
 date: 2026-04-13T21:42:59+08:00
-description: "Poisson point process, and how does that relate to bit error rate"
+description: "Poisson point process, and how it relates to bit error rate"
 math: true
 categories:
     - Integrated Circuits
@@ -13,13 +13,13 @@ tags:
     - Integrated Circuits
 ---
 
-I realize when I'm sharing my knowledge with my colleagues, they are largely not Chinese users. Therefore I'll try to mark tech-related things down in English starting from today, in my blog.
+I realize that when I share my knowledge with my colleagues, they are largely not Chinese users. Therefore I'll try to mark tech-related things down in English starting from today, on my blog.
 
 ## Introduction
 
-I was taking [STAT150](https://undergraduate.catalog.berkeley.edu/courses/1220251) last semester from UC Berkeley. Although the teaching wasn't as engaging as I wished for, I was able to grasp most of the useful key concepts. One of the very useful mathematical models was the Poisson point process. 
+I took [STAT150](https://undergraduate.catalog.berkeley.edu/courses/1220251) last semester at UC Berkeley. Although the teaching wasn't as engaging as I had wished, I was able to grasp most of the useful key concepts. One of the very useful mathematical models was the Poisson point process. 
 
-I encountered this process once again when I was doing my link measurement, when we were supposed to benchmark the chip's bit error rate.
+I encountered this process once again when I was doing my link measurements, where we were supposed to benchmark the chip's bit error rate.
 
 Here are two questions that arise from this:
 
@@ -38,9 +38,9 @@ We give the formal definition of a 1D Poisson distribution here.
 > A random variable $X$ follows a Poisson distribution with parameter $\lambda > 0$, denoted $X \sim \text{Poisson}(\lambda)$, if its probability mass function (PMF) is given by:
 > 
 > $$
-> \begin{align}
+> \begin{align*}
 > P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots
-> \end{align}
+> \end{align*}
 > $$
 > 
 > where $k!$ denotes the factorial of $k$.
@@ -50,10 +50,10 @@ We give the formal definition of a 1D Poisson distribution here.
 The mean and variance of a Poisson distribution are both equal to the parameter $\lambda$:
 
 $$
-\begin{align}
+\begin{align*}
 E[X] &= \lambda \\
 \text{Var}(X) &= \lambda
-\end{align}
+\end{align*}
 $$
 
 **Intuitive Interpretation:**
@@ -71,15 +71,15 @@ The Poisson distribution models the number of events occurring in a fixed interv
 
 > **Definition (Poisson Point Process):**
 > 
-> A Poisson point process (PPP) with rate (or intensity) $\lambda > 0$ is a stochastic process $\{N(t) : t \geq 0\}$ that counts the number of events occurring in the time interval $[0, t]$. It satisfies the following properties:
+> A Poisson point process (PPP) with rate (or intensity) $\lambda > 0$ is a stochastic process \(\{N(t) : t \geq 0\}\) that counts the number of events occurring in the time interval $[0, t]$. It satisfies the following properties:
 > 
-> 1. **Independent Increments:** For any non-overlapping intervals $[t_1, t_2)$ and $[t_3, t_4)$ with $t_2 \leq t_3$, the number of events in these intervals are independent random variables.
+> 1. **Independent Increments:** For any non-overlapping intervals $[t_1, t_2)$ and $[t_3, t_4)$ with $t_2 \leq t_3$, the numbers of events in these intervals are independent random variables.
 > 
 > 2. **Stationary Increments:** The distribution of the number of events in any interval depends only on the length of that interval, not on its starting time. Specifically, for any $t > 0$ and $s \geq 0$:
 > $$
-> \begin{align}
+> \begin{align*}
 > N(s + t) - N(s) \sim \text{Poisson}(\lambda t)
-> \end{align}
+> \end{align*}
 > $$
 > 
 > 3. **No Multiple Events:** The probability of more than one event occurring in an infinitesimal time interval $dt$ is negligible, i.e., $o(dt)$.
@@ -91,17 +91,17 @@ The Poisson distribution models the number of events occurring in a fixed interv
 For a Poisson point process with rate $\lambda$, the number of events $N(t)$ in a time interval $[0, t]$ follows a Poisson distribution:
 
 $$
-\begin{align}
+\begin{align*}
 P(N(t) = k) = \frac{(\lambda t)^k e^{-\lambda t}}{k!}, \quad k = 0, 1, 2, \ldots
-\end{align}
+\end{align*}
 $$
 
 The expected number of events in time $t$ is:
 
 $$
-\begin{align}
+\begin{align*}
 E[N(t)] = \lambda t
-\end{align}
+\end{align*}
 $$
 
 **Inter-arrival Times:**
@@ -109,34 +109,34 @@ $$
 An important consequence of the Poisson point process is that the time intervals between consecutive events (inter-arrival times) are independent and exponentially distributed with rate $\lambda$. If $T_i$ denotes the time until the $i$-th event, then:
 
 $$
-\begin{align}
+\begin{align*}
 T_i \sim \text{Exponential}(\lambda), \quad f(t) = \lambda e^{-\lambda t}, \quad t \geq 0
-\end{align}
+\end{align*}
 $$
 
 **Condition on Event Count:**
 
-If we know $N(t) = k$, the positions of the $k$ events in the interval $[0, t]$ are distributed as independent and uniformly on $[0, t]$.
+If we know $N(t) = k$, the positions of the $k$ events in the interval $[0, t]$ are distributed independently and uniformly on $[0, t]$.
 
 ## How does this relate to bit error rate?
 
-If we operate a link, whether it will yield an error depends on whether the random jitter exceeds the eye width, thus we sample the incorrect data. Random jitter, however, follows a Gaussian distribution. If we assume the clock is centered at the quadrature point, and the eye width happens to be $6\sigma$, then we immediately arrive at the conclusion that the probability of success is $99.6\%$. Given the clock is usually from a PLL whose jitter profile is a stationary process (after observing longer than the loop constant), we can safely say between symbols, the error probability is independent. Of course this is a very crude assumption because factors such as inter-symbol interference from a low-pass channel are not taken into account, but for simplicity let's move forward with this assumption.
+If we operate a link, whether it will yield an error depends on whether the random jitter exceeds the eye width, causing us to sample the incorrect data. Random jitter, however, follows a Gaussian distribution. If we assume the clock is centered at the quadrature point, and the eye width happens to be $6\sigma$, then we immediately arrive at the conclusion that the probability of success is \(99.6\%\). Given the clock is usually from a PLL whose jitter profile is a stationary process (after observing longer than the loop constant), we can safely say that errors are independent between symbols. Of course, this is a very crude assumption because factors such as inter-symbol interference from a low-pass channel are not taken into account, but for simplicity let's move forward with this assumption.
 
-A quick note is that an open loop oscillator's jitter sequence is not a stationary process; it's a random walk. Meaning if we observe long enough, the oscillator's phase deviation will grow unbounded. In the time domain, the jitter is just the instantaneous standard deviation, which grows over time.
+A quick note is that an open loop oscillator's jitter sequence is not a stationary process; it's a random walk. This means that if we observe long enough, the oscillator's phase deviation will grow unbounded. In the time domain, the jitter is just the instantaneous standard deviation, which grows over time.
 
 ![Jitter Accumulation](https://images.blog.cedard.top/post/profession/integrated_circuits/poisson-process/math20260413221200.png)
 
-Now, if we observe 10 such samples, each of them has independent success probability of $99.6\%$, it shouldn't be hard to see that the probability of all 10 samples being successful is $(0.996)^{10}$. The probability of having 1 error will be if one of them is having an error, and all others are successful. To extend this result, the error profile should follow a binomial distribution:
+Now, if we observe 10 such samples, each of them has an independent success probability of \(99.6\%\), it shouldn't be hard to see that the probability of all 10 samples being successful is $(0.996)^{10}$. The probability of having 1 error is the probability that one of them has an error and all others are successful. To extend this result, the error profile should follow a binomial distribution:
 
 $$
-\begin{align}
+\begin{align*}
 \text{Error} \sim \text{Bin}(N, p)
-\end{align}
+\end{align*}
 $$
 
 where $N$ is the number of bits sent, and $p$ is the probability of error for each bit.
 
-This whole story now sounds like we are flipping an uneven coin every single time, and the total error count follows a binomial distribution. How does this relate to Poisson process?
+This whole story now sounds like we are flipping an uneven coin every single time, and the total error count follows a binomial distribution. How does this relate to the Poisson process?
 
 ## Law of Rare Events
 
@@ -145,9 +145,9 @@ This whole story now sounds like we are flipping an uneven coin every single tim
 > Let $X_n \sim \text{Bin}(n, p_n)$ be a sequence of binomial random variables where $n \to \infty$ and $p_n \to 0$ such that $n \cdot p_n \to \lambda$ for some constant $\lambda > 0$. Then:
 > 
 > $$
-> \begin{align}
+> \begin{align*}
 > \lim_{n \to \infty} P(X_n = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots
-> \end{align}
+> \end{align*}
 > $$
 > 
 > In other words, $X_n \xrightarrow{d} X$ where $X \sim \text{Poisson}(\lambda)$.
@@ -168,9 +168,9 @@ In our BER context:
 Computing probabilities with a binomial distribution requires calculating factorials and large powers, which is computationally expensive. The Poisson approximation provides:
 
 $$
-\begin{align}
+\begin{align*}
 P(\text{Error count} = k) \approx \frac{(Np)^k e^{-Np}}{k!}
-\end{align}
+\end{align*}
 $$
 
 This is much simpler to work with, especially for answering our original questions about BER testing.
@@ -193,7 +193,7 @@ We use the following table to illustrate the probabilities of different error co
 | 3 | $\frac{1}{6}e^{-1} \approx 0.0613$ | 96.10% | Exactly 3 errors |
 | 4 | $\frac{1}{24}e^{-1} \approx 0.0153$ | 98.63% | Exactly 4 errors |
 | 5 | $\frac{1}{120}e^{-1} \approx 0.0031$ | 99.94% | Exactly 5 errors |
-| $\geq 6$ | $\approx 0.0006$ | $\geq 99.94\%$ | 6 or more errors |
+| $\geq 6$ | $\approx 0.0006$ | \(\geq 99.94\%\) | 6 or more errors |
 
 **Interpretation:**
 
@@ -212,12 +212,12 @@ This is more complex and requires statistical hypothesis testing. However, we ca
 If we observe 0 errors after sending $N$ bits, what can we claim about the BER? Using the Poisson approximation with $\lambda = N \cdot p$:
 
 $$
-\begin{align}
+\begin{align*}
 P(\text{0 errors observed} \mid \text{true BER} = p) = e^{-Np}
-\end{align}
+\end{align*}
 $$
 
-Now, here comes a concept called "confidence level." Confidence level means the probability of getting ourselves right. For example, if we want to confirm our bit error rate is <1e-15, but we only send 10 bits and see 0 errors, the confidence that I can safely say my bit error rate is <1e-15 is very low. However if I send 1e27 bits and I see 0 error so far, I can very confidently say that the link has BER <1e-15.
+Now, here comes a concept called "confidence level." Confidence level means the probability of getting ourselves right. For example, if we want to confirm our bit error rate is <1e-15, but we only send 10 bits and see 0 errors, the confidence that I can safely say my bit error rate is <1e-15 is very low. However, if I send 1e27 bits and I see 0 errors so far, I can very confidently say that the link has BER <1e-15.
 
 Then, how do we set our confidence level? What does this mean intuitively? Let's take it the contrapositive way:
 - If I know my bit error rate = 1e-15, that means if I send 3e15 bits, it's 95% probable that I'll see at least 1 error.
@@ -226,26 +226,26 @@ Then, how do we set our confidence level? What does this mean intuitively? Let's
 The math is shown below:
 
 $$
-\begin{align}
+\begin{align*}
 e^{-Np} &= 0.05 \\
 -Np &= \ln(0.05) \\
 Np &\approx 2.996 \approx 3
-\end{align}
+\end{align*}
 $$
 
 This means to claim BER < $10^{-15}$ with 95% confidence after observing zero errors, we need:
 
 $$
-\begin{align}
+\begin{align*}
 N \cdot 10^{-15} &= 3 \\
 N &= 3 \times 10^{15}
-\end{align}
+\end{align*}
 $$
 
 **So the answer to Question 2 is: No, sending $10^{15}$ bits and observing no error does NOT suffice.** You would need to send approximately $3 \times 10^{15}$ bits to claim with 95% confidence that the BER is less than $10^{-15}$.
 
-## Beyond Raw BER testing
+## Beyond Raw BER Testing
 
 SiTime has this useful [webpage](https://www.sitime.com/support/design-development-tools/ber-confidence-level-calculator) to calculate the experiment time based on the required confidence level and desired accuracy.
 
-In real practice, sending 1e27 bits is usually not physically possible. Take a 256Gbps parallel link for example, 1e27 bits testing will take 3.9e15 seconds, meaning 1e12 hours, meaning 123 million years to complete. I am not sure if human civilization will still exist by then. Therefore instead, people assume a jitter profile (DJ+RJ), for example dual dirac + Gaussian, and use only RJ component to estimate the true bit error rate. This is also known as the bathtub method.
+In real practice, sending 1e27 bits is usually not physically possible. Take a 256Gbps parallel link for example: testing 1e27 bits will take 3.9e15 seconds, meaning 1e12 hours, meaning 123 million years to complete. I am not sure if human civilization will still exist by then. Therefore, people instead assume a jitter profile (DJ+RJ), for example dual-Dirac + Gaussian, and use only the RJ component to estimate the true bit error rate. This is also known as the bathtub method.

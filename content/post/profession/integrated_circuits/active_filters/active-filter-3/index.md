@@ -25,7 +25,7 @@ tags:
 
 ![](https://images.blog.cedard.top/post/profession/integrated_circuits/active_filters/active-filter-3/math20250713125226.png)
 
-可以看到，第二类切比雪夫滤波器在阻带内引入了纹波。第二类切比雪夫滤波器相比切比雪夫滤波器而言，有了一个本质上的区别：由于阻带内的纹波，我们需要在阻带内引入零点。也就是说，第二类切比雪夫滤波器的传递函数不再是一个全极点滤波器。我们将在后面的章节中看到，这个区别将导致第二类切比雪夫滤波器在电路实现上有显著区别。
+可以看到，第二类切比雪夫滤波器在阻带内引入了纹波。第二类切比雪夫滤波器相比切比雪夫滤波器而言，有了一个本质上的区别：由于阻带内的纹波，我们需要在阻带内引入零点。也就是说，第二类切比雪夫滤波器不再是一个全极点滤波器。我们将在后面的章节中看到，这个区别将导致第二类切比雪夫滤波器在电路实现上有显著区别。
 
 ### 主要特点总结
 
@@ -150,9 +150,9 @@ $$\lim_{\omega \to \infty} |H(j\omega)| = \frac{\epsilon}{\sqrt{1 + \epsilon^2}}
 
 在$\omega \to 0$时，以下近似成立：
 
-$$\cos^{-1}\frac{1}{\omega} \approx \ln\frac{2}{\omega}$$
+$$\cosh^{-1}\frac{1}{\omega} \approx \ln\frac{2}{\omega}$$
 
-$$\cosh\left(n \cos^{-1}\frac{1}{\omega}\right) \approx \frac{1}{2} e^{n \ln\frac{2}{\omega}} = \frac{1}{2}\left(\frac{2}{\omega}\right)^n$$
+$$\cosh\left(n \cosh^{-1}\frac{1}{\omega}\right) \approx \frac{1}{2} e^{n \ln\frac{2}{\omega}} = \frac{1}{2}\left(\frac{2}{\omega}\right)^n$$
 
 因此：
 
