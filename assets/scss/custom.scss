@@ -155,3 +155,29 @@
         }
     }
 }
+
+/* Code blocks: wrap long lines instead of scrolling sideways.
+   Line numbers are rendered inline (markup.toml: lineNumbersInTable = false),
+   so a wrapped line doesn't push the numbers out of alignment. */
+.article-content .highlight pre,
+.article-content .highlight code {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+
+.article-content .highlight pre {
+    font-size: 1.2rem;      /* 12px; the article text is ~17px */
+}
+
+/* Each line becomes [number | code]: a wrapped continuation stays in the code column
+   instead of restarting under the line numbers. */
+.article-content .highlight .line {
+    display: flex;
+}
+.article-content .highlight .line .ln {
+    flex: 0 0 auto;
+}
+.article-content .highlight .line .cl {
+    flex: 1 1 auto;
+    min-width: 0;
+}
