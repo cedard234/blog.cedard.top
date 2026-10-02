@@ -37,11 +37,7 @@ We give the formal definition of a 1D Poisson distribution here.
 > **Definition (Poisson Distribution):**
 > A random variable $X$ follows a Poisson distribution with parameter $\lambda > 0$, denoted $X \sim \text{Poisson}(\lambda)$, if its probability mass function (PMF) is given by:
 > 
-> $$
-> \begin{align*}
-> P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots
-> \end{align*}
-> $$
+> $$ \begin{align*} P(X = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots \end{align*} $$
 > 
 > where $k!$ denotes the factorial of $k$.
 
@@ -76,11 +72,7 @@ The Poisson distribution models the number of events occurring in a fixed interv
 > 1. **Independent Increments:** For any non-overlapping intervals $[t_1, t_2)$ and $[t_3, t_4)$ with $t_2 \leq t_3$, the numbers of events in these intervals are independent random variables.
 > 
 > 2. **Stationary Increments:** The distribution of the number of events in any interval depends only on the length of that interval, not on its starting time. Specifically, for any $t > 0$ and $s \geq 0$:
-> $$
-> \begin{align*}
-> N(s + t) - N(s) \sim \text{Poisson}(\lambda t)
-> \end{align*}
-> $$
+> $$ \begin{align*} N(s + t) - N(s) \sim \text{Poisson}(\lambda t) \end{align*} $$
 > 
 > 3. **No Multiple Events:** The probability of more than one event occurring in an infinitesimal time interval $dt$ is negligible, i.e., $o(dt)$.
 > 
@@ -144,11 +136,7 @@ This whole story now sounds like we are flipping an uneven coin every single tim
 > 
 > Let $X_n \sim \text{Bin}(n, p_n)$ be a sequence of binomial random variables where $n \to \infty$ and $p_n \to 0$ such that $n \cdot p_n \to \lambda$ for some constant $\lambda > 0$. Then:
 > 
-> $$
-> \begin{align*}
-> \lim_{n \to \infty} P(X_n = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots
-> \end{align*}
-> $$
+> $$ \begin{align*} \lim_{n \to \infty} P(X_n = k) = \frac{\lambda^k e^{-\lambda}}{k!}, \quad k = 0, 1, 2, \ldots \end{align*} $$
 > 
 > In other words, $X_n \xrightarrow{d} X$ where $X \sim \text{Poisson}(\lambda)$.
 
