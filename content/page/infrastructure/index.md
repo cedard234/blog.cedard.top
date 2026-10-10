@@ -44,15 +44,25 @@ cccccccc;.:odl:.;cccccccccccccc:,.
 
 Renko reboots every Monday at 3:00 AM Pacific Time.
 
-It hosts the following services:
+> [!NOTE]
+>
+> You can probably tell the reason why I name my homerunning NAS "Renko" and the VPS as "Hearn" if you have some Hifuu knowledge. 
+>
+> ![](hifuu.jpg)
+> Artwork by [しろし](https://www.pixiv.net/en/artworks/56978386)
+
+Renko hosts the following services:
 - **Nextcloud**: [nextcloud.renko.cedard.top](https://nextcloud.renko.cedard.top)
 - **Emby**: [emby.renko.cedard.top](https://emby.renko.cedard.top)
 - **Navidrome**: [navidrome.renko.cedard.top](https://navidrome.renko.cedard.top)
 - **Spliit**: [spliit.renko.cedard.top](https://spliit.renko.cedard.top)
 - **Telegram bot**: "cedar_the_misleading" (@cedar_234_bot)
 - I host the following two internet radio stations. 
-  - **Cedar's Classical**: [My own taste of classical music](https://radio.renko.cedard.top/classical)
-  - **[凋叶棕](https://en.touhouwiki.net/wiki/%E5%87%8B%E5%8F%B6%E6%A3%95)**: from my fav musician RD-Sound and vocalist [めらみぽっぷ](https://remywiki.com/Meramipop), [all album touhou music](https://radio.renko.cedard.top/touhou)
+  - You can find all metadata on this [metadata page](https://radio.renko.cedard.top)
+  - **Cedar's Classical**: My own taste of classical music. [Listen here](https://radio.renko.cedard.top/classical)
+  - **Original Touhou Hifuu**: All original Touhou Hifuu CDs by the only ZUN. [Listen here](https://radio.renko.cedard.top/touhou)
+  - **[凋叶棕](https://en.touhouwiki.net/wiki/%E5%87%8B%E5%8F%B6%E6%A3%95)**: from my fav musician RD-Sound and vocalist [めらみぽっぷ](https://remywiki.com/Meramipop). [Listen here](https://radio.renko.cedard.top/diaoyezong)
+  - **[TAMusic](https://touhoudb.com/Ar/850/albums)**: A more classical music circle featuring arrangements of Touhou music. [Listen here](https://radio.renko.cedard.top/tamusic)
 
 All services are monitored via [UptimeRobot](https://status.cedard.top/).
 
