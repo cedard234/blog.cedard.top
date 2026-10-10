@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 # Rewrite relative image references in markdown files to R2 URLs.
+# Covers every page bundle under content/ (posts, pages, ...): an image in content/<rel>/ maps to
+# https://images.blog.cedard.top/<rel>/, matching the R2 key layout used by upload_to_r2.sh.
 # Idempotent — skips references that are already absolute URLs.
+# Usage: rewrite_image_refs.py [--dry-run]   (--dry-run: report what would change, write nothing)
 
 import os
 import re
@@ -10,8 +13,9 @@ import sys
 REPO_ROOT = subprocess.check_output(
     ["git", "rev-parse", "--show-toplevel"], text=True
 ).strip()
-CONTENT_DIR = os.path.join(REPO_ROOT, "content", "post")
-BASE_URL = "https://images.blog.cedard.top/post"
+CONTENT_DIR = os.path.join(REPO_ROOT, "content")
+BASE_URL = "https://images.blog.cedard.top"
+DRY_RUN = "--dry-run" in sys.argv[1:]
 
 IMAGE_RE = re.compile(r'!\[([^\]]*)\]\((?!https?://)([^)]+)\)')
 VIDEO_RE = re.compile(r'(<video\b[^>]*\bsrc=")(?!https?://)([^"]+)(")')
@@ -21,12 +25,12 @@ changed_files = []
 
 for root, dirs, files in os.walk(CONTENT_DIR):
     for fname in files:
-        if fname != "index.md":
+        if fname not in ("index.md", "_index.md"):
             continue
 
         fpath = os.path.join(root, fname)
-        rel_dir = os.path.relpath(root, CONTENT_DIR)
-        r2_prefix = f"{BASE_URL}/{rel_dir}"
+        rel_dir = os.path.relpath(root, CONTENT_DIR).replace(os.sep, "/")
+        r2_prefix = BASE_URL if rel_dir == "." else f"{BASE_URL}/{rel_dir}"
 
         with open(fpath) as f:
             original = f.read()
@@ -55,6 +59,9 @@ for root, dirs, files in os.walk(CONTENT_DIR):
         updated = FRONTMATTER_RE.sub(rewrite_fm, updated)
 
         if updated != original:
+            if DRY_RUN:
+                print(f"  would rewrite: {os.path.relpath(fpath, REPO_ROOT)}")
+                continue
             with open(fpath, "w") as f:
                 f.write(updated)
             changed_files.append(fpath)

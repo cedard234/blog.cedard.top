@@ -48,7 +48,7 @@ Renko reboots every Monday at 3:00 AM Pacific Time.
 >
 > You can probably tell the reason why I name my homerunning NAS "Renko" and the VPS as "Hearn" if you have some Hifuu knowledge. 
 >
-> ![](hifuu.jpg)
+> ![](https://images.blog.cedard.top/page/infrastructure/hifuu.jpg)
 > Artwork by [しろし](https://www.pixiv.net/en/artworks/56978386)
 
 Renko hosts the following services:
