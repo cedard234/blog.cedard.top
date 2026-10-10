@@ -57,7 +57,7 @@ Renko hosts the following services:
 - **Navidrome**: [navidrome.renko.cedard.top](https://navidrome.renko.cedard.top)
 - **Spliit**: [spliit.renko.cedard.top](https://spliit.renko.cedard.top)
 - **Telegram bot**: "cedar_the_misleading" (@cedar_234_bot)
-- I host the following two internet radio stations. 
+- I host the following internet radio stations since I'm terrible at picking which album to play when driving.
   - You can find all metadata on this [metadata page](https://radio.renko.cedard.top)
   - **Cedar's Classical**: My own taste of classical music. [Listen here](https://radio.renko.cedard.top/classical)
   - **Original Touhou Hifuu**: All original Touhou Hifuu CDs by the only ZUN. [Listen here](https://radio.renko.cedard.top/touhou)
