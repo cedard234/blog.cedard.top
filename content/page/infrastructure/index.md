@@ -44,7 +44,7 @@ cccccccc;.:odl:.;cccccccccccccc:,.
 
 Renko reboots every Monday at 3:00 AM Pacific Time.
 
-> [!NOTE]
+> [!CAUTION]
 >
 > You can probably tell the reason why I name my homerunning NAS "Renko" and the VPS as "Hearn" if you have some Hifuu knowledge. 
 >
