@@ -209,7 +209,9 @@ LSC的话收不收无所谓。这张卡换成了高速固定弹。
 
 #### [野符「义满的危机」](https://thwiki.cc/野符「义满的危机」)
 
-![[野符「义满的危机」](https://thwiki.cc/野符「义满的危机」)](th035.bmp)
+![野符「义满的危机」](https://images.blog.cedard.top/post/lifestyle/game/imperishable-night/th035.bmp)
+
+参见 [THBWiki：野符「义满的危机」](https://thwiki.cc/野符「义满的危机」)
 
 没有练过刀弹，这张卡直接b了。放b也有一个技巧，一定要和对面合体，这样伤害会大很多。
 

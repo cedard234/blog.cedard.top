@@ -169,6 +169,8 @@ If you are using some of my services, I have a dedicated uppage (hopefully not a
 
 BTW if you don't know about this already, I drew the name "Renko" from the character "Renko Usami", a physics undergrad studying supernatural encounters.
 
-![[by XUNSI](https://x.com/KXunsi17693/status/2045816705147142598?s=20)](math20260420232915.png)
+![](https://images.blog.cedard.top/post/tech/renko-maintenance-log/math20260420232915.png)
+
+Artwork by [XUNSI](https://x.com/KXunsi17693/status/2045816705147142598?s=20)
 
 It's funny that I named my NAS *Renko* because I named the reverse proxy VPS *Hearn*, who just so happens to be her bestie :)

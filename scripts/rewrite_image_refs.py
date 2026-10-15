@@ -17,7 +17,7 @@ CONTENT_DIR = os.path.join(REPO_ROOT, "content")
 BASE_URL = "https://images.blog.cedard.top"
 DRY_RUN = "--dry-run" in sys.argv[1:]
 
-IMAGE_RE = re.compile(r'!\[([^\]]*)\]\((?!https?://)([^)]+)\)')
+IMAGE_RE = re.compile(r'!\[((?:[^\[\]]|\[[^\]]*\](?:\([^)]*\))?)*)\]\((?!https?://)([^)]+)\)')  # alt may contain [text](url); note a link inside alt text never renders as a link
 VIDEO_RE = re.compile(r'(<video\b[^>]*\bsrc=")(?!https?://)([^"]+)(")')
 FRONTMATTER_RE = re.compile(r'^(image:[ \t]*)(?!https?://)(\S.*)$', re.MULTILINE)  # [ \t]: don't cross into the next line when image: is empty
 
