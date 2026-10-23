@@ -32,25 +32,18 @@ SEA开到市区大概半个小时。早上主要就是逛了一下Museum of Pop 
 对于Seattle的第一印象就是很干净的城市（流浪汉大概比湾区少20dB），阴郁的天气（但是今天竟然出太阳了），以及比湾区慢五迈的高速限速。城市的Floorplan也是比较像湾区一样的城市群，而不是LA那样的摊大饼。
 
 ![The car that I ended up getting - Nissan Altima](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/AEF32ED0-4A57-445C-B09A-3268717EDB09_1_105_c.jpeg)
-
 ![Master Chief Fandom](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/FE8FD297-E11F-4D69-BB67-7B7F03420A56_1_105_c.jpeg)
-
 ![Darth Vader](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/C402284A-039E-41D9-8237-610D69351C73_1_105_c.jpeg)
 
 ![Guitar Pillar](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/64256052-837D-46D1-B2A2-D1F97936C380_1_105_c.jpeg)
-
 ![Ninja Turtle](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/9F385D7E-3BE5-4317-952E-6CD3818C8A4B_1_105_c.jpeg)
-
 ![Does it look familiar to you?](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/9132F42A-A50A-496E-B3BE-15835A6F456D_1_105_c.jpeg)
 
 ![Letter to Professor Harry C. Bauer by J.R.R. Tolkien](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/AC797A77-8AB1-4CDA-8D0B-EB9B078C52D7_1_105_c.jpeg)
-
 ![You have my weapon!](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/D8D2BDFE-B5E0-4526-A3FB-F7C3D6AA9BED_1_105_c.jpeg)
-
 ![Seattle Center](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/3D4FB0F2-9D38-4DF3-A42E-3DE36FEE6BF5_1_105_c.jpeg)
 
 ![On top of the Space Needle](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/CF7AD534-1B50-471D-BC80-E51E2F4AD98C_1_105_c.jpeg)
-
 ![Revolving Bar](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/3119631F-2C36-4A8A-80C2-6E1A0FF2F147_1_105_c.jpeg)
 
 ## Dec 25th, 2024 - Christmas Day
@@ -66,19 +59,14 @@ Merry Christmas!
 下午去了Volunteer Park。Conservatory开门，但是花了$4进去之后发现很失望，就是一个很小的植物园，也没有太多的讲解和值得看的东西。Volunteer Park的后院是Lake View Cemetery，这个墓地是西雅图的一个历史遗产，里面埋葬了很多西雅图的名人，包括了Bruce Lee和Brandon Lee。雨中的墓地很安静。
 
 ![Red Square, also known as Center Plaza](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/965DDE13-F564-4CEE-9663-7A27DBFFF10D_4_5005_c.jpeg)
-
 ![George Washington](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/157F5B5F-3DF5-4710-96D7-03487050349E_4_5005_c.jpeg)
-
 ![University Library](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/8450411A-879B-4A1D-B894-F412BB84695E_4_5005_c.jpeg)
 
 ![Another Library perhaps?](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/449ABA39-1E52-483C-96F6-5F8A2B895086_4_5005_c.jpeg)
-
 ![Husky](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/E7907CAF-FA8E-4AA2-8D82-50615B262B5E_4_5005_c.jpeg)
-
 ![School of Material Science](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/90FEA82B-8761-425D-A417-07B41CBE3692_4_5005_c.jpeg)
 
 ![Here buries Bruce Lee and his son](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/44E21B7B-0EB9-4504-BA87-F655C3EC712D_4_5005_c.jpeg)
-
 ![Lake View Cemetery](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/A45FFCAD-18DE-49BF-8C14-1A5BD031BAB0_4_5005_c.jpeg)
 
 ## Dec 26th, 2024
@@ -98,25 +86,18 @@ Merry Christmas!
 最后本来打算去逛一下所谓的第一家星巴克，但是感觉天快黑了就打道回府了。说实话对星巴克的兴趣也不高。
 
 ![Future of Flight里的太空舱](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/E68BB950-5A3B-422E-8A4E-7EE9DAA34B93_1_102_o.jpeg)
-
 ![Concept Planes](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/AFA9A031-1AB1-4D6A-8C5E-F6464EC52744_1_102_o.jpeg)
 
 ![远处的几座机库就是装配中心](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/897BC6D5-0DD0-4A2D-806F-2A4F6CB0F948_1_102_o.jpeg)
-
 ![涂装前的飞机](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/75A3B90F-A037-4CC7-BA0B-5765F9478786_1_102_o.jpeg)
-
 ![Call of Cthulu?](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/86FC364C-A25A-4451-8059-3C5BE78D514C_1_102_o.jpeg)
 
 ![Sanity Check](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/FD08BB20-B3CE-4FDE-A95E-F2C1481EA7F4_1_102_a.jpeg)
-
 ![晴天的Seattle市区](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/62B15803-18BF-4AA5-B3B3-330558F79C3F_1_102_o.jpeg)
-
 ![亚麻的奇观生态球](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/752B7ED9-5881-4142-B56D-B316BF34AC9F_1_102_o.jpeg)
 
 ![Pike Market](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/6190D40D-AD51-457B-9EBD-DC33C749C08F_1_102_o.jpeg)
-
 ![City: Skylines](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/F17D9C3B-426B-4BE7-B725-9591570F2C4C_1_102_o.jpeg)
-
 ![Puget Sound的海浪](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/97A2395B-1350-4D15-BC42-2535E2440868_1_102_o.jpeg)
 
 ## Dec 27th, 2024
@@ -131,53 +112,37 @@ Museum of Flight其实圣诞节当天就想去了，但是理所当然没有开�
 
 
 ![二德子的铁十字滑翔机](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5655.JPEG)
-
 ![JFK: We choose to go to the moon!](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5656.JPEG)
-
 ![曾经装载于Saturn V上的歧管，用于点火](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5657.JPEG)
 
 ![三位先驱科学家：罗伯特·戈达德,赫尔曼·奥伯特和齐奥尔科夫斯基](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5659.JPEG)
-
 ![早期的飞行控制台](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5661.JPEG)
 
 ![地月系模型](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5665.JPEG)
-
 ![F1火箭发动机](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5666.JPEG)
-
 ![探月车](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5668.JPEG)
 
 ![月壤标本](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5669.JPEG)
-
 ![曾经上过月球的美国国旗](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5670.JPEG)
-
 ![一阵强劲的音乐响起🎵](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5674.JPEG)
 
 ![伟大的创举！](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5677.JPEG)
-
 ![博物馆主馆](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5678.JPEG)
-
 ![波音工厂里的木匠正在制造飞机的桁架](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5680.JPEG)
 
 ![山本五十六驾驶过的战机模型](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5684.JPEG)
-
 ![光荣之路老玩家表示这我太熟了](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5685.JPEG)
-
 ![尼克松，周恩来以及空军一号](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5689.JPEG)
 
 ![协和号客机](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5694.JPEG)
-
 ![水族馆](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5696.JPEG)
-
 ![雨幕下的西雅图港](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5700.JPEG)
 
 ![第一家星巴克门店](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5705.JPEG)
-
 ![同上，菜单并没有太大区别](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5710.JPEG)
-
 ![Howard Schultz's quote](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5711.JPEG)
 
 ![出餐窗口](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5713.JPEG)
-
 ![寒冷的街头喝拿铁真是太幸福了！](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5714.JPEG)
 
 # Vancouver, BC
@@ -199,20 +164,14 @@ Museum of Flight其实圣诞节当天就想去了，但是理所当然没有开�
 
 
 ![忙碌的海关](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5724.JPEG)
-
-
 ![UBC校园漫步](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5726.JPEG)
-
 ![祖灵图腾柱](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5728.JPEG)
 
 ![学校中心的喷泉](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5729.JPEG)
-
 ![人类学博物馆前的钟塔以及小广场](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5731.JPEG)
 
 ![西北角的小花园以及海湾](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5733.JPEG)
-
 ![原住民文字的路牌](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5734.JPEG)
-
 ![晚霞](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5735.JPEG)
 
 ## Dec 29th, 2024
@@ -223,13 +182,10 @@ Museum of Flight其实圣诞节当天就想去了，但是理所当然没有开�
 由于一直在下雨，所以没有安排其他更有意思的活动。
 
 ![蒸汽朋克钟](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5739.JPEG)
-
 ![二手书店里的《胡林的儿女》](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5741.JPEG)
-
 ![城内的天主教堂](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5742.JPEG)
 
 ![轮渡上的温哥华](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5743.JPEG)
-
 ![雨中的海湾](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5745.JPEG)
 
 ![雨停之后的晚霞与市区，从北温哥华遥望](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5748.JPEG)
@@ -245,13 +201,10 @@ Museum of Flight其实圣诞节当天就想去了，但是理所当然没有开�
 Quote Stefan：温哥华比起旅游城市更像一个度假城市。
 
 ![Frazer River的河景](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5751.JPEG)
-
 ![渡船码头](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5754.JPEG)
 
 ![吊打湾区的早茶水准](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5755.JPEG)
-
 ![奇怪的大楼](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5757.JPEG)
-
 ![Stanley Park遥望lion gate bridge](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5759.JPEG)
 
 ## Dec 31st, 2024
@@ -267,15 +220,11 @@ SFU是一个位于Burnaby的大学，坐落在山顶上，因此有一个很好�
 飞机飞的出乎意料的快，在31号的晚上十一点半回到了湾区，并在出租车上过了新年。意大利司机一边和我聊天一边给我指路边的烟花。希望2025年一切顺利！
 
 ![奇怪的pepe雕像](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5772.JPEG)
-
 ![如同太空堡垒一样的学校图书馆](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5773.JPEG)
-
 ![从山上往下看Burnaby](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5774.JPEG)
 
 ![返程，可以看到雪山](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5778.JPEG)
-
 ![美加边境的友谊碑，有一种“山川异域 日月同天”的感觉](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5781.JPEG)
-
 ![飞机上遥望湾区](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5787.JPEG)
 
 ![冰箱贴+3](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-seattle-vancouver/IMG_5789.JPEG)

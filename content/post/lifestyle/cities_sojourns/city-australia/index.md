@@ -100,12 +100,10 @@ tags:
 买了点水果我们就离开了这个地方。走的时候还有华裔lingling在拉小提琴，拉的还挺不错，就是不知道为什么在卫生间门口拉。
 
 ![市场门口](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/697D4375-35E9-48CF-A8AD-E5971596044D.JPG)
-
 ![一天练琴二十五小时的LingLing](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/9B2A3F0D-C280-41A8-BE9B-C79C16AB9096.JPG)
 
 在这之后已经是午后半晌了。我们开车前往著名的弗林德斯街车站。这是蒸汽时代的一个重要地标。
 ![车站正门](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/7E2A3117-8C51-4531-A672-B0B59D5AD248.JPG)
-
 ![车站正门x2](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/2C3720BF-03EA-4E41-A062-772DD99C05CF.JPG)
 
 车站后门就是墨尔本的母亲河，Yarra River(雅拉河)。这条河一路注向墨尔本湾。
@@ -147,7 +145,6 @@ tags:
 菲利普岛真的有一种天涯海角的感觉。
 
 ![海鸥：你瞅啥？](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/71A5E98E-415D-4AEF-AE98-FCA6077D37F4.JPG)
-
 ![海角乐园](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/DDA0697D-3817-40B4-94E2-E813BB989E03.JPG)
 
 这是我第一次看到这种绝景。蔚蓝的天空上白色的云涛飘飘而去；苍茫的大海里洁白的浪涛滚滚而来。在这片海滩上，无数的海鸥在起飞和降落。浪涛的声音消弭在被海风浸透的咸腥的冷空气中。面对我的是茫茫的太平洋和印度洋；在我们的对面就是南极。
@@ -177,9 +174,7 @@ tags:
 吉朗是大洋路的第一站。我们到了本地的一个小海滩，去参观当地的彩绘木桩。
 
 ![吉朗海滩](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/6C990DBF-9922-460B-A866-9D151D6EF08B.JPG)
-
 ![木桩1](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/4D6F6C28-6A98-4847-BCAE-2BFAFAF782BB.JPG)
-
 ![木桩2](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/F5551311-68EC-4308-AF2A-758567352236.JPG)
 
 说实话，这些木桩有些掉san。
@@ -236,13 +231,11 @@ are you here for the plane?
 在这个小区域有一座灯塔，照耀着来往的船只。
 
 ![白塔](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/E485FFB1-1419-43DE-8BE6-615CCE01B4B1.JPG)
-
 ![近距离白塔](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/F43BF8F8-9FB2-4155-8B59-F4CF889505B3.JPG)
 
 这一片的海岸相比起托尔坎的更加陡峭，并且多了很多礁石。海浪冲上礁石平台，再像雪花一样从四面八方飞散下去。
 
 ![海岸线](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/2965ABAF-7CFD-4AEE-A2B1-A18DCE2E0B5F.JPG)
-
 ![冲刷的岩石](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/894DF562-9E73-457C-8DA0-B15F7690AD4B.JPG)
 
 离开这片区域继续往前的话，大洋路持续下降，直到和海岸线高度几乎一致。
@@ -274,7 +267,6 @@ are you here for the plane?
 阿波罗湾有一个森林公园，在公园里往外走两步就能到大海。
 
 ![林禽（确信）](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/E651297A-2B74-4ACA-9B61-D9DB8DC16524.JPG)
-
 ![阿波罗湾海滩](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/B565240E-F533-49E7-B950-1EEA518357EE.JPG)
 
 这一片的海湾十分平静（不然不能拿来当港口）。远处有一些船只停泊。
@@ -336,7 +328,6 @@ are you here for the plane?
 这一片都是平原，但是一到海边就是落差极大的悬崖。
 
 ![礁石](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/74F7FFA2-BBD0-403E-A4E2-20E783330D80.JPG)
-
 ![无限的白浪](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/CD16C0AC-C971-4039-BBAC-33512082FBEB.JPG)
 
 得益于一位不知名人士可能把通往海滩的门打开了（原本是锁着的），我们下到了最底部，看到了最壮观的景象。
@@ -522,7 +513,6 @@ Z总一路狂飙，在双车道的乡间小路上施展了秋名山车技。
 阿瓦隆机场竟然还有航空展，第一次看到了巨大的霓虹空军运输机。
 
 ![起飞前](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/F6F1C101-295A-4E1A-BCA0-BF979AA4E88D_1_102_o.jpeg)
-
 ![起飞后](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/D8E30C28-F424-48A9-8E9D-FF1578B8783D_1_102_o.jpeg)
 
 ### 机场奇遇记
@@ -561,7 +551,6 @@ Jetstar把我们的航班重新改签到了第二天早上六点钟，也就是�
 
 
 ![海港大桥1](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1090.JPEG)
-
 ![海港大桥2](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1092.JPEG)
 
 悉尼的气温相比起墨尔本来说舒服太多了，主要是免受凛冽的海风的冲击。
@@ -569,7 +558,6 @@ Jetstar把我们的航班重新改签到了第二天早上六点钟，也就是�
 
 悉尼湾里面还有一些其他有意思的景观。各种小船，以及一艘大船。
 ![卡拉维尔帆船](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1094.JPEG)
-
 ![Ovation of the Seas](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1095.JPEG)
 
 [海洋赞礼](https://en.wikipedia.org/wiki/Ovation_of_the_Seas)，这就是这艘船的名字。这是世界上第二大的邮轮，往返于北半球的天津以及南半球的悉尼。这艘船始终在夏季航行。
@@ -577,7 +565,6 @@ Jetstar把我们的航班重新改签到了第二天早上六点钟，也就是�
 海港大桥非常高。我们没有买走拱桥的票（因为太贵了），但是站在和道路齐平的桥面上已经可以观赏整个悉尼湾了。
 
 ![海边的悉尼湾](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1097.JPEG)
-
 ![桥上的悉尼湾](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1104.JPEG)
 
 悉尼湾内还停着一艘军舰，是[HMAS Adelaide (L01)](https://en.wikipedia.org/wiki/HMAS_Adelaide_(L01))
@@ -671,7 +658,6 @@ Jetstar把我们的航班重新改签到了第二天早上六点钟，也就是�
 港内还停泊着一艘[HMAS Vampire (D11)](https://en.wikipedia.org/wiki/HMAS_Vampire_(D11))。这是一艘已经退役的勇敢级驱逐舰，曾经在远东与东南亚执行过不少任务。
 
 ![HMAS Vampire (D11)](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1177.JPEG)
-
 ![达令港](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1178.JPEG)
 
 ## 5 Mar 2023
@@ -692,7 +678,6 @@ Z总表示很想和袋鼠试一试拳击。
 因为动物园就在悉尼湾的北岸，所以可以看到非常棒的景色。今天也是久违的见到了无尽的蓝天与太阳。
 
 ![悉尼湾](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1213.JPEG)
-
 ![游轮](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1232.JPEG)
 
 动物园之后的则是坐船回到达令港，稍事歇息之后就回家提东西回新加坡去也。

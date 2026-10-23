@@ -63,7 +63,6 @@ tags:
 大概逛了一下ECE和CS的楼--都是很崭新的建筑，比起伯克利的设施要好很多，让我不禁想到OSU的校园，或许所有拥有在乡间的州立大学都是这样吧。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math64DCCE3A-A2E1-4232-9C20-414B7684F53E_1_105_c.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathE15A6EB8-4F80-462D-97C9-68AB542B5946_1_105_c.jpeg)
 
 学校里的松鼠非常肥硕，完全不怕人。我猜幸存者偏差和自然选择在这时发挥了作用：只有那些吃的肚子鼓鼓囊囊的松鼠才能在IL的严酷冬天里存活下来。
@@ -89,17 +88,13 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 芝加哥被评为“美国第三大都市”，仅次于纽约和洛杉矶。她也因为她鳞次栉比的摩天大楼，以及干净而漂亮的街景而闻名于世。我们早上先去了Grant Park，这里可以从湖边看到芝加哥的天际线。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB535D483-E838-4E43-9EB0-B1C2410F1693_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math320CE421-2493-4859-985F-6F2D35B92464_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathCAF2604D-1F89-437C-BE07-313DB085F792_1_102_o.jpeg)
 
 芝加哥有一条穿过城市的河流，也就是“芝加哥河”。这条河流在历史上曾经被污染得非常严重，后来经过治理才变得清澈见底。现在芝加哥河两岸已经被开发成了一个非常漂亮的步行街区，沿途有很多餐馆和咖啡厅。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math284DB296-D8E2-4DFA-A1AA-2746D4B561B8_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math0F54878F-00B2-43A7-8E0F-FFDD29260F34_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math8D4412D5-0FC1-4EFB-A528-6D46795A50D4_1_102_o.jpeg)
 
 中午我们坐城市捷运去了西边的麦当劳总部，这个地方叫"Hamburger University"，相当直白的名字。门口的餐厅不定期供应世界上各种麦当劳餐厅的特色菜品，我尝试了一下波兰鸡肉卷，感觉还可以。
@@ -113,7 +108,6 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 芝加哥还有一家很著名的星巴克门店，叫做“星巴克旗舰店”，位于密歇根大道上。这家店铺面积巨大，装修豪华，是星巴克在全球范围内最大的门店之一。这家店一共有四层，每一层都有不同的主题和设计风格。我照例点了一杯Chai Latte，然后在店里恢复体温。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math2D98E8BF-D71C-425A-A94B-75F736834E1B_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math73C5BC45-8D96-4392-B1B4-47BEA40007E9_1_102_o.jpeg)
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math8F618441-EF2E-4D01-8628-BB9B22D35943_1_102_o.jpeg)
@@ -123,9 +117,7 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 晚霞下的芝加哥天际线非常美丽，宛如油画一般。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math15D19F23-CC2D-4D58-9706-9748124B0BFA_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math247C08C0-D300-495D-A7DD-A2FDAF556DC9_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathA09E91A0-5432-4CE8-A19A-BCE84D5329E9_1_102_o.jpeg)
 
 ### November 29th, 2025
@@ -146,21 +138,15 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 我预留了一整天时间来逛这个著名的艺术历史博物馆。芝加哥艺术学院收藏了大量的艺术品，从古代到现代，从欧洲到美洲，种类繁多，令人目不暇接。因为艺术作品太多了，所以我索性直接把照片贴出来，配上简短的说明。
 
 ![开门先去了日本展馆，里面展出了江户百景之类的浮世绘](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math28C6D6A8-A33F-4746-955E-E5733B964080_1_102_a.jpeg)
-
 ![完璧归赵](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math79118AF0-0035-48B2-AE0E-353CC89E50F7_1_102_o.jpeg)
-
 ![爱德华·蒙克的《呐喊》](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathDF87DA4C-AAEA-4985-89A1-55F3038BE9C1_1_102_o.jpeg)
 
 ![戴着面具的情侣](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathD6C93754-22E9-4FF2-BE7A-A1894CDAFE9C_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math925E630D-32EB-4340-AE47-04ED9A95018F_1_102_o.jpeg)
-
 ![蒙克自画像](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathFDDAC68A-84B7-43D6-9A76-C3A85CCCE091_1_102_o.jpeg)
 
 ![玛丽亚](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathF758953F-4DE5-445F-A5FF-D57F9C1428D2_1_102_o.jpeg)
-
 ![释加牟尼](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math0EA80BBB-817A-4964-88C1-52BDD2B02B59_1_102_o.jpeg)
-
 ![Ganesha神](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math5954AE9D-3941-4F7F-A0B7-A5108FBB87F8_1_102_o.jpeg)
 
 ![法老的棺椁](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math83B1CE44-532B-4A95-A74F-50673C70D343_1_102_o.jpeg)
@@ -168,43 +154,30 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 我很喜欢下面几个罗马+希腊+拜占庭馆的藏品：
 
 ![半身像：特洛伊王](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathEB404E9D-B140-4542-A6AE-EFB23BCB7287_1_102_a.jpeg)
-
 ![半身像：奥勒留皇帝](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathC8DE726D-69C5-4155-8095-45014F68C6AE_1_102_a.jpeg)
-
 ![半身像：哈德良](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathA59B1A5B-E772-40AC-801C-36EAB0BCE7C9_1_102_a.jpeg)
 
 ![拜占庭圣物十字架](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathDF9405B7-60B0-4FBA-A0A3-9241FE9C3CEE_1_102_o.jpeg)
-
 ![希腊人雕刻的伊西斯神](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math0F139E39-6585-4C30-A3A9-2109857F779E_1_102_a.jpeg)
-
 ![马其顿帽，也就是后来的弗里吉亚帽](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math7FADE9E6-23B9-4D36-96C5-C1A2513C6C63_1_102_a.jpeg)
 
 ![镇馆之宝：美国哥特式](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math648A60D5-3EFA-404D-947D-C0E36725BE2B_1_102_o.jpeg)
-
 ![春分山的冬](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1E1E8D72-F768-4D2F-82AD-C278EA04BA13_1_102_o.jpeg)
-
 ![欧姬芙，《天空之上》](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathC7BC8B6D-A04D-4945-A47E-1E68A2DF4EF6_1_102_o.jpeg)
 
 ![魔女（我瞎说的）](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathD4102A39-E8DC-45C4-A6BF-DD5272754EAE_1_102_a.jpeg)
-
 ![辛迪·舍曼的自拍](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math82449432-511D-4282-96BB-0CA8BDC2557B_1_102_a.jpeg)
-
 ![神似亨利八世的参拜客](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1E989D5B-F99E-420E-B08E-D6D200DDDD9C_1_102_o.jpeg)
 
 ![莫奈的干草垛四季](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math01A95C4C-2694-4F53-ABDF-6176990D872C_1_102_a.jpeg)
-
 ![莫奈：雾里的英国议会](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math467670FA-CDE3-4D76-96E7-34549C8E77BF_1_102_o.jpeg)
 
 ![莫奈：睡莲](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math7C35D570-D01A-4C74-A9E0-38FDC5D3CF75_1_102_o.jpeg)
-
 ![梵高的《自画像》](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math31ABA708-7AEB-49F4-A7FC-6BB85AD01210_1_102_a.jpeg)
-
 ![梵高的卧室](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math67BD29BF-CDA5-4743-89F4-6A8B1D11EE5B_1_102_a.jpeg)
 
 ![乔治·修拉：大碗岛的星期天下午](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB01974E3-9550-4F6E-BF6F-E0595C044572_1_102_o.jpeg)
-
 ![鼻子被破坏的圣徒脸，看起来非常克苏鲁](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math9A3C8903-A49F-4E64-982D-5360143DBE99_1_102_o.jpeg)
-
 ![左边两个雕像是麦琪带来礼物](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathC9087087-4B41-4B73-AE8C-039A347E2EEE_1_102_o.jpeg)
 
 ![镇馆之宝：伯纳特·马托雷尔：圣乔治屠龙](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math287DE539-A66C-4949-BAA8-51FEC533DA11_1_102_a.jpeg)
@@ -212,81 +185,57 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 我也同样很喜欢武器边馆的展品：
 
 ![武器与盔甲：萨克森选帝侯卫队](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathCFDAA8A1-E9F2-4A85-8DC2-A0D0F095CA39_1_102_o.jpeg)
-
 ![武器与盔甲：萨尔茨堡大主教卫队](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB86EAB8C-37C9-4D3B-AE3F-DB25B869271C_1_102_o.jpeg)
-
 ![武器与盔甲：教宗的瑞士卫队](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math8715C9EE-8E33-45D0-8BC3-3CAFC4277C4A_1_102_o.jpeg)
 
 ![武器与盔甲：不伦瑞克与吕讷堡的公爵卫队](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math974C5D2C-DC26-41E1-8104-E369E80FEA05_1_102_o.jpeg)
-
 ![帕绍的双手佩剑](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathDD1DD8D0-B79E-418D-BD2B-1C3B191FE9A3_1_102_o.jpeg)
 
 下面这个展品相当令我惊喜：这是斐迪南二世的甲胄，他就是那个在三十年战争中被古二爷干爆的那个神罗皇帝。甲胄的左边画着马克西米利安一世，右边则画着查理五世。这个盔甲说是有波兰风格，因为是给轻骑兵用的。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math4CC553B9-3D67-4465-8C5C-C6CE06441A8F_1_102_a.jpeg)
-
 ![比武大赛的盔甲套装](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math87088AC5-EC26-429A-8940-530F135EAA53_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math2715ADCD-D505-4EB1-8D0D-37E3C1EFAB18_1_102_o.jpeg)
 
 ![骑枪原来这么长，难以置信](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathE41B66D0-63FD-4DD5-8B94-AC8103E72D4D_1_102_a.jpeg)
-
 ![北方十字军：条顿骑士团套装](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math8E736253-6541-4D6D-B0E0-EA7273EC1B2F_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math89E0AF9B-B8B0-43D2-BAC9-321FCE3F5A8B_1_102_a.jpeg)
 
 ![四位福音传教士](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math440BE7E8-2B9B-4D49-A670-5928C0CA2098_1_102_o.jpeg)
-
 ![抹大拉的玛丽](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math4D97769F-5911-4666-8622-2885920C5A70_1_102_o.jpeg)
-
 ![友弟德，红桃Q的原型](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math543EB93A-B6CF-4FBC-8F7F-8F0CC027981C_1_102_o.jpeg)
 
 ![维纳斯责难朱庇特](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math47375842-9A21-46C1-B5B7-EDD0EC06E796_1_102_o.jpeg)
-
 ![月神狄阿娜](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1CC6A2FD-73EF-42FA-98A1-1D55BCFCE450_1_102_o.jpeg)
-
 ![莎乐美斩杀施洗约翰](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math89895438-735A-476E-8595-2A315A0AB25E_1_102_o.jpeg)
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math43DF2268-E57F-4079-93BE-42CC0E2FD5DA_1_102_o.jpeg)
-
 ![似曾相识的塔楼？](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathFFC39FBF-C5AF-4D05-8C47-59DF76C6E259_1_102_o.jpeg)
-
 ![战争（战神马尔斯）与和平](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathE2CF356F-BBDD-426D-9060-E0CBC2D0C33E_1_102_o.jpeg)
 
 ![帕里斯·特洛伊的灾祸](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math3D0DABFD-6530-488D-9907-36A1F9CFF77F_1_102_a.jpeg)
-
 ![摩西毁灭埃及军队](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math38A4AE33-B653-4585-B679-CFD7C49F3898_1_102_o.jpeg)
-
 ![大竞技场](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB86BEA2F-B8F7-4C09-8409-31923908F628_1_102_o.jpeg)
 
 ![少女，云雀与清晨](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1CC32EA8-E5F9-4A9D-8D2C-FF0C10E4AAF9_1_102_a.jpeg)
-
 ![莱菲博瑞：宫女](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math58B69728-BAE6-4320-939A-B0AA7BDE96A8_1_102_o.jpeg)
-
 ![圣乔治](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math8BA1ECCD-D626-4576-9274-65ABA788786B_1_102_a.jpeg)
 
 ![镇馆之宝：雨中巴黎](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathBDEF19D5-DF36-4DA9-BE01-347CDE8285E9_1_102_o.jpeg)
-
 ![罗丹：加莱义民](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB1A3261B-4007-4CD5-B58A-0C4097CB734F_1_102_a.jpeg)
-
 ![教皇与人肉](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math545B7FD5-9A8F-4067-8BB6-BF8D5E19923D_1_102_o.jpeg)
 
 ![达利：维纳斯之梦](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math9505D5FC-AC7A-4F6B-9B3D-64955CE052F3_1_102_o.jpeg)
-
 ![毕加索：松下裸体](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math409BBD5E-E47D-4E9E-8CF6-C5FB8F72CB56_1_102_o.jpeg)
-
 ![毕加索：母与子](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math108A3437-C4BD-4540-A6A5-F3C8CD2C8BA6_1_102_o.jpeg)
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathCA8E486B-2AC5-4FFC-88E7-67EEE7F5D208_1_102_o.jpeg)
-
 ![毕加索：老吉他手](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math06767B9E-D6FC-4815-8FF1-E60C77073FA2_1_102_o.jpeg)
 
 出博物馆的时候已经是四点钟，外面依然下着茫茫大雪：
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math9568C317-C91D-41E0-B7CC-A5DED9367A3F_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1D742492-4003-42FB-B4B4-507D72CB04A7_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math3428864C-05FA-4909-80DE-302B7457CDB3_1_102_o.jpeg)
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathF374ABE2-3D87-4FD8-A61A-C1B316A0810A_1_102_o.jpeg)
@@ -301,7 +250,6 @@ IL的冬天，太阳下山的很快。四点半的时候我们启程离开香槟
 Uchicago在芝加哥南区，离L家不远。作为美国历史悠久的顶尖大学，她的校园风格散发一种新古典主义的魅力，这点可以从各种哥特式，文艺复兴风格以及罗马式建筑中看出来。当然校园里也不乏各种现代风格一点的建筑，比如这个图书馆的穹顶：
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math33E6FA7C-0FE3-4CC7-8DBF-A8143403058C_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathB26F8FB6-816E-4D85-ADBD-C3585D3E8456_1_102_o.jpeg)
 
 校园里有很多爬满爬山虎的建筑，覆盖在雪地上，显得格外有气氛。L评价是芝大的建筑和冬天相性非常合得来。我是感觉在苦寒里逛这种古典建筑群有一种卡娜莎之行的无奈朝圣感。
@@ -311,7 +259,6 @@ Uchicago在芝加哥南区，离L家不远。作为美国历史悠久的顶尖�
 一路走到main quadrangle，这是一个典型的大学中庭，四周被教学楼和图书馆环绕。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math9A53B759-1CAA-467A-95D9-ECFBCEF4287E_1_102_a.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathC1A73582-BDE7-4CB9-A3BB-97F24B433454_1_102_o.jpeg)
 
 我们看到路边有人在尝试堆雪人。L趁这个机会教了我怎么正确堆雪人：他的评价是刚下雪的时候雪的粘性是最好的，所以最好堆；正确的堆法是先捏一个雪团，然后在雪地上滚动，直到越来越大，于是就获得了一个大雪球，以此类推。我试了一下，果然很容易就能堆出一个不错的雪球。
@@ -333,8 +280,7 @@ Uchicago在芝加哥南区，离L家不远。作为美国历史悠久的顶尖�
 然后一路逛到Booth商学院，一栋相当气派的建筑，可惜进不去：
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/math1E5FB851-FEB3-4091-8292-7277A9B7B434_1_102_a.jpeg)
-
-![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathCD3BBA9A-AB91-471E-8852-0CB6398C4F82_1_102_o.jpeg) 
+![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-illinois/mathCD3BBA9A-AB91-471E-8852-0CB6398C4F82_1_102_o.jpeg)
 
 然后经过芝大的纪念礼拜堂，发现有人在Carillon钟楼上演奏音乐。管理员破例让我们进去参观。
 

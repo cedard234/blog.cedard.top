@@ -33,9 +33,13 @@
         {{ with try (resources.GetRemote .Image) }}
             {{ with .Err }}
                 {{ warnf "Failed to fetch remote image %q: %s" $url . }}
+            {{ else with not .Value }}
+                {{ warnf "Remote image %q returned no resource (HTTP 404 at fetch time, possibly cached by Hugo's getresource cache)" $url }}
             {{ else with .Value }}
                 {{ if reflect.IsImageResourceWithMeta . }}
                     {{ $result = merge $result (dict "Height" .Height "Width" .Width) }}
+                {{ else }}
+                    {{ warnf "Remote image %q is not a readable image (media type %s); possibly a stale entry in Hugo's getresource cache" $url .MediaType }}
                 {{ end }}
             {{ end }}
         {{ end }}

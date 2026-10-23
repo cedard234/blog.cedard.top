@@ -98,9 +98,7 @@ Arlington在吃过晚饭后下起了暴雨，我们打了辆车后就各自告�
 看到了好些名画，包括但不限于：
 
 ![达芬奇：吉内薇拉‧班琪](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-washington-dc/20250518203121.png)
-
 ![莫奈：打阳伞的莫奈夫人](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-washington-dc/20250518203238.png)
-
 ![伦勃朗：自画像](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-washington-dc/20250518203310.png)
 
 ![书房里的拿破仑](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-washington-dc/20250518203503.png)

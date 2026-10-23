@@ -73,9 +73,9 @@ jobs:
         uses: actions/cache/restore@v5
         with:
           path: ${{ runner.temp }}/hugo_cache
-          key: hugo-${{ github.run_id }}
+          key: hugo-v2-${{ github.run_id }}   # v2: drop stale getresource entries cached before 2026-10
           restore-keys:
-            hugo-
+            hugo-v2-
       - name: Build the site
         run: |
           hugo \

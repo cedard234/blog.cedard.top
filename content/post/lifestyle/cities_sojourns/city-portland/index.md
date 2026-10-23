@@ -27,7 +27,6 @@ Things just work out, I guess. 换换环境，不也挺好的吗？
 在结束了半周的BWRC retreat之后，我自认收获了一些不错的反馈意见。在结束了整整两个月的紧张刺激Tapeout crunch之后，我终于可以放松一下了。
 
 ![早晨四点的SF](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math43735F6A-4435-4D72-9130-D1B28890A025_1_105_c.jpeg)
-
 ![早上五点的SFO](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math75BE1A7A-1CC3-4ACC-9D65-8B23F3B1485B_1_105_c.jpeg)
 
 下飞机的时候，波特兰是多云天气，让我有一些小意外--这是一个在湾区不大会碰见的天气。PDX很干净，也很令人感到舒适--并没有NRT那样虽然干净但是让人觉得很像停尸间的感觉，也没有像SIN那样富丽堂皇地让人不近人情（虽然我也很喜欢樟宜机场）。我很快就拿到了行李，H也在机场的出口处接到了我。
@@ -47,7 +46,6 @@ Things just work out, I guess. 换换环境，不也挺好的吗？
 除了开始紧锣密鼓地和小老板K开始做简单的讨论之外，也趁周末的时间去了一下波特兰附近的景点。和H在某天傍晚一起去了Washington Park里的Rose Garden -- 波特兰也被称为“玫瑰之城”，因为这里的气候非常适合种植玫瑰花。
 
 ![玫瑰花园](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math06C3B786-152E-4457-B4E1-B06AB05E6C4F_1_102_o.jpeg)
-
 ![波特兰的天际线](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math4603043F-E357-4D50-ADC8-715DFDF0137B_1_102_o.jpeg)
 
 ## Early June
@@ -82,13 +80,11 @@ Things just work out, I guess. 换换环境，不也挺好的吗？
 六月六号的时候，波特兰的动物园有一个特别的活动，叫做“Zoobrew”。在这个活动中，动物园会延长开放时间，并且提供现场啤酒和美食。我们在傍晚时分来到了动物园，享受了这个独特的体验。
 
 ![长颈鹿](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathA2E241A7-FADE-490D-9D5B-32BD7734D7ED_1_102_o.jpeg)
-
 ![I like lager](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math6315B0DE-8B3B-4CA6-8AC0-4EB6AE579139_1_102_o.jpeg)
 
 六月被称为波特兰的“玫瑰月”，因为这个时候正是玫瑰花盛开的季节。在这个月里波特兰会举办各种城市庆典。六月六号的时候有一个叫海军节的活动，来了两艘USS的驱逐舰。
 
 ![USS MUSTIN](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math2EC9ECF5-B229-4A05-B115-42EA469C6CE2_1_102_o.jpeg)
-
 ![海岸警卫队的船 USCGC Eagle](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math09A74AF2-170B-4A7C-9143-61C317F500E6_1_102_o.jpeg)
 
 周末的时候也和H还有他的朋友S以及他的妻子N一起去了Cannon Beach。这个海滩位于俄勒冈州的北海岸，以其壮观的海蚀岩和美丽的沙滩而闻名。我们在这里度过了一个愉快的下午，享受了海风和阳光。
@@ -118,7 +114,6 @@ Mount Hood得名于英国的海军上将托马斯·胡德（Thomas Hood），是
 这段时间我就开着H的leaf上下班，看到了一些奇怪的车牌：
 
 ![ok fine](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathC55306D4-8EBC-428A-922E-582967202F8F_1_105_c.jpeg)
-
 ![sorry I use arch](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math9D7ACF3C-44D2-4AAD-AA08-8E31BBE57589_1_102_o.jpeg)
 
 H不在的时候偶尔也和老板K一起出去喝酒。Again，波特兰的酿酒文化让我大开眼界。K是一个非常纯粹的工程师；他对波特兰的评价是“终于让他从AZ的酷热中解救了出来”。
@@ -130,13 +125,11 @@ H不在的时候偶尔也和老板K一起出去喝酒。Again，波特兰的酿�
 我很喜欢Powell's Books的氛围，书店里的书非常非常多，而且配色也是我很中意的暖色调。结账的时候店员会送你一个书签--书签的种类和你买的书的种类有关。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math4D5FBF24-5491-4DE2-910A-523B328AC47F_1_105_c.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math09E0C97E-F10D-46BE-B436-2D96F5176FF7_1_105_c.jpeg)
 
 波特兰在六月底也终于慢慢变热。夏天来了。有时候我会想念伯克利10-20度的凉爽（偶尔有点冷）的天气。
 
 ![低头看手机](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math0A32E442-EC12-4F87-80BB-89DDA1A65447_1_105_c.jpeg)
-
 ![西海岸蓝的不可思议的天空](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathD82F9561-D5C3-4988-AE51-3A79758916E8_1_105_c.jpeg)
 
 ## Early July
@@ -146,7 +139,6 @@ H不在的时候偶尔也和老板K一起出去喝酒。Again，波特兰的酿�
 因为H的leaf续航实在太差，我不得不再租一辆车。J来的时候我租到一辆Jeep Compass，油耗极高（无语），但是坐起来很舒服。我们去了Powell的总店，重新去了一下Multnomah Falls，Saturday Market，去了Pittock Mansion俯瞰整个波特兰，以及到周边的地方都逛了一逛。
 
 ![J having ADHD rn](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathFFBC2552-7711-43B2-830C-D3129F39EEE0_1_105_c.jpeg)
-
 ![在Pittock Mansion看整个波特兰](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math623D0EBF-983B-4BAE-9CE5-6249196589D4_1_102_o.jpeg)
 
 J在独立日假期过后就和我说拜拜了--再见大忙人。我也不得不再回到CA去出差。说实话这一段其实并不符合这篇文章的主题，但是反正都是chronological order，谁在乎呢。
@@ -158,9 +150,7 @@ J在独立日假期过后就和我说拜拜了--再见大忙人。我也不得�
 花了两天时间和老板K还有一些其他的超级大佬见面，学到了很多东西--看看比我活了多三十岁的工程师是如何思考的。我很高兴我的工作也很让他们惊喜。
 
 ![Hello TA09](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathA91E5915-AFE1-4189-B8C9-B1F43DFE124A_1_102_a.jpeg)
-
 ![Rainbow in Apple park](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math1E5E2CD4-17BB-4343-9A6E-A4B9DF9F3A23_1_102_o.jpeg)
-
 ![Apple's Apple](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathE80C0216-DCBD-4F43-B117-0B369E8CB900_1_102_a.jpeg)
 
 回到波特兰，H已经从他的旅行中回来了。我们抽空去逛了一下Mississippi Avenue。Mississippi Avenue是波特兰的一个非常有趣的街区，充满了独立商店、餐馆和酒吧。
@@ -168,7 +158,6 @@ J在独立日假期过后就和我说拜拜了--再见大忙人。我也不得�
 一个叫Controlled Voltage的店卖很多的Synthesizer，非常酷。
 
 ![They are all active filters ig](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathC79F8000-9F7F-486F-9AAC-645E934E1A9B_1_102_o.jpeg)
-
 ![Controlled Voltage](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathAB9B1B4D-602E-4C4E-9A41-A2F01B66B681_1_102_o.jpeg)
 
 H不在的时候我也会把pFriem买到的啤酒拿出来开胃。
@@ -192,13 +181,10 @@ H教了我很多买车的技巧--包括如何检查车况，如何谈判价格�
 在拥有车的第一个周末，我开车往南去了OSU，拜访了一下一个朋友，之后去了西边的US101俄勒冈海岸逛了一圈。风景非常漂亮，并且天气一如既往的好。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math6DA918A1-A3FD-43D0-9F5C-43FD25EF49A1_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathE7022E81-102A-4B14-8439-7D636AA37270_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math9C2E7741-EF27-4782-8827-65556E5456C5_1_102_o.jpeg)
 
 ![Yaquina Bay Bridge](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathCDD07C9F-4B2E-412B-879E-F5BF4FDE3127_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math3E6A42DD-4CAB-471D-8909-93DB45D1B772_1_102_o.jpeg)
 
 第一次试车，开出了很不错的油耗。
@@ -228,7 +214,6 @@ H家旁边就是山，野生动物很丰富。
 十号的时候和H一起去了St Helens。这是一座很活跃的火山，周围的风景非常美丽。然而最近的一次爆发，1980年造成了巨大的破坏，至今仍然可以看到火山口的痕迹。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math6F6261AD-58F7-4808-9184-6C7A0D39DABA_1_105_c.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math8016F338-01BC-48AB-9B68-9D1FFF4BAF85_1_105_c.jpeg)
 
 可以在St Helens的观景台同时看到St Helens和Mount Adams。
@@ -238,13 +223,11 @@ H家旁边就是山，野生动物很丰富。
 晚饭吃了很好吃的Nachos和Texas BBQ。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math69A6EC61-9A9D-4F30-A145-0E92F4A05D0B_1_105_c.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathCF6192E5-9E89-47EE-A2A3-BDD31912A6A4_1_105_c.jpeg)
 
 Vancouver, WA是一个很美丽的城市，然而大多数人住在这里只是想享受WA的免收入税和OR的免销售税政策。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math2BBB96E7-DD5A-4736-ACE3-08A0700FEA70_1_105_c.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathAA5B4CB9-8183-4334-90BB-5CA1DC0506CF_1_105_c.jpeg)
 
 月中的时候，热浪袭来。夏天马上就要画上句号了。
@@ -256,7 +239,6 @@ H这段时间顺便也教了我他修车的毕生所学，包括如何换保险�
 继续探索Beaverton的餐馆：
 
 ![一家很不错的泰国餐馆](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathF5428A56-4C2D-474C-B19B-D868A7D7A075_1_102_o.jpeg)
-
 ![用粗粮打的Carbonara，面条非常筋道](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math75792AB6-7B1B-4BA2-A259-825EF24ABAE0_1_105_c.jpeg)
 
 ## Late August
@@ -272,7 +254,6 @@ H走了之后我要留在家里看最后一周家，帮帮他推推垃圾箱，�
 先去了一趟Astoria的Columbia River Maritime Museum。这个博物馆展示了哥伦比亚河的航运历史和海洋文化。博物馆里有许多关于渔业、航运和海洋生物的展览。当然，Astoria也因为各种船难闻名，因为哥伦比亚河的河口河流湍急，非常容易搁浅。
 
 ![停靠在博物馆外的移动灯塔船](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math5EE00CB7-83C4-41DD-82BC-E9921CC41B60_1_105_c.jpeg)
-
 ![USS Astoria与当年的缴获的日军随身携带的写着亲友名字的旗帜](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math1670BFBD-3F90-467D-A277-60B64C32E78E_1_102_o.jpeg)
 
 ![巨大的哥伦比亚河河口](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math54A570E5-886A-4A08-842F-7CCF8D49A3CE_1_102_o.jpeg)
@@ -284,21 +265,17 @@ H推荐我去了一趟Josephson's Smokehouse。这个地方是一个非常有名
 吃完午饭去了一趟Fort Stevens State Park。这个地方有船难遗址，还有一个海岸要塞的遗址，在美国内战期间修建，并在后来用于防御日军入侵。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math52ECCB48-2DC1-44F1-8ECC-42EB6D9A2EF6_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math2DC967A4-745A-47F7-8B41-4CFAC981F430_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/mathBF7DE59F-5A78-42C6-A138-7F7039ABA794_1_102_a.jpeg)
 
 回到Astoria，去了一家广受好评的Custard店，没想到排队买冰淇凌的人居然排到了门外。终于等到我的冰淇淋，品尝之后果然名不虚传，味道非常好。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math871D5614-BBE2-406C-8BEB-98900D49B90A_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math301A202A-82F1-4449-9BCA-AB95F664AD65_1_102_o.jpeg)
 
 吃完冰淇淋之后看了一下Google Map，发现山上有一个叫Astoria Column的柱子，可以俯瞰整个Astoria镇和哥伦比亚河的美景。
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math4DBDFAEE-D17C-4221-A574-A38BE8256FEE_1_102_o.jpeg)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-portland/math11D5500D-E401-4C49-AC78-A708B556A30E_1_102_o.jpeg)
 
 与Astoria隔Columbia River相望的便是WA的Cape Disappointment。连接这两个地方的桥叫做Astoria-Megler Bridge，非常高，很夸张；开车的话需要环形爬升很高一圈才能上桥。

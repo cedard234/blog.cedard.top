@@ -215,9 +215,7 @@ C总这一天身体好多了，不过我们本来也要离开曼谷了。我们�
 皇宫甚是气派；并且十分凉快，本身就是为了皇室避暑所建。宫内有一个很大的植物园，种着各种观赏花卉。
 
 ![植物园](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-thailand/imagewd_IMG_0191.jpg)
-
 ![会客厅](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-thailand/imagewd_IMG_0195.jpg)
-
 ![皇宫](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-thailand/imageIMG_0371.JPG)
 
 我想进会客厅去看看来着，但是被门卫无情拦下。

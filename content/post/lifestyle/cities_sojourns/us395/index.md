@@ -30,19 +30,13 @@ T在我生日的时候问我要不要挑个周末去395自驾。我从繁重的�
 
 ![June Lake](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0496.JPEG)
 
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0500.JPEG)
-
 ![木漏れ日](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0502.JPEG)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0509.JPEG)
 
 ![黃金山峰](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0510.JPEG)
-
 ![紅葉](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0514.JPEG)
 
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0521.JPEG)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0523.JPEG)
-
 ![](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/us395/IMG_0527.JPEG)

@@ -38,9 +38,7 @@ California 1， 也就是一号公路，是美国最著名的公路之一，沿�
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51240.873584031426!2d-121.90814355628865!3d36.61303490879439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45270b5fb91%3A0xee484909d84a3d5e!2sMonterey%2C%20CA!5e0!3m2!1sen!2sus!4v1742703894704!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ![阳光下的Hoover Tower](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6050.JPEG)
-
 ![可以看海的意大利餐厅](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6054.JPEG)
-
 ![夜色下的Monterey](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6056.JPEG)
 
 ![意式海蛎煎（其实是Calamari）](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6055.JPEG)
@@ -54,13 +52,10 @@ Monterey Bay是一个向内凹的湾，所以慢悠悠的海浪在这里逐渐�
 下午去了Big Sur的bixby bridge打了个卡，并穿行于一号公路的森林路段。由于修路，所以只能绕行101。在高速上飙车了三个小时后，我们到达了Morro Bay，另外一个更加宁静的小镇。简单吃了一下美味的拉面，稍微在小镇上逛了一圈就回旅店休息了。
 
 ![我们究竟要飞往何方](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6060.jpeg)
-
 ![驾驭浪涛，不过如此](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6063.jpeg)
-
 ![🐿️](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6070.jpeg)
 
 ![Bixby Bridge](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6090.jpeg)
-
 ![Morro Bay Rock的日落](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6092.jpeg)
 
 
@@ -81,14 +76,10 @@ Morro Bay有一块叫做Morro Rock的巨石，在昨天日落的时候已经看�
 晚上回旅店与L重温了一下La La Land，算是预习了一下LA的打卡景点列表。很不幸，别人的生活总是如此浪漫。
 
 ![Morro Rock](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_1269.jpeg)
-
-
 ![Solvang的小镇时钟](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_1308.jpeg)
-
 ![哥本哈根街](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6101.jpeg)
 
 ![安徒生的雕像](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6109.jpeg)
-
 ![在UCSB看海](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_1340.jpeg)
 
 # Los Angeles
@@ -112,17 +103,13 @@ California dreamin' on such a winter's day
 中午去了一趟Hollywood sign，小打了一个卡。下午重新逛了一下Getty Center，有了一些新的收获，并且对原本感兴趣的一些画作有了更深的理解。晚上小逛了一下Hollywood walk of fame，感到非常累，drive through了一下in&out就回旅店休息了。
 
 ![Caltech Sign](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6117.jpeg)
-
 ![Caltech Campus](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6121.jpeg)
 
 ![Hollywood Sign](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6134.jpeg)
-
 ![David holding Goliath's head](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6151.jpeg)
-
 ![酒神的女仆与她的猴子](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6157.jpeg)
 
 ![圣约翰顿悟中](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6159.jpeg)
-
 ![莫奈的谷堆](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6184.jpeg)
 
 ## Mar 26th, 2025
@@ -133,21 +120,15 @@ LA的第二天，也是旅途的最后一天。
 之后开车去了Beverly Hills小打了一个卡，说实话就是一个街区，并没有很惊艳。天气逐渐转阴-我们去了一趟UCLA，看了一下世界第一公立大学的校园。晚上去了Santa Monica Pier，但是很可惜天气依然不好，这次没能看到夕阳西下。夜幕降临，我们造访了一下Griffith Observatory，欣赏了夜景，吃了晚饭，然后就回旅店休息了。
 
 ![熟练的TACO切肉小哥](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6204.jpeg)
-
 ![Grand Central Market](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6206.jpeg)
-
 ![LA City Hall](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6223.jpeg)
 
 ![Beverly Hills Sign](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6227.jpeg)
-
 ![Royce Hall @ UCLA](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6240.jpeg)
-
 ![Go Bruins!](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6247.jpeg)
 
 ![Santa Monica by the sea](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6254.jpeg)
-
 ![""End of trail""](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6255.jpeg)
-
 ![夜幕下的Griffith Observatory](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6258.jpeg)
 
 ![LA behind the curtain of night](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6261.jpeg)
