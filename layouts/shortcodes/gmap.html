@@ -1,0 +1,9 @@
+{{- /* gmap: responsive Google Maps embed.
+        Usage:
+          {{< gmap src="https://www.google.com/maps/embed?pb=..." >}}
+          {{< gmap src="..." ratio="1/1" >}}
+        src is the URL from Google Maps "Share > Embed a map".
+        ratio is width/height (default 4/3). */ -}}
+<div class="gmap" style="aspect-ratio:{{ .Get "ratio" | default "4/3" | safeCSS }};">
+  <iframe src="{{ .Get "src" }}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>

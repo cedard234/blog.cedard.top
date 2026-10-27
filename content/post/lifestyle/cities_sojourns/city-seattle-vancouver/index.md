@@ -12,7 +12,7 @@ tags:
 
 # Seattle, WA
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.72220780628!2d-122.50460450156528!3d47.60859697775096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1735168679274!5m2!1sen!2sus" width="500" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d172153.72220780628!2d-122.50460450156528!3d47.60859697775096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1735168679274!5m2!1sen!2sus" ratio="10/11" >}}
 
 圣诞快乐！
 
@@ -148,7 +148,7 @@ Museum of Flight其实圣诞节当天就想去了，但是理所当然没有开�
 # Vancouver, BC
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.5608474812!2d-123.20647596887548!3d49.257706028246275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1735539472926!5m2!1sen!2sca" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.5608474812!2d-123.20647596887548!3d49.257706028246275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81f38b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1735539472926!5m2!1sen!2sca" ratio="1/1" >}}
 
 ## Dec 28th, 2024
 

@@ -31,7 +31,7 @@ We are trapped, ahhhhHHHH!!!
 
 而在我还在思考这个问题的时候，我的airpods播放着这首 world.execute(me) -- 一个对于繁重机械化工作的残忍讽刺 -- 我登上了飞机，俯瞰着科罗拉多的积雪山峦，艾奥瓦的无垠平原，伊利诺伊的阴暗积云。我就这样茫然地到达了Washington D.C.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198741.75682057053!2d-77.32606120631833!3d38.893340736094416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1747623269947!5m2!1sen!2sus" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198741.75682057053!2d-77.32606120631833!3d38.893340736094416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c6de5af6e45b%3A0xc2524522d4885d2a!2sWashington%2C%20DC!5e0!3m2!1sen!2sus!4v1747623269947!5m2!1sen!2sus" ratio="1/1" >}}
 
 ## May 14th, 2025
 

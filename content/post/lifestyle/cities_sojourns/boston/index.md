@@ -11,6 +11,9 @@ tags:
 draft: false
 ---
 
+
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1509576.1484575144!2d-72.37489577499997!3d42.355507599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e3652d0d3d311b%3A0x787cbf240162e8a0!2sBoston%2C%20MA!5e0!3m2!1sen!2sus!4v1793081473799!5m2!1sen!2sus" >}}
+
 我对波士顿这座城市有一个很刻板的第一印象，作为美国革命的发源地以及诸多著名学府的大本营，以及Gilbert Strang在他的著名线性代数课里的评论：
 
 > "somebody went to California and made a fortune; me and my wife stay in Boston to live a serene life". 

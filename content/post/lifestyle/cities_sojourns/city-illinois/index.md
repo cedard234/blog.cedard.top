@@ -18,7 +18,7 @@ tags:
 ---
 
 ## Chicago, IL
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380514.63845023053!2d-88.06220914915862!3d41.833237335763215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1764253009309!5m2!1sen!2sus" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380514.63845023053!2d-88.06220914915862!3d41.833237335763215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1764253009309!5m2!1sen!2sus" ratio="1/1" >}}
 
 ### November 26th, 2025
 
@@ -50,7 +50,7 @@ tags:
 
 ## Champaign, IL
 ### November 27th, 2025, Thanksgiving
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97642.19318858272!2d-88.35985650226303!3d40.112904231736756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd08dde97691b%3A0x30f57847b475bfcf!2sChampaign%2C%20IL!5e0!3m2!1sen!2sus!4v1764433564204!5m2!1sen!2sus" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d97642.19318858272!2d-88.35985650226303!3d40.112904231736756!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880cd08dde97691b%3A0x30f57847b475bfcf!2sChampaign%2C%20IL!5e0!3m2!1sen!2sus!4v1764433564204!5m2!1sen!2sus" ratio="1/1" >}}
 
 之后就一路前往香槟去见W。从芝加哥到香槟要在I57上开大概两个小时。沿途的风景就是一望无际的平原，以及道路两旁边的玉米地。令人高兴的是，天气着实不错，阳光明媚，风也不大。
 

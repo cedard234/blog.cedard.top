@@ -34,7 +34,7 @@ tags:
 在延迟了一个多小时后，半夜一点半我们从樟宜机场飞往墨尔本塔拉梅林机场。
 大概在在酷航令人恼火的座椅上坐了七个小时之后（以及看了好一会倚天屠龙记），我们到达了目的地。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805196.5096448599!2d144.49268312524225!3d-37.97015406757793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1677326906166!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d805196.5096448599!2d144.49268312524225!3d-37.97015406757793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad646b5d2ba4df7%3A0x4045675218ccd90!2sMelbourne%20VIC!5e0!3m2!1sen!2sau!4v1677326906166!5m2!1sen!2sau" >}}
 
 我们没有想到的是，刚到墨尔本，我们就遇到了一个极大的问题，那就是我们的租车门店关了。是的，一家租车公司在周六早上十二点关门了，这是有多摸鱼啊。
 所幸在经历了各种各样的还价以及改变计划之后，我们租到了车。在下午两点，我们上了M2高速，一路开往城东南我们的汽车旅馆。
@@ -278,7 +278,7 @@ are you here for the plane?
 
 过了阿波罗湾之后，就不是海岸线公路了。之后的道路是盘山公路，并且一头扎入森林。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d289713.6153076139!2d143.45636303821348!3d-38.75559828228762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaa827fc0b90e660f%3A0xf0579a51442a900!2sGreat%20Otway%20National%20Park!5e0!3m2!1sen!2sau!4v1677673073283!5m2!1sen!2sau" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d289713.6153076139!2d143.45636303821348!3d-38.75559828228762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xaa827fc0b90e660f%3A0xf0579a51442a900!2sGreat%20Otway%20National%20Park!5e0!3m2!1sen!2sau!4v1677673073283!5m2!1sen!2sau" >}}
 
 如地图所示，这一片是一个海角，附近都是森林。
 在大洋路的中段，有一条路一路通向这片海角的最南端。最南端矗立着一座灯塔。
@@ -536,7 +536,7 @@ Jetstar把我们的航班重新改签到了第二天早上六点钟，也就是�
 
 # 悉尼 Sydney
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.27120189666!2d150.65179414439854!3d-33.84792704905961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2ssg!4v1678293857274!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.27120189666!2d150.65179414439854!3d-33.84792704905961!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney%20NSW%2C%20Australia!5e0!3m2!1sen!2ssg!4v1678293857274!5m2!1sen!2ssg" >}}
 
 ![在夜幕中起飞的jetstar](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-australia/imageIMG_1072.JPEG)
 到悉尼我们就不租车了。相反，我们将会体验到悉尼的轨道交通。

@@ -10,7 +10,7 @@ tags:
 ---
 
 <center>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.59997794408!2d-96.8716349782954!3d32.82058655004037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2ssg!4v1669392289959!5m2!1sen!2ssg" width="450" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d214587.59997794408!2d-96.8716349782954!3d32.82058655004037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c19f77b45974b%3A0xb9ec9ba4f647678f!2sDallas%2C%20TX%2C%20USA!5e0!3m2!1sen!2ssg!4v1669392289959!5m2!1sen!2ssg" ratio="1/1" >}}
 </center>
 
 # 关于 `城市驿站`

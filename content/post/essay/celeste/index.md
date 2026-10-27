@@ -14,7 +14,7 @@ tags:
 
 在加拿大的温哥华岛上，有这么一座山，名叫Mount Celeste.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112662.7720402095!2d-125.75177882832826!3d49.62888403963422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548830cfd314931b%3A0xc6e4ad8d275b74a9!2sMount%20Celeste!5e0!3m2!1sen!2ssg!4v1612181311819!5m2!1sen!2ssg" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1112662.7720402095!2d-125.75177882832826!3d49.62888403963422!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548830cfd314931b%3A0xc6e4ad8d275b74a9!2sMount%20Celeste!5e0!3m2!1sen!2ssg!4v1612181311819!5m2!1sen!2ssg" >}}
 
 这座山位于太平洋的东北角，在加拿大和美西的交界地。那么北的鬼地方，这座山无疑是座雪山。
 

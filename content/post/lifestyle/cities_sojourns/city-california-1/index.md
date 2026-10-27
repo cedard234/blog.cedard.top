@@ -35,7 +35,7 @@ California 1， 也就是一号公路，是美国最著名的公路之一，沿�
 
 在此之后就回旅店休息了。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51240.873584031426!2d-121.90814355628865!3d36.61303490879439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45270b5fb91%3A0xee484909d84a3d5e!2sMonterey%2C%20CA!5e0!3m2!1sen!2sus!4v1742703894704!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51240.873584031426!2d-121.90814355628865!3d36.61303490879439!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808de45270b5fb91%3A0xee484909d84a3d5e!2sMonterey%2C%20CA!5e0!3m2!1sen!2sus!4v1742703894704!5m2!1sen!2sus" ratio="1/1" >}}
 
 ![阳光下的Hoover Tower](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6050.JPEG)
 ![可以看海的意大利餐厅](https://images.blog.cedard.top/post/lifestyle/cities_sojourns/city-california-1/IMG_6054.JPEG)
@@ -63,7 +63,7 @@ Monterey Bay是一个向内凹的湾，所以慢悠悠的海浪在这里逐渐�
 ## Mar 24th, 2025
 
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105335.71290872616!2d-119.83242819805928!3d34.40792776012801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e914c76f2d83d5%3A0xc8d13a64d7ba7648!2sSanta%20Barbara%2C%20CA!5e0!3m2!1sen!2sus!4v1742882163582!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d105335.71290872616!2d-119.83242819805928!3d34.40792776012801!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80e914c76f2d83d5%3A0xc8d13a64d7ba7648!2sSanta%20Barbara%2C%20CA!5e0!3m2!1sen!2sus!4v1742882163582!5m2!1sen!2sus" ratio="1/1" >}}
 
 这天很早就醒了。简单吃了一下早饭，打算在Morro Bay一直到Santa Barbara的路上稍微多逛逛。
 
@@ -95,7 +95,7 @@ California dreamin' on such a winter's day
 
 当然这已经是我第二次来LA了，上次还是在2023年的冬天。不过这是我第一次在LA开车，所以还是有点小兴奋。后来证明在LA这种巨型城市里开车非常累。
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8921587932!2d-118.7420674764824!3d34.02003736078969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1743060888473!5m2!1sen!2sus" width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423286.8921587932!2d-118.7420674764824!3d34.02003736078969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1743060888473!5m2!1sen!2sus" ratio="1/1" >}}
 
 早上从Santa Barbara出发，解决了机油的问题就上路了。大概开了一个小时就进了LA市区，迎接我们的第一件极具LA风格的事情就是堵车。
 在101上堵了大概一个小时，就到了Pasadena，去了Caltech，惊异Sheldon待过的地方竟然这么小。

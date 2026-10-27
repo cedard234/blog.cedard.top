@@ -16,7 +16,7 @@ tags:
 这次的行程目的地是泰国，因为风土人情~~太便宜了~~
 # 曼谷
 <center>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248057.54040951602!2d100.49302647380918!3d13.724560080518533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sen!2ssg!4v1673966942000!5m2!1sen!2ssg" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248057.54040951602!2d100.49302647380918!3d13.724560080518533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d6032280d61f3%3A0x10100b25de24820!2sBangkok%2C%20Thailand!5e0!3m2!1sen!2ssg!4v1673966942000!5m2!1sen!2ssg" ratio="1/1" >}}
 </center>
 
 ## 4 Jan 2022
@@ -117,7 +117,7 @@ C总这一天身体好多了，不过我们本来也要离开曼谷了。我们�
 
 # 清迈
 <center>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60433.403897418735!2d98.92145783830168!3d18.794242635963997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a7e90bb6f5d%3A0x98d46270a59b4367!2sChiang%20Mai%2C%20Mueang%20Chiang%20Mai%20District%2C%20Chiang%20Mai%2C%20Thailand!5e0!3m2!1sen!2ssg!4v1673971490617!5m2!1sen!2ssg" width="500" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+{{< gmap src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60433.403897418735!2d98.92145783830168!3d18.794242635963997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a7e90bb6f5d%3A0x98d46270a59b4367!2sChiang%20Mai%2C%20Mueang%20Chiang%20Mai%20District%2C%20Chiang%20Mai%2C%20Thailand!5e0!3m2!1sen!2ssg!4v1673971490617!5m2!1sen!2ssg" ratio="1/1" >}}
 </center>
 说实话，相比起曼谷，我更喜欢清迈这座城市。这种偏爱，在从机场出来的那一刻就能感觉得到：首先，在北半球的一月份，他能让我感觉到冷，这说明这地方是有四季的。
 查了一下地图，清迈离西双版纳其实只有三百公里，离云南省其实已经非常近了。我们花了3SGD打到了从机场到宾馆的车。
