@@ -1,0 +1,48 @@
+#!/usr/bin/env bash
+# Pre-commit hook: convert .mov, upload media to R2, rewrite markdown refs, delete local files.
+
+set -euo pipefail
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+MEDIA_RE='\.(jpg|jpeg|png|gif|webp|bmp|mov|mp4)$'
+
+AGAINST=$(git rev-parse --verify HEAD 2>/dev/null || git hash-object -t tree /dev/null)
+
+staged_media() {
+  git diff --cached --name-only --diff-filter=AM "$AGAINST" | grep -iE "$MEDIA_RE" || true
+}
+
+# Skip if no media staged
+if [[ -z "$(staged_media)" ]]; then
+  exit 0
+fi
+
+echo "==> Converting .mov to .mp4..."
+while IFS= read -r f; do
+  src="$REPO_ROOT/$f"
+  dst="${src%.*}.mp4"
+  ffmpeg -i "$src" -c copy "$dst" -y -loglevel error
+  rm -f "$src"
+  git rm --cached "$f" 2>/dev/null || true
+  git add "$dst"
+done < <(git diff --cached --name-only --diff-filter=AM "$AGAINST" | grep -iE '\.mov$' || true)
+
+echo "==> Uploading media to R2..."
+bash "$REPO_ROOT/scripts/upload_to_r2.sh"
+
+echo "==> Rewriting image references..."
+output=$(python3 "$REPO_ROOT/scripts/rewrite_image_refs.py")
+echo "$output"
+
+echo "==> Staging rewritten markdown files..."
+while IFS= read -r f; do
+  git add "$f"
+done < <(echo "$output" | grep '^STAGED:' | cut -d: -f2- || true)
+
+echo "==> Deleting local media files..."
+while IFS= read -r f; do
+  rm -f "$REPO_ROOT/$f"
+  git rm --cached "$f" 2>/dev/null || true
+done < <(staged_media)
+
+echo "==> Done."
