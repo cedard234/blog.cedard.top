@@ -83,7 +83,7 @@ In real practice:
     - Most low-frequency jitter can usually be tracked by the system, for example a CDR.
     - It takes very long for low frequency jitter to show up, before which the system might already have done its job.
 
-## Relative Jitter
+### Relative Jitter
 
 **Relative jitter** is defined as the difference between one clock edge and another.
 
@@ -91,7 +91,7 @@ $$ j_{REL}[k] = \text{cross,actual,clock1}[k] - \text{cross,actual,clock2}[k] $$
 
 We will see later that relative jitter is more useful than absolute jitter in many clock-forwarded applications where we enjoy the benefit of **jitter tracking**.
 
-## N-Cycle Jitter
+### N-Cycle Jitter
 
 **N-cycle jitter** (also called **N-period jitter**) is the deviation of the time spanned by $N$ consecutive periods from its ideal value $NT$, where $T = 1/f$. Since the ideal edges are exactly $NT$ apart, it is simply the difference of two absolute jitter samples $N$ cycles apart:
 
@@ -115,7 +115,7 @@ The $\sin^2$ term is a high-pass filter with a corner around $f \approx 1/(2\pi 
 
 The divided clock of a PLL is a good example of N-cycle jitter: the PLL tracks the input clock, so the divided clock is correlated with itself over many cycles. The N-cycle jitter of the divided clock is much smaller than its absolute jitter, and it is what matters for timing closure in synchronous digital logic.
 
-## Period Jitter
+### Period Jitter
 
 **Period jitter** is the N-cycle jitter with $N = 1$, i.e. the deviation of each individual period from the ideal period:
 
@@ -127,7 +127,7 @@ $$ \sigma_P^2 = \frac{8}{\omega^2} \int_{0}^{\infty} S_{\phi}(f) \sin^2(\pi f T)
 
 Period jitter is what matters for timing closure in synchronous digital logic: if a period is shorter than nominal, the setup margin of every flip-flop clocked by it shrinks by the same amount.
 
-## Cycle-to-Cycle Jitter
+### Cycle-to-Cycle Jitter
 
 **Cycle-to-cycle jitter** is the difference between two adjacent periods:
 
